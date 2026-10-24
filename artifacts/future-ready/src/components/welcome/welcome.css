@@ -1,0 +1,46 @@
+.demo-account { display:grid; gap:.35rem; margin-top:1rem; padding:.8rem 1rem; border:1px solid #28352d; border-radius:9px; color:#adbdb4; font-size:.75rem; }
+.demo-account code { overflow-wrap:anywhere; color:#e1ebe4; font-size:.78rem; user-select:all; }
+.demo-account button { justify-self:start; background:none; border:0; padding:.25rem 0; color:#c5e2d2; text-decoration:underline; cursor:pointer; font:inherit; }
+.auth-error { color:#ffb7ad; font-size:.82rem; line-height:1.6; }
+.enter-demo:disabled { cursor:wait; opacity:.6; }
+.welcome-page{background:#050707;color:#f1f3f2;min-height:100svh;display:grid;grid-template-columns:56% 44%;font-family:'Manrope Variable',sans-serif;--welcome-muted:#858d8c}
+.welcome-page button,.welcome-page a{-webkit-tap-highlight-color:transparent}
+.welcome-page button:focus-visible,.welcome-page a:focus-visible{outline:2px solid #aed6ee;outline-offset:6px}
+.welcome-art{position:relative;isolation:isolate;min-height:820px;min-height:max(820px,100svh);overflow:hidden;background:radial-gradient(ellipse at 47% 39%,#13212b 0%,#0b1115 37%,#080b0d 70%);border-right:1px solid #ffffff0d}
+.welcome-art:after{content:'';position:absolute;inset:0;pointer-events:none;z-index:-1;background:linear-gradient(150deg,transparent 30%,#c4652910 50%,transparent 70%)}
+.welcome-wordmark{position:absolute;z-index:2;top:42px;left:48px;display:flex;align-items:center;gap:10px;color:#f4f6f5;text-decoration:none;font-size:21px;font-weight:650;letter-spacing:-.8px}
+.brand-symbol{font-size:32px;line-height:1;font-weight:400}.brand-period{color:#a9c5d4;margin-left:-9px}
+.orb-composition{position:absolute;width:110%;max-width:850px;aspect-ratio:1;left:50%;top:3%;transform:translateX(-50%);pointer-events:none;mix-blend-mode:screen}
+.orb-stage{height:100%;width:100%;mix-blend-mode:screen}.orb-canvas{width:100%;height:100%;display:block}
+.orb-fallback:before{content:'';position:absolute;inset:14%;border-radius:50%;background:radial-gradient(circle at 30% 26%,#b6e4f8 0%,#184159 7%,#0b141b 40%,#c0d6d9 65%,#f78d3a 71%,transparent 75%);box-shadow:-15px -8px 50px #dc752544,18px 12px 50px #78bef444}.orb-fallback canvas{visibility:hidden}
+.welcome-story{position:absolute;left:9%;bottom:14%;z-index:1;pointer-events:none}
+.welcome-eyebrow{display:flex;align-items:center;gap:10px;font-size:9px;font-weight:550;letter-spacing:2px;color:#a6b3bc}
+.welcome-eyebrow>span{width:5px;height:5px;background:#c5deed;border-radius:50%;box-shadow:0 0 10px #a2d8fa66}
+.welcome-story h1{font-size:clamp(36px,4.2vw,65px);line-height:1.08;letter-spacing:-2.9px;font-weight:450;margin:21px 0}
+.welcome-story h1 span{color:#adb7bd}.welcome-story p{color:#9aa7af;font-size:13px;line-height:1.9;letter-spacing:.1px}
+.art-footer{position:absolute;bottom:30px;left:9%;right:8%;display:flex;align-items:center;justify-content:space-between;font-size:8px;letter-spacing:1.7px;color:#77868e}
+.motion-control{color:#aab8c0;border:1px solid #ffffff20!important;border-radius:50%;width:34px;height:34px;display:grid;place-items:center}.motion-control:hover{background:#ffffff0a}
+.welcome-access{display:flex;flex-direction:column;justify-content:space-between;padding:44px 10.3% 30px;min-width:0;background:radial-gradient(ellipse at 50% 10%,#0d16131f,transparent 65%),#050707}
+.access-top{display:flex;align-items:center;justify-content:space-between;gap:15px;color:#707a77;font-size:8px;letter-spacing:1.45px;white-space:nowrap}
+.access-content{padding:50px 0;width:100%;max-width:382px;margin:auto;}.access-icon{width:48px;height:48px;border:1px solid #2a302e;border-radius:15px;display:grid;place-items:center;background:linear-gradient(140deg,#171c1a,#090c0b);color:#cbd6d1;margin-bottom:28px;box-shadow:0 8px 24px #0005}
+.access-eyebrow{font-size:8px;letter-spacing:1.7px;color:#7f8a85;margin-bottom:12px}
+.access-content h2{font-size:clamp(30px,3vw,42px);letter-spacing:-1.7px;line-height:1.2;font-weight:450}
+.access-description{font-size:12px;color:#8e9793;margin:13px 0 32px;line-height:1.8}
+.credential-preview{margin-bottom:24px}.account-label{display:flex;justify-content:space-between;align-items:center;color:#838d87;font-size:8px;letter-spacing:1.25px;margin-bottom:20px}.account-label span{font-size:9px;letter-spacing:0;color:#a4ada8;border:1px solid #2b342e;background:#101712;border-radius:20px;padding:3px 8px}
+.credential-preview label{font-size:11px;color:#b2b9b5;display:flex;justify-content:space-between;margin:17px 0 8px;font-weight:500}
+.welcome-field{position:relative}.welcome-field>svg{position:absolute;left:14px;top:16px;color:#58625c}
+.welcome-field input{background:#101411;border:1px solid #29302b;color:#8a958d;height:49px;border-radius:8px;padding:12px 16px 12px 41px;font-size:12px;opacity:1;cursor:not-allowed;box-shadow:inset 0 1px 1px #ffffff03}
+.welcome-field input::placeholder{color:#68736c;opacity:1}.welcome-field input[type=password]{letter-spacing:3px}
+.demo-disclosure{display:flex;gap:10px;align-items:flex-start;margin-bottom:22px;color:#8f9e93;font-size:10px;line-height:1.8}.demo-disclosure strong{font-weight:500;color:#c5d2c8}.demo-dot{height:5px;width:5px;border-radius:50%;background:#b9d2c2;flex-shrink:0;margin-top:7px;box-shadow:0 0 8px #bbd7c444}
+.enter-demo{width:100%;min-height:49px;border-radius:8px;background:#eef3ef!important;color:#101713!important;display:flex;align-items:center;justify-content:center;gap:19px;font-size:12px;font-weight:650;transition:background .2s,transform .2s,box-shadow .2s}
+.enter-demo:hover{background:#fff!important;box-shadow:0 0 30px #d8f4e318;transform:translateY(-1px)}.enter-demo svg{transition:transform .2s}.enter-demo:hover svg{transform:translateX(4px)}
+.no-account{font-size:10px;text-align:center;color:#69756d;margin-top:18px}
+.access-footer{display:flex;gap:10px;justify-content:space-between;color:#707b74;font-size:8px;white-space:nowrap}.access-footer span span{margin-left:5px}
+.particle-entrance{position:fixed;inset:0;z-index:1000;background:#000;color:white;overflow:hidden}.particle-entrance canvas{display:block;width:100%;height:100%}.entrance-skip{position:absolute;right:30px;bottom:25px;color:#a4a4a4;border:1px solid #333;border-radius:30px;padding:10px 16px;font-size:11px;background:#000;display:flex;gap:18px;align-items:center}.entrance-skip:hover{color:white;border-color:#777}.entrance-static-title{display:none}.static-entrance .entrance-static-title{display:block;position:absolute;inset:0;display:grid;place-items:center;font-size:clamp(38px,10vw,150px);font-weight:650;letter-spacing:-2px}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.demo-app-reveal{animation:demoReveal .55s ease-out both}.exit-demo{font-size:11px;color:var(--muted);white-space:nowrap;border:1px solid #dce4e2;padding:8px 10px;border-radius:6px}.exit-demo:hover{background:#f2f6f4}
+@keyframes demoReveal{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
+@media(min-width:1500px){.welcome-access{padding-left:14%;padding-right:14%}.orb-composition{top:1%}}
+@media(max-height:800px) and (min-width:801px){.welcome-art{min-height:730px}.orb-composition{width:100%;top:-4%}.welcome-story{bottom:12%}.welcome-story h1{font-size:48px}.access-content{padding:30px 0}}
+@media(max-width:1100px) and (min-width:801px){.welcome-access{padding-left:9%;padding-right:9%}.access-top{font-size:7px;letter-spacing:1px}.access-footer{flex-wrap:wrap}.orb-composition{width:130%;top:6%}.welcome-story h1{font-size:46px}.welcome-wordmark{left:9%}}
+@media(max-width:800px){.welcome-page{display:block}.welcome-art{min-height:430px;height:56svh;max-height:510px;border-right:0;border-bottom:1px solid #ffffff0d}.welcome-wordmark{top:25px;left:7%;font-size:19px}.brand-symbol{font-size:27px}.orb-composition{width:470px;top:-54px;left:64%}.welcome-story{left:7%;bottom:46px}.welcome-story h1{font-size:38px;letter-spacing:-1.6px;margin:16px 0 12px}.welcome-story p{font-size:11px}.welcome-eyebrow{font-size:7px;letter-spacing:1.5px}.art-footer{bottom:16px;left:7%;right:7%;font-size:6px}.motion-control{width:28px;height:28px}.welcome-access{padding:28px 8% 24px;min-height:650px}.access-top{font-size:7px}.access-content{max-width:410px;padding:32px 0 40px}.access-icon{display:none}.access-content h2{font-size:34px}.access-description{margin-bottom:26px}.welcome-field input{height:50px}.enter-demo{min-height:50px}.access-footer{font-size:8px}.app-header .exit-demo{margin-left:0}.entrance-skip{right:20px;bottom:22px}}
+@media(prefers-reduced-motion:reduce){.demo-app-reveal{animation:none}.welcome-page *{transition:none!important}.enter-demo:hover{transform:none}html{scroll-behavior:auto}}

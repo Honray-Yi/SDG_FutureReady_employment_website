@@ -1,0 +1,712 @@
+[
+  {
+    "skill_id": "python",
+    "label": "Python programming",
+    "job_terms": [
+      "python"
+    ],
+    "arxiv_query": null,
+    "sdg_mappings": [
+      {
+        "sdg": 4,
+        "target": "4.4",
+        "rationale_zh": "用于就业与再培训的技能培养；不表示完成课程必然获得工作。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal4",
+        "sdg_id": 4,
+        "target_code": "4.4",
+        "sdg_label": "Quality Education"
+      },
+      {
+        "sdg": 8,
+        "target": "8.2",
+        "rationale_zh": "在人工监督下改进流程和生产率。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal8",
+        "sdg_id": 8,
+        "target_code": "8.2",
+        "sdg_label": "Decent Work and Economic Growth"
+      }
+    ],
+    "vocabulary_type": "curated_query_dictionary",
+    "trend_status": "computed_at_runtime",
+    "skill_category": "Core Engineering"
+  },
+  {
+    "skill_id": "sql",
+    "label": "SQL and data engineering",
+    "job_terms": [
+      "sql",
+      "etl",
+      "data pipeline"
+    ],
+    "arxiv_query": null,
+    "sdg_mappings": [
+      {
+        "sdg": 4,
+        "target": "4.4",
+        "rationale_zh": "用于就业与再培训的技能培养；不表示完成课程必然获得工作。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal4",
+        "sdg_id": 4,
+        "target_code": "4.4",
+        "sdg_label": "Quality Education"
+      },
+      {
+        "sdg": 9,
+        "target": "9.5",
+        "rationale_zh": "开发、评估和运维可靠的数据与 AI 技术。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal9",
+        "sdg_id": 9,
+        "target_code": "9.5",
+        "sdg_label": "Industry, Innovation and Infrastructure"
+      }
+    ],
+    "vocabulary_type": "curated_query_dictionary",
+    "trend_status": "computed_at_runtime",
+    "skill_category": "Data and Analytics"
+  },
+  {
+    "skill_id": "analytics",
+    "label": "Data analysis and visualisation",
+    "job_terms": [
+      "data analysis",
+      "data analytics",
+      "power bi",
+      "tableau"
+    ],
+    "arxiv_query": null,
+    "sdg_mappings": [
+      {
+        "sdg": 4,
+        "target": "4.4",
+        "rationale_zh": "用于就业与再培训的技能培养；不表示完成课程必然获得工作。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal4",
+        "sdg_id": 4,
+        "target_code": "4.4",
+        "sdg_label": "Quality Education"
+      },
+      {
+        "sdg": 8,
+        "target": "8.2",
+        "rationale_zh": "在人工监督下改进流程和生产率。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal8",
+        "sdg_id": 8,
+        "target_code": "8.2",
+        "sdg_label": "Decent Work and Economic Growth"
+      }
+    ],
+    "vocabulary_type": "curated_query_dictionary",
+    "trend_status": "computed_at_runtime",
+    "skill_category": "Data and Analytics"
+  },
+  {
+    "skill_id": "ml",
+    "label": "Machine learning",
+    "job_terms": [
+      "machine learning"
+    ],
+    "arxiv_query": "abs:\"machine learning\"",
+    "sdg_mappings": [
+      {
+        "sdg": 4,
+        "target": "4.4",
+        "rationale_zh": "用于就业与再培训的技能培养；不表示完成课程必然获得工作。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal4",
+        "sdg_id": 4,
+        "target_code": "4.4",
+        "sdg_label": "Quality Education"
+      },
+      {
+        "sdg": 9,
+        "target": "9.5",
+        "rationale_zh": "开发、评估和运维可靠的数据与 AI 技术。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal9",
+        "sdg_id": 9,
+        "target_code": "9.5",
+        "sdg_label": "Industry, Innovation and Infrastructure"
+      }
+    ],
+    "vocabulary_type": "curated_query_dictionary",
+    "trend_status": "computed_at_runtime",
+    "skill_category": "AI and Machine Learning"
+  },
+  {
+    "skill_id": "deep_learning",
+    "label": "Deep learning",
+    "job_terms": [
+      "deep learning",
+      "pytorch",
+      "tensorflow"
+    ],
+    "arxiv_query": "abs:\"deep learning\"",
+    "sdg_mappings": [
+      {
+        "sdg": 4,
+        "target": "4.4",
+        "rationale_zh": "用于就业与再培训的技能培养；不表示完成课程必然获得工作。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal4",
+        "sdg_id": 4,
+        "target_code": "4.4",
+        "sdg_label": "Quality Education"
+      },
+      {
+        "sdg": 9,
+        "target": "9.5",
+        "rationale_zh": "开发、评估和运维可靠的数据与 AI 技术。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal9",
+        "sdg_id": 9,
+        "target_code": "9.5",
+        "sdg_label": "Industry, Innovation and Infrastructure"
+      }
+    ],
+    "vocabulary_type": "curated_query_dictionary",
+    "trend_status": "computed_at_runtime",
+    "skill_category": "AI and Machine Learning"
+  },
+  {
+    "skill_id": "nlp",
+    "label": "Natural language processing",
+    "job_terms": [
+      "natural language processing",
+      "nlp"
+    ],
+    "arxiv_query": "abs:\"natural language processing\"",
+    "sdg_mappings": [
+      {
+        "sdg": 4,
+        "target": "4.4",
+        "rationale_zh": "用于就业与再培训的技能培养；不表示完成课程必然获得工作。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal4",
+        "sdg_id": 4,
+        "target_code": "4.4",
+        "sdg_label": "Quality Education"
+      },
+      {
+        "sdg": 10,
+        "target": "10.2",
+        "rationale_zh": "通过可访问的语言工具促进参与；效果需按应用评估。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal10",
+        "sdg_id": 10,
+        "target_code": "10.2",
+        "sdg_label": "Reduced Inequalities"
+      }
+    ],
+    "vocabulary_type": "curated_query_dictionary",
+    "trend_status": "computed_at_runtime",
+    "skill_category": "AI and Machine Learning"
+  },
+  {
+    "skill_id": "llm",
+    "label": "Large language models",
+    "job_terms": [
+      "large language model",
+      "llm",
+      "llms"
+    ],
+    "arxiv_query": "abs:\"large language model\"",
+    "sdg_mappings": [
+      {
+        "sdg": 4,
+        "target": "4.4",
+        "rationale_zh": "用于就业与再培训的技能培养；不表示完成课程必然获得工作。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal4",
+        "sdg_id": 4,
+        "target_code": "4.4",
+        "sdg_label": "Quality Education"
+      },
+      {
+        "sdg": 9,
+        "target": "9.5",
+        "rationale_zh": "开发、评估和运维可靠的数据与 AI 技术。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal9",
+        "sdg_id": 9,
+        "target_code": "9.5",
+        "sdg_label": "Industry, Innovation and Infrastructure"
+      }
+    ],
+    "vocabulary_type": "curated_query_dictionary",
+    "trend_status": "computed_at_runtime",
+    "skill_category": "Generative AI"
+  },
+  {
+    "skill_id": "rag",
+    "label": "Retrieval augmented generation",
+    "job_terms": [
+      "retrieval augmented generation",
+      "retrieval-augmented generation",
+      "rag"
+    ],
+    "arxiv_query": "(abs:\"retrieval augmented generation\" OR abs:\"retrieval-augmented generation\")",
+    "sdg_mappings": [
+      {
+        "sdg": 4,
+        "target": "4.4",
+        "rationale_zh": "用于就业与再培训的技能培养；不表示完成课程必然获得工作。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal4",
+        "sdg_id": 4,
+        "target_code": "4.4",
+        "sdg_label": "Quality Education"
+      },
+      {
+        "sdg": 9,
+        "target": "9.5",
+        "rationale_zh": "开发、评估和运维可靠的数据与 AI 技术。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal9",
+        "sdg_id": 9,
+        "target_code": "9.5",
+        "sdg_label": "Industry, Innovation and Infrastructure"
+      }
+    ],
+    "vocabulary_type": "curated_query_dictionary",
+    "trend_status": "computed_at_runtime",
+    "skill_category": "Generative AI"
+  },
+  {
+    "skill_id": "agents",
+    "label": "AI agents",
+    "job_terms": [
+      "agentic",
+      "ai agent",
+      "llm agent"
+    ],
+    "arxiv_query": "(abs:\"agentic\" OR abs:\"language model agents\" OR abs:\"llm agents\")",
+    "sdg_mappings": [
+      {
+        "sdg": 4,
+        "target": "4.4",
+        "rationale_zh": "用于就业与再培训的技能培养；不表示完成课程必然获得工作。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal4",
+        "sdg_id": 4,
+        "target_code": "4.4",
+        "sdg_label": "Quality Education"
+      },
+      {
+        "sdg": 8,
+        "target": "8.2",
+        "rationale_zh": "在人工监督下改进流程和生产率。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal8",
+        "sdg_id": 8,
+        "target_code": "8.2",
+        "sdg_label": "Decent Work and Economic Growth"
+      }
+    ],
+    "vocabulary_type": "curated_query_dictionary",
+    "trend_status": "computed_at_runtime",
+    "skill_category": "Generative AI"
+  },
+  {
+    "skill_id": "mlops",
+    "label": "MLOps and model deployment",
+    "job_terms": [
+      "mlops",
+      "ml ops",
+      "model deployment",
+      "model monitoring"
+    ],
+    "arxiv_query": "(abs:\"MLOps\" OR abs:\"model deployment\")",
+    "sdg_mappings": [
+      {
+        "sdg": 4,
+        "target": "4.4",
+        "rationale_zh": "用于就业与再培训的技能培养；不表示完成课程必然获得工作。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal4",
+        "sdg_id": 4,
+        "target_code": "4.4",
+        "sdg_label": "Quality Education"
+      },
+      {
+        "sdg": 9,
+        "target": "9.5",
+        "rationale_zh": "开发、评估和运维可靠的数据与 AI 技术。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal9",
+        "sdg_id": 9,
+        "target_code": "9.5",
+        "sdg_label": "Industry, Innovation and Infrastructure"
+      }
+    ],
+    "vocabulary_type": "curated_query_dictionary",
+    "trend_status": "computed_at_runtime",
+    "skill_category": "AI Operations and Infrastructure"
+  },
+  {
+    "skill_id": "cloud",
+    "label": "Cloud and DevOps",
+    "job_terms": [
+      "aws",
+      "azure",
+      "kubernetes",
+      "docker",
+      "devops"
+    ],
+    "arxiv_query": null,
+    "sdg_mappings": [
+      {
+        "sdg": 4,
+        "target": "4.4",
+        "rationale_zh": "用于就业与再培训的技能培养；不表示完成课程必然获得工作。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal4",
+        "sdg_id": 4,
+        "target_code": "4.4",
+        "sdg_label": "Quality Education"
+      },
+      {
+        "sdg": 9,
+        "target": "9.5",
+        "rationale_zh": "开发、评估和运维可靠的数据与 AI 技术。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal9",
+        "sdg_id": 9,
+        "target_code": "9.5",
+        "sdg_label": "Industry, Innovation and Infrastructure"
+      }
+    ],
+    "vocabulary_type": "curated_query_dictionary",
+    "trend_status": "computed_at_runtime",
+    "skill_category": "AI Operations and Infrastructure"
+  },
+  {
+    "skill_id": "responsible_ai",
+    "label": "Responsible AI and fairness",
+    "job_terms": [
+      "responsible ai",
+      "ai governance",
+      "algorithmic fairness",
+      "ai ethics"
+    ],
+    "arxiv_query": "(abs:\"responsible AI\" OR abs:\"algorithmic fairness\" OR abs:\"AI governance\")",
+    "sdg_mappings": [
+      {
+        "sdg": 4,
+        "target": "4.4",
+        "rationale_zh": "用于就业与再培训的技能培养；不表示完成课程必然获得工作。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal4",
+        "sdg_id": 4,
+        "target_code": "4.4",
+        "sdg_label": "Quality Education"
+      },
+      {
+        "sdg": 10,
+        "target": "10.3",
+        "rationale_zh": "识别并减少模型或人事流程中的不公平结果。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal10",
+        "sdg_id": 10,
+        "target_code": "10.3",
+        "sdg_label": "Reduced Inequalities"
+      },
+      {
+        "sdg": 16,
+        "target": "16.6",
+        "rationale_zh": "通过记录、问责和数据保护增强透明度。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal16",
+        "sdg_id": 16,
+        "target_code": "16.6",
+        "sdg_label": "Peace, Justice and Strong Institutions"
+      }
+    ],
+    "vocabulary_type": "curated_query_dictionary",
+    "trend_status": "computed_at_runtime",
+    "skill_category": "AI Governance and Assurance"
+  },
+  {
+    "skill_id": "evaluation",
+    "label": "AI evaluation and testing",
+    "job_terms": [
+      "llm evaluation",
+      "model evaluation",
+      "ai evaluation",
+      "software testing"
+    ],
+    "arxiv_query": "(abs:\"LLM evaluation\" OR abs:\"language model evaluation\")",
+    "sdg_mappings": [
+      {
+        "sdg": 4,
+        "target": "4.4",
+        "rationale_zh": "用于就业与再培训的技能培养；不表示完成课程必然获得工作。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal4",
+        "sdg_id": 4,
+        "target_code": "4.4",
+        "sdg_label": "Quality Education"
+      },
+      {
+        "sdg": 9,
+        "target": "9.5",
+        "rationale_zh": "开发、评估和运维可靠的数据与 AI 技术。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal9",
+        "sdg_id": 9,
+        "target_code": "9.5",
+        "sdg_label": "Industry, Innovation and Infrastructure"
+      }
+    ],
+    "vocabulary_type": "curated_query_dictionary",
+    "trend_status": "computed_at_runtime",
+    "skill_category": "AI Governance and Assurance"
+  },
+  {
+    "skill_id": "privacy",
+    "label": "Privacy and data protection",
+    "job_terms": [
+      "data privacy",
+      "data protection",
+      "differential privacy"
+    ],
+    "arxiv_query": "(abs:\"differential privacy\" OR abs:\"privacy preserving\")",
+    "sdg_mappings": [
+      {
+        "sdg": 4,
+        "target": "4.4",
+        "rationale_zh": "用于就业与再培训的技能培养；不表示完成课程必然获得工作。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal4",
+        "sdg_id": 4,
+        "target_code": "4.4",
+        "sdg_label": "Quality Education"
+      },
+      {
+        "sdg": 16,
+        "target": "16.6",
+        "rationale_zh": "通过记录、问责和数据保护增强透明度。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal16",
+        "sdg_id": 16,
+        "target_code": "16.6",
+        "sdg_label": "Peace, Justice and Strong Institutions"
+      }
+    ],
+    "vocabulary_type": "curated_query_dictionary",
+    "trend_status": "computed_at_runtime",
+    "skill_category": "Security and Privacy"
+  },
+  {
+    "skill_id": "cybersecurity",
+    "label": "Cybersecurity",
+    "job_terms": [
+      "cybersecurity",
+      "cyber security",
+      "information security"
+    ],
+    "arxiv_query": "abs:\"cybersecurity\"",
+    "sdg_mappings": [
+      {
+        "sdg": 4,
+        "target": "4.4",
+        "rationale_zh": "用于就业与再培训的技能培养；不表示完成课程必然获得工作。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal4",
+        "sdg_id": 4,
+        "target_code": "4.4",
+        "sdg_label": "Quality Education"
+      },
+      {
+        "sdg": 9,
+        "target": "9.1",
+        "rationale_zh": "保护数字基础设施的可靠性。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal9",
+        "sdg_id": 9,
+        "target_code": "9.1",
+        "sdg_label": "Industry, Innovation and Infrastructure"
+      }
+    ],
+    "vocabulary_type": "curated_query_dictionary",
+    "trend_status": "computed_at_runtime",
+    "skill_category": "Security and Privacy"
+  },
+  {
+    "skill_id": "prompting",
+    "label": "Prompt engineering",
+    "job_terms": [
+      "prompt engineering",
+      "prompt design"
+    ],
+    "arxiv_query": "abs:\"prompt engineering\"",
+    "sdg_mappings": [
+      {
+        "sdg": 4,
+        "target": "4.4",
+        "rationale_zh": "用于就业与再培训的技能培养；不表示完成课程必然获得工作。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal4",
+        "sdg_id": 4,
+        "target_code": "4.4",
+        "sdg_label": "Quality Education"
+      },
+      {
+        "sdg": 8,
+        "target": "8.2",
+        "rationale_zh": "在人工监督下改进流程和生产率。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal8",
+        "sdg_id": 8,
+        "target_code": "8.2",
+        "sdg_label": "Decent Work and Economic Growth"
+      }
+    ],
+    "vocabulary_type": "curated_query_dictionary",
+    "trend_status": "computed_at_runtime",
+    "skill_category": "Generative AI"
+  },
+  {
+    "skill_id": "hr",
+    "label": "HR practice and people development",
+    "job_terms": [
+      "human resources",
+      "talent management",
+      "hris",
+      "people analytics"
+    ],
+    "arxiv_query": null,
+    "sdg_mappings": [
+      {
+        "sdg": 4,
+        "target": "4.4",
+        "rationale_zh": "用于就业与再培训的技能培养；不表示完成课程必然获得工作。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal4",
+        "sdg_id": 4,
+        "target_code": "4.4",
+        "sdg_label": "Quality Education"
+      },
+      {
+        "sdg": 8,
+        "target": "8.5",
+        "rationale_zh": "支持公平的就业机会与职业转换。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal8",
+        "sdg_id": 8,
+        "target_code": "8.5",
+        "sdg_label": "Decent Work and Economic Growth"
+      }
+    ],
+    "vocabulary_type": "curated_query_dictionary",
+    "trend_status": "computed_at_runtime",
+    "skill_category": "People and Organisational Development"
+  },
+  {
+    "skill_id": "change",
+    "label": "Change management and communication",
+    "job_terms": [
+      "change management",
+      "stakeholder management",
+      "communication"
+    ],
+    "arxiv_query": null,
+    "sdg_mappings": [
+      {
+        "sdg": 4,
+        "target": "4.4",
+        "rationale_zh": "用于就业与再培训的技能培养；不表示完成课程必然获得工作。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal4",
+        "sdg_id": 4,
+        "target_code": "4.4",
+        "sdg_label": "Quality Education"
+      },
+      {
+        "sdg": 8,
+        "target": "8.5",
+        "rationale_zh": "支持公平的就业机会与职业转换。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal8",
+        "sdg_id": 8,
+        "target_code": "8.5",
+        "sdg_label": "Decent Work and Economic Growth"
+      }
+    ],
+    "vocabulary_type": "curated_query_dictionary",
+    "trend_status": "computed_at_runtime",
+    "skill_category": "People and Organisational Development"
+  },
+  {
+    "skill_id": "training",
+    "label": "Learning and instructional design",
+    "job_terms": [
+      "instructional design",
+      "learning and development",
+      "training design"
+    ],
+    "arxiv_query": null,
+    "sdg_mappings": [
+      {
+        "sdg": 4,
+        "target": "4.3",
+        "rationale_zh": "以可负担的持续学习支持成人再培训。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal4",
+        "sdg_id": 4,
+        "target_code": "4.3",
+        "sdg_label": "Quality Education"
+      },
+      {
+        "sdg": 4,
+        "target": "4.4",
+        "rationale_zh": "用于就业与再培训的技能培养；不表示完成课程必然获得工作。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal4",
+        "sdg_id": 4,
+        "target_code": "4.4",
+        "sdg_label": "Quality Education"
+      }
+    ],
+    "vocabulary_type": "curated_query_dictionary",
+    "trend_status": "computed_at_runtime",
+    "skill_category": "Learning and Teaching"
+  },
+  {
+    "skill_id": "manual_entry",
+    "label": "Manual data entry",
+    "job_terms": [
+      "data entry",
+      "dateneingabe"
+    ],
+    "arxiv_query": null,
+    "sdg_mappings": [
+      {
+        "sdg": 4,
+        "target": "4.4",
+        "rationale_zh": "用于就业与再培训的技能培养；不表示完成课程必然获得工作。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal4",
+        "sdg_id": 4,
+        "target_code": "4.4",
+        "sdg_label": "Quality Education"
+      },
+      {
+        "sdg": 8,
+        "target": "8.5",
+        "rationale_zh": "支持公平的就业机会与职业转换。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal8",
+        "sdg_id": 8,
+        "target_code": "8.5",
+        "sdg_label": "Decent Work and Economic Growth"
+      }
+    ],
+    "vocabulary_type": "curated_query_dictionary",
+    "trend_status": "computed_at_runtime",
+    "skill_category": "Administrative Operations"
+  }
+]

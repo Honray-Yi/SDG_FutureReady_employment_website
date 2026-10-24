@@ -1,0 +1,72 @@
+{
+  "reviewed_at": "2026-10-20T10:51:59.171483+00:00",
+  "checks": [
+    {
+      "evidence_id": "C01_week0",
+      "url": "https://cs50.harvard.edu/python/weeks/0/",
+      "checked_at": "2026-10-20T10:48:15.721397+00:00",
+      "status": "retrieved",
+      "bytes": 17537,
+      "response_sha256": "111a962e182c0c58fe515b38f7f181919f67f3d8758fa183957289f12b6a4bfb"
+    },
+    {
+      "evidence_id": "C06_zh",
+      "url": "https://huggingface.co/learn/llm-course/zh-CN/chapter1/1",
+      "checked_at": "2026-10-20T10:48:14.790100+00:00",
+      "status": "retrieved",
+      "bytes": 119862,
+      "response_sha256": "f764c9cec374034e02dbf2008f77229cee7019059c060652aa3ab1ee2f67c1e4"
+    },
+    {
+      "evidence_id": "C06_en",
+      "url": "https://huggingface.co/learn/llm-course/en/chapter1/1",
+      "checked_at": "2026-10-20T10:48:14.747048+00:00",
+      "status": "retrieved",
+      "bytes": 139569,
+      "response_sha256": "29f41c1bc5d88cffee46b2d4bd7d179e2198a5adc7897f05463682bc71d90a1f"
+    },
+    {
+      "evidence_id": "C07_ms",
+      "url": "https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/main/translations/ms/README.md",
+      "checked_at": "2026-10-20T10:48:14.550180+00:00",
+      "status": "retrieved",
+      "bytes": 25219,
+      "response_sha256": "e40c9d67b2f65ef72929b79121c1b713d6ea2e4a5eb6dfabaf460e77c64d00c4"
+    },
+    {
+      "evidence_id": "C07_zh",
+      "url": "https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/main/translations/zh-CN/README.md",
+      "checked_at": "2026-10-20T10:48:14.977833+00:00",
+      "status": "retrieved",
+      "bytes": 24205,
+      "response_sha256": "72b9e75e95b96cd9f091507c35d564d2ccab6fa6d8a52aba96775effcb1f7d3e"
+    },
+    {
+      "evidence_id": "C18_ms",
+      "url": "https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/main/translations/ms/03-using-generative-ai-responsibly/README.md",
+      "checked_at": "2026-10-20T10:48:15.237102+00:00",
+      "status": "retrieved",
+      "bytes": 11657,
+      "response_sha256": "123e52658a1c8dd9351026bec2ecfbd2fcef3e25661f0d7344cda5d28f12aab0"
+    },
+    {
+      "evidence_id": "C18_zh",
+      "url": "https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/main/translations/zh-CN/03-using-generative-ai-responsibly/README.md",
+      "checked_at": "2026-10-20T10:48:15.247239+00:00",
+      "status": "retrieved",
+      "bytes": 9798,
+      "response_sha256": "d92877ebc990f1e4511ec83bd476a07c8cf35ef8b667f63a1ca6fc246e602e12"
+    }
+  ],
+  "masco": {
+    "source_url": "https://jtksm.mohr.gov.my/sites/default/files/2022-12/MASCO_2020_BI_Edaran.pdf",
+    "sha256": "0c241751c0d97363ed893f8e4f6767d202d96692741e29a5ba7c821d11e8451a",
+    "inspection": "Task descriptions on physical PDF pages 87–89; selected code/title facts only."
+  },
+  "mycol": {
+    "source_url": "https://www.talentcorp.com.my/images/uploads/publication/204/MyMahir-Malaysia-Critical-Occupations-List-MyCOL20242025-1773385490.pdf",
+    "sha256": "bada182b399ee9944231102402f5f5ce3a23c8328d99abb22ead6e1f8ec20937",
+    "inspection": "All 66 Table 7 codes visually checked on physical pages 44–45, printed pages 85–87."
+  },
+  "course_metadata_note": "Existing English public-resource evidence retained; newly checked translated materials recorded above. Full third-party pages and personal author details are not redistributed."
+}

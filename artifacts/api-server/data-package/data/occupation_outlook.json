@@ -1,0 +1,49 @@
+{
+  "source_id": "bls",
+  "source_url": "https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm",
+  "verified_on": "2026-10-20",
+  "retrieval_method": "Verified official table through web reader; direct HTTP blocked.",
+  "projection_base_year": 2025,
+  "projection_end_year": 2035,
+  "geography": "United States",
+  "employment_unit": "thousands",
+  "metric_type": "projected_employment_change_not_observed_growth",
+  "records": [
+    {
+      "soc_code": "15-2051",
+      "title": "Data scientists",
+      "employment_base": 275.6,
+      "employment_projected": 371.0,
+      "projected_change_pct": 34.6
+    },
+    {
+      "soc_code": "15-1252",
+      "title": "Software developers",
+      "employment_base": 1717.8,
+      "employment_projected": 1892.6,
+      "projected_change_pct": 10.2
+    },
+    {
+      "soc_code": "15-1253",
+      "title": "Software quality assurance analysts and testers",
+      "employment_base": 187.6,
+      "employment_projected": 198.2,
+      "projected_change_pct": 5.7
+    },
+    {
+      "soc_code": "43-9021",
+      "title": "Data entry keyers",
+      "employment_base": 131.8,
+      "employment_projected": 98.2,
+      "projected_change_pct": -25.5
+    },
+    {
+      "soc_code": "43-9022",
+      "title": "Word processors and typists",
+      "employment_base": 40.4,
+      "employment_projected": 26.5,
+      "projected_change_pct": -34.4
+    }
+  ],
+  "limitations": "US decade projections; not Malaysia demand, not AI-caused job-loss percentages, not skill replacement probabilities."
+}

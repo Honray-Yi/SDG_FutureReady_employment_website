@@ -1,0 +1,539 @@
+{
+  "source_id": "arxiv",
+  "retrieved_at": "2026-10-20T10:02:49.784560+00:00",
+  "as_of": "2026-10-20",
+  "days_per_window": 90,
+  "indexing_lag_days": 7,
+  "category_filter": "(cat:cs.AI OR cat:cs.LG OR cat:cs.CL OR cat:cs.CV)",
+  "denominator": {
+    "previous": {
+      "query": "(cat:cs.AI OR cat:cs.LG OR cat:cs.CL OR cat:cs.CV) AND submittedDate:[202604160000 TO 202607142359]",
+      "request_url": "https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL+OR+cat%3Acs.CV%29+AND+submittedDate%3A%5B202604160000+TO+202607142359%5D&start=0&max_results=3&sortBy=submittedDate&sortOrder=descending",
+      "total_results": 36718,
+      "retrieved_at": "2026-10-20T10:02:42.647008+00:00",
+      "window_start": "2026-04-16T00:00:00+00:00",
+      "window_end_exclusive": "2026-07-15T00:00:00+00:00",
+      "source_feed_updated_at": "2026-10-20T10:02:42Z",
+      "response_sha256": "41b1a7d5247e79cb2f07b3e4dbf3da27c8ac29f994f8fe0b3aa12cf565e42773",
+      "sample_records": [
+        {
+          "url": "https://arxiv.org/abs/2607.14162v1",
+          "title": "Natural-Language to SysMLv2 Translation via Conformance-Driven Iterative Refinement",
+          "published_at": "2026-07-14T23:56:44Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2607.13336v1",
+          "title": "Delving into the Temporal Challenges of Unified Video Protection Against Image-to-Video and Fine-Tuning-based Customization",
+          "published_at": "2026-07-14T23:50:57Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2607.13332v1",
+          "title": "Agora: Collective and Permissionless Internet-Scale Pretraining of Large Language Models",
+          "published_at": "2026-07-14T23:32:18Z"
+        }
+      ]
+    },
+    "current": {
+      "query": "(cat:cs.AI OR cat:cs.LG OR cat:cs.CL OR cat:cs.CV) AND submittedDate:[202607150000 TO 202610122359]",
+      "request_url": "https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL+OR+cat%3Acs.CV%29+AND+submittedDate%3A%5B202607150000+TO+202610122359%5D&start=0&max_results=3&sortBy=submittedDate&sortOrder=descending",
+      "total_results": 36804,
+      "retrieved_at": "2026-10-20T10:02:46.583578+00:00",
+      "window_start": "2026-07-15T00:00:00+00:00",
+      "window_end_exclusive": "2026-10-13T00:00:00+00:00",
+      "source_feed_updated_at": "2026-10-20T10:02:46Z",
+      "response_sha256": "5e78326aefcc17675a598e3de33473d61488e8ad47d39d652eaff90d443a463c",
+      "sample_records": [
+        {
+          "url": "https://arxiv.org/abs/2610.17495v1",
+          "title": "A Sense of Proprioception in Language Models",
+          "published_at": "2026-10-12T23:35:16Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.17494v1",
+          "title": "Longitudinal Learner Participation Profiling in Online Learning: Heterogeneous Consensus Clustering under Unequal Observation Windows",
+          "published_at": "2026-10-12T23:33:20Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.17493v1",
+          "title": "VeriPIE: Checkable Query Plans and Evidence-Guided Selection for Text-to-SQL",
+          "published_at": "2026-10-12T23:31:04Z"
+        }
+      ]
+    }
+  },
+  "records": [
+    {
+      "skill_id": "machine_learning",
+      "previous": {
+        "query": "(cat:cs.AI OR cat:cs.LG OR cat:cs.CL OR cat:cs.CV) AND (abs:\"machine learning\") AND submittedDate:[202604160000 TO 202607142359]",
+        "request_url": "https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL+OR+cat%3Acs.CV%29+AND+%28abs%3A%22machine+learning%22%29+AND+submittedDate%3A%5B202604160000+TO+202607142359%5D&start=0&max_results=3&sortBy=submittedDate&sortOrder=descending",
+        "total_results": 1808,
+        "retrieved_at": "2026-10-20T10:00:10.181316+00:00",
+        "window_start": "2026-04-16T00:00:00+00:00",
+        "window_end_exclusive": "2026-07-15T00:00:00+00:00",
+        "source_feed_updated_at": "2026-10-20T10:00:09Z",
+        "response_sha256": "8398f6fc41714df7e45c890899e6f22514f105001d6c9a338f58a8860036e0f4",
+        "sample_records": [
+          {
+            "url": "https://arxiv.org/abs/2607.14160v1",
+            "title": "QFireNet: A Quantum-Enhanced U-Net for Wildfire Segmentation from Sentinel-2 Imagery",
+            "published_at": "2026-07-14T22:13:58Z"
+          },
+          {
+            "url": "https://arxiv.org/abs/2607.13123v1",
+            "title": "AI in Cyberpsychology: A systematic literature review of Cybersecurity enhancement by using AI for analyzing psychology of Victims, Attackers, and Defenders",
+            "published_at": "2026-07-14T17:18:30Z"
+          },
+          {
+            "url": "https://arxiv.org/abs/2607.12954v1",
+            "title": "Robustness of Deep Learning Models for PV Power Forecasting under NWP Forecast Errors: A Spatiotemporal and Physically Interpretable Analysis",
+            "published_at": "2026-07-14T16:48:07Z"
+          }
+        ]
+      },
+      "current": {
+        "query": "(cat:cs.AI OR cat:cs.LG OR cat:cs.CL OR cat:cs.CV) AND (abs:\"machine learning\") AND submittedDate:[202607150000 TO 202610122359]",
+        "request_url": "https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL+OR+cat%3Acs.CV%29+AND+%28abs%3A%22machine+learning%22%29+AND+submittedDate%3A%5B202607150000+TO+202610122359%5D&start=0&max_results=3&sortBy=submittedDate&sortOrder=descending",
+        "total_results": 1490,
+        "retrieved_at": "2026-10-20T10:00:20.368226+00:00",
+        "window_start": "2026-07-15T00:00:00+00:00",
+        "window_end_exclusive": "2026-10-13T00:00:00+00:00",
+        "source_feed_updated_at": "2026-10-20T10:00:20Z",
+        "response_sha256": "6757abe4a610893a03f00040b7700cb332807418f56c1026dd74c84db55b8700",
+        "sample_records": [
+          {
+            "url": "https://arxiv.org/abs/2610.18924v1",
+            "title": "TorchSpin: Differentiable Electron Paramagnetic Resonance Simulation in PyTorch",
+            "published_at": "2026-10-12T23:01:01Z"
+          },
+          {
+            "url": "https://arxiv.org/abs/2610.17483v1",
+            "title": "Structure-preserving fidelity diagnostics for partial differential equations",
+            "published_at": "2026-10-12T22:57:16Z"
+          },
+          {
+            "url": "https://arxiv.org/abs/2610.17469v1",
+            "title": "Assessing the Performance of AI Models in Misinformation Detection Using Predefined Social Noise Constructs",
+            "published_at": "2026-10-12T22:31:47Z"
+          }
+        ]
+      },
+      "legacy_proxy_id": "ml",
+      "measurement_scope": "Inherited narrow topic proxy; not full taxonomy coverage."
+    },
+    {
+      "skill_id": "deep_learning",
+      "previous": {
+        "query": "(cat:cs.AI OR cat:cs.LG OR cat:cs.CL OR cat:cs.CV) AND (abs:\"deep learning\") AND submittedDate:[202604160000 TO 202607142359]",
+        "request_url": "https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL+OR+cat%3Acs.CV%29+AND+%28abs%3A%22deep+learning%22%29+AND+submittedDate%3A%5B202604160000+TO+202607142359%5D&start=0&max_results=3&sortBy=submittedDate&sortOrder=descending",
+        "total_results": 1478,
+        "retrieved_at": "2026-10-20T10:00:24.382110+00:00",
+        "window_start": "2026-04-16T00:00:00+00:00",
+        "window_end_exclusive": "2026-07-15T00:00:00+00:00",
+        "source_feed_updated_at": "2026-10-20T10:00:24Z",
+        "response_sha256": "35b8a2478d04075605af5ea2114b2e6521a0305dca658be212f9505b6a87cbd8",
+        "sample_records": [
+          {
+            "url": "https://arxiv.org/abs/2607.20550v1",
+            "title": "Beyond SBDD: Geometric Deep Learning in Polypharmacology and Multi-target Drug Design",
+            "published_at": "2026-07-14T23:29:39Z"
+          },
+          {
+            "url": "https://arxiv.org/abs/2607.13246v2",
+            "title": "Reassessing Muon for Matrix Factorization",
+            "published_at": "2026-07-14T20:21:38Z"
+          },
+          {
+            "url": "https://arxiv.org/abs/2608.07524v1",
+            "title": "Training Variable Long Sequences with Data-Centric Parallel",
+            "published_at": "2026-07-14T17:54:32Z"
+          }
+        ]
+      },
+      "current": {
+        "query": "(cat:cs.AI OR cat:cs.LG OR cat:cs.CL OR cat:cs.CV) AND (abs:\"deep learning\") AND submittedDate:[202607150000 TO 202610122359]",
+        "request_url": "https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL+OR+cat%3Acs.CV%29+AND+%28abs%3A%22deep+learning%22%29+AND+submittedDate%3A%5B202607150000+TO+202610122359%5D&start=0&max_results=3&sortBy=submittedDate&sortOrder=descending",
+        "total_results": 1120,
+        "retrieved_at": "2026-10-20T10:00:28.020855+00:00",
+        "window_start": "2026-07-15T00:00:00+00:00",
+        "window_end_exclusive": "2026-10-13T00:00:00+00:00",
+        "source_feed_updated_at": "2026-10-20T10:00:27Z",
+        "response_sha256": "b0ba4e265124eaaaa20c72d9df78ac21115d54ae458bcf89903a961883539872",
+        "sample_records": [
+          {
+            "url": "https://arxiv.org/abs/2610.17314v1",
+            "title": "Joint Embedding with Dynamic Integration network (JEDI-net)",
+            "published_at": "2026-10-12T19:13:24Z"
+          },
+          {
+            "url": "https://arxiv.org/abs/2610.17171v1",
+            "title": "Comprehensive Workflow for Uncertainty-Aware Ionic Liquid Solvent Discovery",
+            "published_at": "2026-10-12T17:43:55Z"
+          },
+          {
+            "url": "https://arxiv.org/abs/2610.17067v1",
+            "title": "A unified three-branch deep learning framework for automated detection and counting of wildlife in aerial imagery",
+            "published_at": "2026-10-12T16:30:12Z"
+          }
+        ]
+      },
+      "legacy_proxy_id": "deep_learning",
+      "measurement_scope": "Inherited narrow topic proxy; not full taxonomy coverage."
+    },
+    {
+      "skill_id": "nlp",
+      "previous": {
+        "query": "(cat:cs.AI OR cat:cs.LG OR cat:cs.CL OR cat:cs.CV) AND (abs:\"natural language processing\") AND submittedDate:[202604160000 TO 202607142359]",
+        "request_url": "https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL+OR+cat%3Acs.CV%29+AND+%28abs%3A%22natural+language+processing%22%29+AND+submittedDate%3A%5B202604160000+TO+202607142359%5D&start=0&max_results=3&sortBy=submittedDate&sortOrder=descending",
+        "total_results": 197,
+        "retrieved_at": "2026-10-20T10:00:31.976574+00:00",
+        "window_start": "2026-04-16T00:00:00+00:00",
+        "window_end_exclusive": "2026-07-15T00:00:00+00:00",
+        "source_feed_updated_at": "2026-10-20T10:00:31Z",
+        "response_sha256": "51c2503ff5bab9f3417de221d356edec8772c547a687e0eb74ba36668df65bcc",
+        "sample_records": [
+          {
+            "url": "https://arxiv.org/abs/2607.13123v1",
+            "title": "AI in Cyberpsychology: A systematic literature review of Cybersecurity enhancement by using AI for analyzing psychology of Victims, Attackers, and Defenders",
+            "published_at": "2026-07-14T17:18:30Z"
+          },
+          {
+            "url": "https://arxiv.org/abs/2607.12612v1",
+            "title": "Translation as a Computationally Efficient Bridge: Feasibility of English BERT for Low-Resource Languages",
+            "published_at": "2026-07-14T10:44:45Z"
+          },
+          {
+            "url": "https://arxiv.org/abs/2607.12336v1",
+            "title": "Evaluating Health Misinformation in Low-Resource Languages: Integrating Small Language Models with a Culturally-Sensitive Responsible NLP Framework (Bangla as a Case Study)",
+            "published_at": "2026-07-14T04:34:05Z"
+          }
+        ]
+      },
+      "current": {
+        "query": "(cat:cs.AI OR cat:cs.LG OR cat:cs.CL OR cat:cs.CV) AND (abs:\"natural language processing\") AND submittedDate:[202607150000 TO 202610122359]",
+        "request_url": "https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL+OR+cat%3Acs.CV%29+AND+%28abs%3A%22natural+language+processing%22%29+AND+submittedDate%3A%5B202607150000+TO+202610122359%5D&start=0&max_results=3&sortBy=submittedDate&sortOrder=descending",
+        "total_results": 139,
+        "retrieved_at": "2026-10-20T10:00:35.945730+00:00",
+        "window_start": "2026-07-15T00:00:00+00:00",
+        "window_end_exclusive": "2026-10-13T00:00:00+00:00",
+        "source_feed_updated_at": "2026-10-20T10:00:35Z",
+        "response_sha256": "ccaad3d4d61d9ca662e4353a01272e128bcb3ae10dba17dc3c4f76b419102046",
+        "sample_records": [
+          {
+            "url": "https://arxiv.org/abs/2610.16547v1",
+            "title": "Know Yourself and Know Your Neighbour: A Syntactically Informed Self-Supervised Compositional Sentence Representation Learning Framework using a Recursive Hypernetwork",
+            "published_at": "2026-10-12T10:30:43Z"
+          },
+          {
+            "url": "https://arxiv.org/abs/2610.15941v1",
+            "title": "Natural Language Processing for Aligning Readings with Learning Objectives and Assessing Topic Balance in Dental Education",
+            "published_at": "2026-10-11T21:48:10Z"
+          },
+          {
+            "url": "https://arxiv.org/abs/2610.15757v1",
+            "title": "Enhancing Zero-Shot Domain Transfer in Low-Resource Sentiment Analysis: A Case Study in Marathi",
+            "published_at": "2026-10-11T16:38:20Z"
+          }
+        ]
+      },
+      "legacy_proxy_id": "nlp",
+      "measurement_scope": "Inherited narrow topic proxy; not full taxonomy coverage."
+    },
+    {
+      "skill_id": "generative_ai",
+      "previous": {
+        "query": "(cat:cs.AI OR cat:cs.LG OR cat:cs.CL OR cat:cs.CV) AND (abs:\"large language model\") AND submittedDate:[202604160000 TO 202607142359]",
+        "request_url": "https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL+OR+cat%3Acs.CV%29+AND+%28abs%3A%22large+language+model%22%29+AND+submittedDate%3A%5B202604160000+TO+202607142359%5D&start=0&max_results=3&sortBy=submittedDate&sortOrder=descending",
+        "total_results": 6819,
+        "retrieved_at": "2026-10-20T10:00:39.630369+00:00",
+        "window_start": "2026-04-16T00:00:00+00:00",
+        "window_end_exclusive": "2026-07-15T00:00:00+00:00",
+        "source_feed_updated_at": "2026-10-20T10:00:39Z",
+        "response_sha256": "1e783777713b853978b097ece1ef18eedc82b56fbc370a482b48c3914b1c0a19",
+        "sample_records": [
+          {
+            "url": "https://arxiv.org/abs/2607.14162v1",
+            "title": "Natural-Language to SysMLv2 Translation via Conformance-Driven Iterative Refinement",
+            "published_at": "2026-07-14T23:56:44Z"
+          },
+          {
+            "url": "https://arxiv.org/abs/2607.13332v1",
+            "title": "Agora: Collective and Permissionless Internet-Scale Pretraining of Large Language Models",
+            "published_at": "2026-07-14T23:32:18Z"
+          },
+          {
+            "url": "https://arxiv.org/abs/2607.13315v2",
+            "title": "Meta-Learning Preferences for Multilingual LLM Alignment",
+            "published_at": "2026-07-14T22:38:39Z"
+          }
+        ]
+      },
+      "current": {
+        "query": "(cat:cs.AI OR cat:cs.LG OR cat:cs.CL OR cat:cs.CV) AND (abs:\"large language model\") AND submittedDate:[202607150000 TO 202610122359]",
+        "request_url": "https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL+OR+cat%3Acs.CV%29+AND+%28abs%3A%22large+language+model%22%29+AND+submittedDate%3A%5B202607150000+TO+202610122359%5D&start=0&max_results=3&sortBy=submittedDate&sortOrder=descending",
+        "total_results": 5783,
+        "retrieved_at": "2026-10-20T10:00:43.955619+00:00",
+        "window_start": "2026-07-15T00:00:00+00:00",
+        "window_end_exclusive": "2026-10-13T00:00:00+00:00",
+        "source_feed_updated_at": "2026-10-20T10:00:43Z",
+        "response_sha256": "313069072c0dba78fb3f8bc59f01a9192b072cdf679d4b5ac894b56778296973",
+        "sample_records": [
+          {
+            "url": "https://arxiv.org/abs/2610.17436v1",
+            "title": "SchemaWeaver: Accelerating On-Device Mobile Agentic AI via Schema-Guided Parallel LLM Decoding",
+            "published_at": "2026-10-12T21:53:20Z"
+          },
+          {
+            "url": "https://arxiv.org/abs/2610.17429v1",
+            "title": "Monarch-Muon: Structure-Aware Muon for Fast and Memory-Efficient Pretraining",
+            "published_at": "2026-10-12T21:41:39Z"
+          },
+          {
+            "url": "https://arxiv.org/abs/2610.17426v1",
+            "title": "Reinforcement Learning In Partially Verifiable Environments for Colon Cancer Treatment Planning",
+            "published_at": "2026-10-12T21:39:21Z"
+          }
+        ]
+      },
+      "legacy_proxy_id": "llm",
+      "measurement_scope": "Inherited narrow topic proxy; not full taxonomy coverage."
+    },
+    {
+      "skill_id": "retrieval",
+      "previous": {
+        "query": "(cat:cs.AI OR cat:cs.LG OR cat:cs.CL OR cat:cs.CV) AND ((abs:\"retrieval augmented generation\" OR abs:\"retrieval-augmented generation\")) AND submittedDate:[202604160000 TO 202607142359]",
+        "request_url": "https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL+OR+cat%3Acs.CV%29+AND+%28%28abs%3A%22retrieval+augmented+generation%22+OR+abs%3A%22retrieval-augmented+generation%22%29%29+AND+submittedDate%3A%5B202604160000+TO+202607142359%5D&start=0&max_results=3&sortBy=submittedDate&sortOrder=descending",
+        "total_results": 585,
+        "retrieved_at": "2026-10-20T10:00:56.655627+00:00",
+        "window_start": "2026-04-16T00:00:00+00:00",
+        "window_end_exclusive": "2026-07-15T00:00:00+00:00",
+        "source_feed_updated_at": "2026-10-20T10:00:56Z",
+        "response_sha256": "95a702353dfe5c472e9117bd7c2de492eae14204ddb39b3c7c4a5ba90a64f0df",
+        "sample_records": [
+          {
+            "url": "https://arxiv.org/abs/2607.13189v1",
+            "title": "RAGthoven at SemEval-2026 Task 1: A Multi-Stage Pipeline Walks Into a Benchmark and Barely Clears the Bar",
+            "published_at": "2026-07-14T18:39:33Z"
+          },
+          {
+            "url": "https://arxiv.org/abs/2607.12764v1",
+            "title": "EvoGraph-R1: Self-Evolving Multimodal Knowledge Hypergraphs for Agentic Retrieval",
+            "published_at": "2026-07-14T13:34:07Z"
+          },
+          {
+            "url": "https://arxiv.org/abs/2608.24902v1",
+            "title": "Beyond the Chatbot: Co-Learning and Co-Teaching through a Dual-Persona Generative-AI Assistant",
+            "published_at": "2026-07-14T10:04:46Z"
+          }
+        ]
+      },
+      "current": {
+        "query": "(cat:cs.AI OR cat:cs.LG OR cat:cs.CL OR cat:cs.CV) AND ((abs:\"retrieval augmented generation\" OR abs:\"retrieval-augmented generation\")) AND submittedDate:[202607150000 TO 202610122359]",
+        "request_url": "https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL+OR+cat%3Acs.CV%29+AND+%28%28abs%3A%22retrieval+augmented+generation%22+OR+abs%3A%22retrieval-augmented+generation%22%29%29+AND+submittedDate%3A%5B202607150000+TO+202610122359%5D&start=0&max_results=3&sortBy=submittedDate&sortOrder=descending",
+        "total_results": 455,
+        "retrieved_at": "2026-10-20T10:01:00.284427+00:00",
+        "window_start": "2026-07-15T00:00:00+00:00",
+        "window_end_exclusive": "2026-10-13T00:00:00+00:00",
+        "source_feed_updated_at": "2026-10-20T10:01:00Z",
+        "response_sha256": "ddc7f6f5b8f5941999f601f8069234b3a8d7891fa709596ca6b6d05023a153c6",
+        "sample_records": [
+          {
+            "url": "https://arxiv.org/abs/2610.16440v1",
+            "title": "ARMED: Adaptive Retrieval-Augmented Medication Recommendation",
+            "published_at": "2026-10-12T09:07:30Z"
+          },
+          {
+            "url": "https://arxiv.org/abs/2610.16182v1",
+            "title": "Label-Centric Knowledge Retrieval for Zero-Shot Text Classification",
+            "published_at": "2026-10-12T05:00:56Z"
+          },
+          {
+            "url": "https://arxiv.org/abs/2610.16008v1",
+            "title": "Improving the Evaluation of Biomedical Question Answering with Few Human Preference Signals",
+            "published_at": "2026-10-12T00:17:35Z"
+          }
+        ]
+      },
+      "legacy_proxy_id": "rag",
+      "measurement_scope": "Inherited narrow topic proxy; not full taxonomy coverage."
+    },
+    {
+      "skill_id": "mlops",
+      "previous": {
+        "query": "(cat:cs.AI OR cat:cs.LG OR cat:cs.CL OR cat:cs.CV) AND ((abs:\"MLOps\" OR abs:\"model deployment\")) AND submittedDate:[202604160000 TO 202607142359]",
+        "request_url": "https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL+OR+cat%3Acs.CV%29+AND+%28%28abs%3A%22MLOps%22+OR+abs%3A%22model+deployment%22%29%29+AND+submittedDate%3A%5B202604160000+TO+202607142359%5D&start=0&max_results=3&sortBy=submittedDate&sortOrder=descending",
+        "total_results": 48,
+        "retrieved_at": "2026-10-20T10:01:17.956673+00:00",
+        "window_start": "2026-04-16T00:00:00+00:00",
+        "window_end_exclusive": "2026-07-15T00:00:00+00:00",
+        "source_feed_updated_at": "2026-10-20T10:01:17Z",
+        "response_sha256": "ba5ffe5a69fe5b314f6d6279d41e9b536e76f0f1b56f0ce477ac587cc2e74aa5",
+        "sample_records": [
+          {
+            "url": "https://arxiv.org/abs/2607.13239v1",
+            "title": "Cost-Optimal Foundation Model Deployment Portfolio for Transportation Management",
+            "published_at": "2026-07-14T20:01:15Z"
+          },
+          {
+            "url": "https://arxiv.org/abs/2607.12177v1",
+            "title": "The Emerging Paradigm of Geospatial Foundation Models: From Pre-Training to Agentic Reasoning",
+            "published_at": "2026-07-13T21:50:50Z"
+          },
+          {
+            "url": "https://arxiv.org/abs/2607.10467v2",
+            "title": "Toward Production-Ready Federated Learning in Healthcare: Privacy, Orchestration, and Governance in MLOps",
+            "published_at": "2026-07-11T20:14:00Z"
+          }
+        ]
+      },
+      "current": {
+        "query": "(cat:cs.AI OR cat:cs.LG OR cat:cs.CL OR cat:cs.CV) AND ((abs:\"MLOps\" OR abs:\"model deployment\")) AND submittedDate:[202607150000 TO 202610122359]",
+        "request_url": "https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL+OR+cat%3Acs.CV%29+AND+%28%28abs%3A%22MLOps%22+OR+abs%3A%22model+deployment%22%29%29+AND+submittedDate%3A%5B202607150000+TO+202610122359%5D&start=0&max_results=3&sortBy=submittedDate&sortOrder=descending",
+        "total_results": 34,
+        "retrieved_at": "2026-10-20T10:01:21.689247+00:00",
+        "window_start": "2026-07-15T00:00:00+00:00",
+        "window_end_exclusive": "2026-10-13T00:00:00+00:00",
+        "source_feed_updated_at": "2026-10-20T10:01:21Z",
+        "response_sha256": "d75138c295c4c468f588537d71ffab2134b1a44cb3cca5003e8427c2e682e613",
+        "sample_records": [
+          {
+            "url": "https://arxiv.org/abs/2610.14815v1",
+            "title": "Seamless Deployment of Machine Learning Inference at the Far Edge: An Empirical AWS IoT Greengrass Architecture for Industrial Predictive Maintenance",
+            "published_at": "2026-10-10T11:22:44Z"
+          },
+          {
+            "url": "https://arxiv.org/abs/2610.08272v1",
+            "title": "Performative Prediction with Selective Labels",
+            "published_at": "2026-10-06T12:45:43Z"
+          },
+          {
+            "url": "https://arxiv.org/abs/2610.07348v1",
+            "title": "Stepped MoE: Segment-Level Routing with Configurable Inference Complexity",
+            "published_at": "2026-10-05T20:18:26Z"
+          }
+        ]
+      },
+      "legacy_proxy_id": "mlops",
+      "measurement_scope": "Inherited narrow topic proxy; not full taxonomy coverage."
+    },
+    {
+      "skill_id": "security_privacy",
+      "previous": {
+        "query": "(cat:cs.AI OR cat:cs.LG OR cat:cs.CL OR cat:cs.CV) AND ((abs:\"differential privacy\" OR abs:\"privacy preserving\")) AND submittedDate:[202604160000 TO 202607142359]",
+        "request_url": "https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL+OR+cat%3Acs.CV%29+AND+%28%28abs%3A%22differential+privacy%22+OR+abs%3A%22privacy+preserving%22%29%29+AND+submittedDate%3A%5B202604160000+TO+202607142359%5D&start=0&max_results=3&sortBy=submittedDate&sortOrder=descending",
+        "total_results": 364,
+        "retrieved_at": "2026-10-20T10:02:19.239335+00:00",
+        "window_start": "2026-04-16T00:00:00+00:00",
+        "window_end_exclusive": "2026-07-15T00:00:00+00:00",
+        "source_feed_updated_at": "2026-10-20T10:02:17Z",
+        "response_sha256": "07136c84d7b2e7166eb7e179b7e7a1956ca608fc15b3cc8c0937835846a08037",
+        "sample_records": [
+          {
+            "url": "https://arxiv.org/abs/2607.13328v1",
+            "title": "Privacy Preserving Recommender Systems Balancing Personalization with Privacy",
+            "published_at": "2026-07-14T23:21:21Z"
+          },
+          {
+            "url": "https://arxiv.org/abs/2607.12946v1",
+            "title": "ViHoRec: A Quality-Controlled Vietnamese Hotel Recommendation Dataset and Cold-Start Benchmark",
+            "published_at": "2026-07-14T16:28:40Z"
+          },
+          {
+            "url": "https://arxiv.org/abs/2607.12645v2",
+            "title": "AdaPCLA: Adaptive Prior-Calibrated Logit Adjustment for Long-Tailed Longitudinal EHR Generation",
+            "published_at": "2026-07-14T11:23:51Z"
+          }
+        ]
+      },
+      "current": {
+        "query": "(cat:cs.AI OR cat:cs.LG OR cat:cs.CL OR cat:cs.CV) AND ((abs:\"differential privacy\" OR abs:\"privacy preserving\")) AND submittedDate:[202607150000 TO 202610122359]",
+        "request_url": "https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL+OR+cat%3Acs.CV%29+AND+%28%28abs%3A%22differential+privacy%22+OR+abs%3A%22privacy+preserving%22%29%29+AND+submittedDate%3A%5B202607150000+TO+202610122359%5D&start=0&max_results=3&sortBy=submittedDate&sortOrder=descending",
+        "total_results": 250,
+        "retrieved_at": "2026-10-20T10:02:23.120990+00:00",
+        "window_start": "2026-07-15T00:00:00+00:00",
+        "window_end_exclusive": "2026-10-13T00:00:00+00:00",
+        "source_feed_updated_at": "2026-10-20T10:02:22Z",
+        "response_sha256": "4e720eed90d74573d209e853f5624484d338c0b5e75548da181e7d538db7a8b7",
+        "sample_records": [
+          {
+            "url": "https://arxiv.org/abs/2610.17120v1",
+            "title": "Can Rényi Accountants Beat Lossless Accountants for DP-SGD?",
+            "published_at": "2026-10-12T17:13:33Z"
+          },
+          {
+            "url": "https://arxiv.org/abs/2610.16458v1",
+            "title": "Differential Privacy Protected Preference Alignment on Survey Derived Data",
+            "published_at": "2026-10-12T09:18:26Z"
+          },
+          {
+            "url": "https://arxiv.org/abs/2610.13631v1",
+            "title": "Private and Distributionally Robust Federated Multiclass Classification",
+            "published_at": "2026-10-09T14:13:47Z"
+          }
+        ]
+      },
+      "legacy_proxy_id": "privacy",
+      "measurement_scope": "Inherited narrow topic proxy; not full taxonomy coverage."
+    },
+    {
+      "skill_id": "responsible_ai",
+      "previous": {
+        "query": "(cat:cs.AI OR cat:cs.LG OR cat:cs.CL OR cat:cs.CV) AND ((abs:\"responsible AI\" OR abs:\"algorithmic fairness\" OR abs:\"AI governance\")) AND submittedDate:[202604160000 TO 202607142359]",
+        "request_url": "https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL+OR+cat%3Acs.CV%29+AND+%28%28abs%3A%22responsible+AI%22+OR+abs%3A%22algorithmic+fairness%22+OR+abs%3A%22AI+governance%22%29%29+AND+submittedDate%3A%5B202604160000+TO+202607142359%5D&start=0&max_results=3&sortBy=submittedDate&sortOrder=descending",
+        "total_results": 97,
+        "retrieved_at": "2026-10-20T10:01:28.135687+00:00",
+        "window_start": "2026-04-16T00:00:00+00:00",
+        "window_end_exclusive": "2026-07-15T00:00:00+00:00",
+        "source_feed_updated_at": "2026-10-20T10:01:27Z",
+        "response_sha256": "ae994c67dfac2da13c208ace4e43f39c15f147062a92f86f413cd9ca11e2b8b3",
+        "sample_records": [
+          {
+            "url": "https://arxiv.org/abs/2607.12588v1",
+            "title": "Vertical Standardisation for High-Risk AI Systems under the EU AI Act: A Domain-Specific Framework for Algorithmic Hiring",
+            "published_at": "2026-07-14T10:00:27Z"
+          },
+          {
+            "url": "https://arxiv.org/abs/2608.16910v1",
+            "title": "Education-centered critical policy analysis of AI: Ghana's AI strategy as a case",
+            "published_at": "2026-07-11T17:33:56Z"
+          },
+          {
+            "url": "https://arxiv.org/abs/2607.10057v1",
+            "title": "Quantum Circuit Vision: Cost-Aware Evaluation of Visual AI Agents for Quantum Code Generation",
+            "published_at": "2026-07-11T00:54:52Z"
+          }
+        ]
+      },
+      "current": {
+        "query": "(cat:cs.AI OR cat:cs.LG OR cat:cs.CL OR cat:cs.CV) AND ((abs:\"responsible AI\" OR abs:\"algorithmic fairness\" OR abs:\"AI governance\")) AND submittedDate:[202607150000 TO 202610122359]",
+        "request_url": "https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL+OR+cat%3Acs.CV%29+AND+%28%28abs%3A%22responsible+AI%22+OR+abs%3A%22algorithmic+fairness%22+OR+abs%3A%22AI+governance%22%29%29+AND+submittedDate%3A%5B202607150000+TO+202610122359%5D&start=0&max_results=3&sortBy=submittedDate&sortOrder=descending",
+        "total_results": 67,
+        "retrieved_at": "2026-10-20T10:01:35.158148+00:00",
+        "window_start": "2026-07-15T00:00:00+00:00",
+        "window_end_exclusive": "2026-10-13T00:00:00+00:00",
+        "source_feed_updated_at": "2026-10-20T10:01:32Z",
+        "response_sha256": "9742e7317dc2f8c2e8dfea7c15c4c8fbd07ac7289a69b756bf32eb0b6b18f7c1",
+        "sample_records": [
+          {
+            "url": "https://arxiv.org/abs/2610.17493v1",
+            "title": "VeriPIE: Checkable Query Plans and Evidence-Guided Selection for Text-to-SQL",
+            "published_at": "2026-10-12T23:31:04Z"
+          },
+          {
+            "url": "https://arxiv.org/abs/2610.16916v1",
+            "title": "Transparent Information Flow Modeling for Role-Aware AI Act Assessment",
+            "published_at": "2026-10-12T14:59:52Z"
+          },
+          {
+            "url": "https://arxiv.org/abs/2610.13717v1",
+            "title": "Machine Unlearning for Federated Socially Fair k-Means Clustering",
+            "published_at": "2026-10-09T15:16:48Z"
+          }
+        ]
+      },
+      "legacy_proxy_id": "responsible_ai",
+      "measurement_scope": "Inherited narrow topic proxy; not full taxonomy coverage."
+    }
+  ],
+  "limitations": "Research-topic momentum, NOT job-demand growth. Queries overlap and do not cover all skill meanings."
+}

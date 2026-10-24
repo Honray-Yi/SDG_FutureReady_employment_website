@@ -1,0 +1,38 @@
+{
+  "checked_on": "2026-10-20",
+  "method": "Provider page titles and relevant course/access content inspected via HTTP or web reader",
+  "retired_urls": [
+    "https://www.open.edu/openlearn/money-business/what-strategic-human-resource-management/content-section-0",
+    "https://www.open.edu/openlearn/science-maths-technology/introduction-cyber-security/content-section-overview"
+  ],
+  "notes": [
+    "C15/C19 reviewed through web reader after direct HTTP failed.",
+    "C16 free, 1 hour 30 min; C21 MYR 90, 1 hour; C22 MYR 47, 44 min.",
+    "No paid enrolment or claimability test performed; C12/C20 omitted from default free pathways.",
+    "HTTP 200 alone is not used to establish course price or relevance."
+  ],
+  "deeplearning_access_source": "https://info.deeplearning.ai/knowledge-base/what-do-i-get-with-the-deeplearning.ai-pro-membership-that-i-dont-get-for-free",
+  "local_sources": [
+    {
+      "url": "https://elatih.hrdcorp.gov.my/courses-details/future-skills-mapping-for-organisations-1",
+      "title": "Future Skills Mapping for Organisations",
+      "price": 0,
+      "currency": "MYR",
+      "duration_hours": 1.5
+    },
+    {
+      "url": "https://elatih.hrdcorp.gov.my/courses-details/data-privacy-and-protection",
+      "title": "Data Privacy and Protection",
+      "price": 90,
+      "currency": "MYR",
+      "duration_hours": 1
+    },
+    {
+      "url": "https://elatih.hrdcorp.gov.my/courses-details/using-ai-to-boost-employee-engagement-predict-burnout-and-improve-retention",
+      "title": "Using AI to Boost Employee Engagement: Predict Burnout and Improve Retention",
+      "price": 47,
+      "currency": "MYR",
+      "duration_hours": 0.733
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+[
+  {"id":"16ab0fa1-2b01-4b0c-8d44-a10100000001","position":1,"filepath":"src/pages/slides/Cover.tsx","title":"FutureReady","description":"Resume experience, career direction and credible learning resources.","speakerNotes":""},
+  {"id":"16ab0fa1-2b01-4b0c-8d44-a10100000002","position":2,"filepath":"src/pages/slides/Problem.tsx","title":"The problem: career exploration is fragmented","description":"The problem and the need for transparent career exploration.","speakerNotes":""},
+  {"id":"16ab0fa1-2b01-4b0c-8d44-a10100000003","position":3,"filepath":"src/pages/slides/Users.tsx","title":"Who FutureReady is designed for","description":"Intended users and bilingual access.","speakerNotes":""},
+  {"id":"16ab0fa1-2b01-4b0c-8d44-a10100000004","position":4,"filepath":"src/pages/slides/Scope.tsx","title":"Scope: one connected exploration journey","description":"Connected upload, review, matching and learning workflow.","speakerNotes":""},
+  {"id":"16ab0fa1-2b01-4b0c-8d44-a10100000005","position":5,"filepath":"src/pages/slides/Matching.tsx","title":"How the matching works","description":"Local embeddings, cosine scores and keyword evidence.","speakerNotes":""},
+  {"id":"16ab0fa1-2b01-4b0c-8d44-a10100000006","position":6,"filepath":"src/pages/slides/Sdg.tsx","title":"SDG alignment: learning, work and inclusion","description":"Project and role-level potential SDG alignment.","speakerNotes":""},
+  {"id":"16ab0fa1-2b01-4b0c-8d44-a10100000007","position":7,"filepath":"src/pages/slides/Architecture.tsx","title":"A transparent full-stack architecture","description":"Frontend, backend, data and interface contracts.","speakerNotes":""},
+  {"id":"16ab0fa1-2b01-4b0c-8d44-a10100000008","position":8,"filepath":"src/pages/slides/Sources.tsx","title":"Sources and learning recommendations","description":"Data provenance and source-reviewed learning resources.","speakerNotes":""},
+  {"id":"16ab0fa1-2b01-4b0c-8d44-a10100000009","position":9,"filepath":"src/pages/slides/Safety.tsx","title":"A working demo, with explicit safety boundaries","description":"Shared demo authentication and privacy limits.","speakerNotes":""},
+  {"id":"16ab0fa1-2b01-4b0c-8d44-a10100000010","position":10,"filepath":"src/pages/slides/Delivery.tsx","title":"Verified delivery—and responsible use","description":"Completed checks and portable source delivery.","speakerNotes":""}
+]

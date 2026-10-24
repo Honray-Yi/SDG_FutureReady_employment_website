@@ -1,0 +1,1350 @@
+[
+  {
+    "course_id": "C01",
+    "title": "CS50's Introduction to Programming with Python",
+    "provider": "Harvard CS50",
+    "url": "https://cs50.harvard.edu/python/",
+    "skill_ids": [
+      "python"
+    ],
+    "estimated_hours": 30,
+    "duration_basis": "team_planning_estimate_verify_before_enrolment",
+    "prerequisite_course_ids": [],
+    "pathway_stage": 1,
+    "cost_access": "open_materials",
+    "tuition_amount": 0,
+    "currency": null,
+    "extra_cost_note": "Certificates, hosted APIs, cloud compute or labs may cost extra.",
+    "hrd_claimable_status": "not_verified",
+    "mapping_status": "curated_partial_skill_coverage",
+    "recommendation_note": "A course addresses part of a gap; completion does not certify target-level mastery.",
+    "link_check_status": "retrieved",
+    "checked_at": "2026-10-20T10:00:48.675802+00:00",
+    "source_url": "https://cs50.harvard.edu/python/",
+    "catalogue_origin": "manually curated from provider pages",
+    "default_recommendation_eligible": true,
+    "price_scope": "Learning materials/video access only; not all labs or credentials.",
+    "resource_type": "course_or_curriculum",
+    "parent_course_id": null,
+    "difficulty_level": "Beginner",
+    "difficulty_basis": "team_curated_for_this_pathway_not_provider_accreditation",
+    "pathway_stage_label": "Stage 1: Foundations and Literacy",
+    "pathway_stage_basis": "team_curated_learning_order",
+    "resource_format": [
+      "video",
+      "text_notes",
+      "code_exercises"
+    ],
+    "metadata_reviewed_at": "2026-10-20T10:51:59.171483+00:00",
+    "language_support": [
+      {
+        "language_code": "en",
+        "language_label": "English",
+        "mode": "written_material_or_public_lesson",
+        "verification_status": "public_material_verified",
+        "evidence_url": "https://cs50.harvard.edu/python/",
+        "checked_at": "2026-10-20T10:00:48.675802+00:00",
+        "scope_note": "Public learning materials only; not a guarantee about every video, lab or assessment."
+      }
+    ],
+    "language_verification_status": "public_material_language_verified",
+    "subtitle_languages_verified": [
+      "en"
+    ],
+    "subtitle_verification_status": "sample_lesson_verified_not_coursewide",
+    "language_note_zh": "只记录有证据的教材语言；课程页面语言、浏览器自动翻译和字幕语言不等价。未列某语言不表示该语言不存在。",
+    "low_bandwidth_access": {
+      "text_alternative_available": true,
+      "evidence_url": "https://cs50.harvard.edu/python/weeks/0/",
+      "scope": "Reading portions only; videos, downloads, model APIs and labs may require more bandwidth.",
+      "assessment_basis": "team_review_of_public_resource_format"
+    },
+    "subtitle_evidence_url": "https://cdn.cs50.net/python/2022/x/lectures/0/lang/en/lecture0.srt",
+    "recommended_preparation_course_ids": []
+  },
+  {
+    "course_id": "C02",
+    "title": "CS50's Introduction to Databases with SQL",
+    "provider": "Harvard CS50",
+    "url": "https://cs50.harvard.edu/sql/",
+    "skill_ids": [
+      "sql"
+    ],
+    "estimated_hours": 24,
+    "duration_basis": "team_planning_estimate_verify_before_enrolment",
+    "prerequisite_course_ids": [],
+    "pathway_stage": 1,
+    "cost_access": "open_materials",
+    "tuition_amount": 0,
+    "currency": null,
+    "extra_cost_note": "Certificates, hosted APIs, cloud compute or labs may cost extra.",
+    "hrd_claimable_status": "not_verified",
+    "mapping_status": "curated_partial_skill_coverage",
+    "recommendation_note": "A course addresses part of a gap; completion does not certify target-level mastery.",
+    "link_check_status": "retrieved",
+    "checked_at": "2026-10-20T10:00:48.666856+00:00",
+    "source_url": "https://cs50.harvard.edu/sql/",
+    "catalogue_origin": "manually curated from provider pages",
+    "default_recommendation_eligible": true,
+    "price_scope": "Learning materials/video access only; not all labs or credentials.",
+    "resource_type": "course_or_curriculum",
+    "parent_course_id": null,
+    "difficulty_level": "Beginner",
+    "difficulty_basis": "team_curated_for_this_pathway_not_provider_accreditation",
+    "pathway_stage_label": "Stage 1: Foundations and Literacy",
+    "pathway_stage_basis": "team_curated_learning_order",
+    "resource_format": [
+      "video",
+      "text_notes",
+      "code_exercises"
+    ],
+    "metadata_reviewed_at": "2026-10-20T10:51:59.171483+00:00",
+    "language_support": [
+      {
+        "language_code": "en",
+        "language_label": "English",
+        "mode": "written_material_or_public_lesson",
+        "verification_status": "public_material_verified",
+        "evidence_url": "https://cs50.harvard.edu/sql/",
+        "checked_at": "2026-10-20T10:00:48.666856+00:00",
+        "scope_note": "Public learning materials only; not a guarantee about every video, lab or assessment."
+      }
+    ],
+    "language_verification_status": "public_material_language_verified",
+    "subtitle_languages_verified": [],
+    "subtitle_verification_status": "not_verified",
+    "language_note_zh": "只记录有证据的教材语言；课程页面语言、浏览器自动翻译和字幕语言不等价。未列某语言不表示该语言不存在。",
+    "low_bandwidth_access": {
+      "text_alternative_available": true,
+      "evidence_url": "https://cs50.harvard.edu/sql/",
+      "scope": "Reading portions only; videos, downloads, model APIs and labs may require more bandwidth.",
+      "assessment_basis": "team_review_of_public_resource_format"
+    },
+    "recommended_preparation_course_ids": []
+  },
+  {
+    "course_id": "C03",
+    "title": "Data Science for Beginners",
+    "provider": "Microsoft",
+    "url": "https://github.com/microsoft/Data-Science-For-Beginners",
+    "skill_ids": [
+      "analytics",
+      "python"
+    ],
+    "estimated_hours": 24,
+    "duration_basis": "team_planning_estimate_verify_before_enrolment",
+    "prerequisite_course_ids": [],
+    "pathway_stage": 1,
+    "cost_access": "open_materials",
+    "tuition_amount": 0,
+    "currency": null,
+    "extra_cost_note": "Certificates, hosted APIs, cloud compute or labs may cost extra.",
+    "hrd_claimable_status": "not_verified",
+    "mapping_status": "curated_partial_skill_coverage",
+    "recommendation_note": "A course addresses part of a gap; completion does not certify target-level mastery.",
+    "link_check_status": "retrieved",
+    "checked_at": "2026-10-20T10:00:48.755492+00:00",
+    "source_url": "https://github.com/microsoft/Data-Science-For-Beginners",
+    "catalogue_origin": "manually curated from provider pages",
+    "default_recommendation_eligible": true,
+    "price_scope": "Learning materials/video access only; not all labs or credentials.",
+    "resource_type": "course_or_curriculum",
+    "parent_course_id": null,
+    "difficulty_level": "Beginner",
+    "difficulty_basis": "team_curated_for_this_pathway_not_provider_accreditation",
+    "pathway_stage_label": "Stage 1: Foundations and Literacy",
+    "pathway_stage_basis": "team_curated_learning_order",
+    "resource_format": [
+      "text",
+      "notebooks",
+      "exercises"
+    ],
+    "metadata_reviewed_at": "2026-10-20T10:51:59.171483+00:00",
+    "language_support": [
+      {
+        "language_code": "en",
+        "language_label": "English",
+        "mode": "written_material_or_public_lesson",
+        "verification_status": "public_material_verified",
+        "evidence_url": "https://github.com/microsoft/Data-Science-For-Beginners",
+        "checked_at": "2026-10-20T10:00:48.755492+00:00",
+        "scope_note": "Public learning materials only; not a guarantee about every video, lab or assessment."
+      }
+    ],
+    "language_verification_status": "public_material_language_verified",
+    "subtitle_languages_verified": [],
+    "subtitle_verification_status": "not_verified",
+    "language_note_zh": "只记录有证据的教材语言；课程页面语言、浏览器自动翻译和字幕语言不等价。未列某语言不表示该语言不存在。",
+    "low_bandwidth_access": {
+      "text_alternative_available": true,
+      "evidence_url": "https://github.com/microsoft/Data-Science-For-Beginners",
+      "scope": "Reading portions only; videos, downloads, model APIs and labs may require more bandwidth.",
+      "assessment_basis": "team_review_of_public_resource_format"
+    },
+    "recommended_preparation_course_ids": []
+  },
+  {
+    "course_id": "C04",
+    "title": "Machine Learning for Beginners",
+    "provider": "Microsoft",
+    "url": "https://github.com/microsoft/ML-For-Beginners",
+    "skill_ids": [
+      "ml"
+    ],
+    "estimated_hours": 30,
+    "duration_basis": "team_planning_estimate_verify_before_enrolment",
+    "prerequisite_course_ids": [
+      "C01"
+    ],
+    "pathway_stage": 2,
+    "cost_access": "open_materials",
+    "tuition_amount": 0,
+    "currency": null,
+    "extra_cost_note": "Certificates, hosted APIs, cloud compute or labs may cost extra.",
+    "hrd_claimable_status": "not_verified",
+    "mapping_status": "curated_partial_skill_coverage",
+    "recommendation_note": "A course addresses part of a gap; completion does not certify target-level mastery.",
+    "link_check_status": "retrieved",
+    "checked_at": "2026-10-20T10:00:48.660209+00:00",
+    "source_url": "https://github.com/microsoft/ML-For-Beginners",
+    "catalogue_origin": "manually curated from provider pages",
+    "default_recommendation_eligible": true,
+    "price_scope": "Learning materials/video access only; not all labs or credentials.",
+    "resource_type": "course_or_curriculum",
+    "parent_course_id": null,
+    "difficulty_level": "Intermediate",
+    "difficulty_basis": "team_curated_for_this_pathway_not_provider_accreditation",
+    "pathway_stage_label": "Stage 2: Applied Skills",
+    "pathway_stage_basis": "team_curated_learning_order",
+    "resource_format": [
+      "text",
+      "notebooks",
+      "exercises"
+    ],
+    "metadata_reviewed_at": "2026-10-20T10:51:59.171483+00:00",
+    "language_support": [
+      {
+        "language_code": "en",
+        "language_label": "English",
+        "mode": "written_material_or_public_lesson",
+        "verification_status": "public_material_verified",
+        "evidence_url": "https://github.com/microsoft/ML-For-Beginners",
+        "checked_at": "2026-10-20T10:00:48.660209+00:00",
+        "scope_note": "Public learning materials only; not a guarantee about every video, lab or assessment."
+      }
+    ],
+    "language_verification_status": "public_material_language_verified",
+    "subtitle_languages_verified": [],
+    "subtitle_verification_status": "not_verified",
+    "language_note_zh": "只记录有证据的教材语言；课程页面语言、浏览器自动翻译和字幕语言不等价。未列某语言不表示该语言不存在。",
+    "low_bandwidth_access": {
+      "text_alternative_available": true,
+      "evidence_url": "https://github.com/microsoft/ML-For-Beginners",
+      "scope": "Reading portions only; videos, downloads, model APIs and labs may require more bandwidth.",
+      "assessment_basis": "team_review_of_public_resource_format"
+    },
+    "recommended_preparation_course_ids": []
+  },
+  {
+    "course_id": "C05",
+    "title": "Practical Deep Learning for Coders",
+    "provider": "fast.ai",
+    "url": "https://course.fast.ai/",
+    "skill_ids": [
+      "deep_learning",
+      "ml"
+    ],
+    "estimated_hours": 30,
+    "duration_basis": "team_planning_estimate_verify_before_enrolment",
+    "prerequisite_course_ids": [
+      "C01",
+      "C04"
+    ],
+    "pathway_stage": 2,
+    "cost_access": "free_course",
+    "tuition_amount": 0,
+    "currency": null,
+    "extra_cost_note": "Certificates, hosted APIs, cloud compute or labs may cost extra.",
+    "hrd_claimable_status": "not_verified",
+    "mapping_status": "curated_partial_skill_coverage",
+    "recommendation_note": "A course addresses part of a gap; completion does not certify target-level mastery.",
+    "link_check_status": "retrieved",
+    "checked_at": "2026-10-20T10:00:49.413682+00:00",
+    "source_url": "https://course.fast.ai/",
+    "catalogue_origin": "manually curated from provider pages",
+    "default_recommendation_eligible": true,
+    "price_scope": "Learning materials/video access only; not all labs or credentials.",
+    "resource_type": "course_or_curriculum",
+    "parent_course_id": null,
+    "difficulty_level": "Intermediate",
+    "difficulty_basis": "team_curated_for_this_pathway_not_provider_accreditation",
+    "pathway_stage_label": "Stage 2: Applied Skills",
+    "pathway_stage_basis": "team_curated_learning_order",
+    "resource_format": [
+      "video",
+      "notebooks",
+      "book"
+    ],
+    "metadata_reviewed_at": "2026-10-20T10:51:59.171483+00:00",
+    "language_support": [
+      {
+        "language_code": "en",
+        "language_label": "English",
+        "mode": "written_material_or_public_lesson",
+        "verification_status": "public_material_verified",
+        "evidence_url": "https://course.fast.ai/",
+        "checked_at": "2026-10-20T10:00:49.413682+00:00",
+        "scope_note": "Public learning materials only; not a guarantee about every video, lab or assessment."
+      }
+    ],
+    "language_verification_status": "public_material_language_verified",
+    "subtitle_languages_verified": [],
+    "subtitle_verification_status": "not_verified",
+    "language_note_zh": "只记录有证据的教材语言；课程页面语言、浏览器自动翻译和字幕语言不等价。未列某语言不表示该语言不存在。",
+    "low_bandwidth_access": {
+      "text_alternative_available": null,
+      "evidence_url": null,
+      "scope": "Reading portions only; videos, downloads, model APIs and labs may require more bandwidth.",
+      "assessment_basis": "team_review_of_public_resource_format"
+    },
+    "recommended_preparation_course_ids": []
+  },
+  {
+    "course_id": "C06",
+    "title": "LLM Course",
+    "provider": "Hugging Face",
+    "url": "https://huggingface.co/learn/llm-course/chapter1/1",
+    "skill_ids": [
+      "nlp",
+      "llm"
+    ],
+    "estimated_hours": 24,
+    "duration_basis": "team_planning_estimate_verify_before_enrolment",
+    "prerequisite_course_ids": [
+      "C01",
+      "C04"
+    ],
+    "pathway_stage": 2,
+    "cost_access": "open_materials",
+    "tuition_amount": 0,
+    "currency": null,
+    "extra_cost_note": "Certificates, hosted APIs, cloud compute or labs may cost extra.",
+    "hrd_claimable_status": "not_verified",
+    "mapping_status": "curated_partial_skill_coverage",
+    "recommendation_note": "A course addresses part of a gap; completion does not certify target-level mastery.",
+    "link_check_status": "retrieved",
+    "checked_at": "2026-10-20T10:00:49.759323+00:00",
+    "source_url": "https://huggingface.co/learn/llm-course/chapter1/1",
+    "catalogue_origin": "manually curated from provider pages",
+    "default_recommendation_eligible": true,
+    "price_scope": "Learning materials/video access only; not all labs or credentials.",
+    "resource_type": "course_or_curriculum",
+    "parent_course_id": null,
+    "difficulty_level": "Intermediate",
+    "difficulty_basis": "team_curated_for_this_pathway_not_provider_accreditation",
+    "pathway_stage_label": "Stage 2: Applied Skills",
+    "pathway_stage_basis": "team_curated_learning_order",
+    "resource_format": [
+      "text",
+      "notebooks",
+      "video"
+    ],
+    "metadata_reviewed_at": "2026-10-20T10:51:59.171483+00:00",
+    "language_support": [
+      {
+        "language_code": "en",
+        "language_label": "English",
+        "mode": "written_material_or_public_lesson",
+        "verification_status": "public_material_verified",
+        "evidence_url": "https://huggingface.co/learn/llm-course/chapter1/1",
+        "checked_at": "2026-10-20T10:00:49.759323+00:00",
+        "scope_note": "Public learning materials only; not a guarantee about every video, lab or assessment."
+      },
+      {
+        "language_code": "zh-CN",
+        "language_label": "Chinese (Simplified)",
+        "mode": "translated_text",
+        "verification_status": "public_material_verified",
+        "evidence_url": "https://huggingface.co/learn/llm-course/zh-CN/chapter1/1",
+        "checked_at": "2026-10-20T10:48:14.790100+00:00",
+        "scope_note": "Translation entry/chapter verified; coverage and currency may differ from English. Not verified video subtitles."
+      }
+    ],
+    "language_verification_status": "public_material_language_verified",
+    "subtitle_languages_verified": [],
+    "subtitle_verification_status": "not_verified",
+    "language_note_zh": "只记录有证据的教材语言；课程页面语言、浏览器自动翻译和字幕语言不等价。未列某语言不表示该语言不存在。",
+    "low_bandwidth_access": {
+      "text_alternative_available": true,
+      "evidence_url": "https://huggingface.co/learn/llm-course/chapter1/1",
+      "scope": "Reading portions only; videos, downloads, model APIs and labs may require more bandwidth.",
+      "assessment_basis": "team_review_of_public_resource_format"
+    },
+    "recommended_preparation_course_ids": [
+      "C05"
+    ],
+    "preparation_source_url": "https://huggingface.co/learn/llm-course/en/chapter1/1",
+    "preparation_note": "Provider recommends prior introductory deep learning. This is recommended preparation, not a compulsory enrolment prerequisite."
+  },
+  {
+    "course_id": "C07",
+    "title": "Generative AI for Beginners",
+    "provider": "Microsoft",
+    "url": "https://github.com/microsoft/generative-ai-for-beginners",
+    "skill_ids": [
+      "llm",
+      "prompting",
+      "rag"
+    ],
+    "estimated_hours": 20,
+    "duration_basis": "team_planning_estimate_verify_before_enrolment",
+    "prerequisite_course_ids": [
+      "C01"
+    ],
+    "pathway_stage": 2,
+    "cost_access": "open_materials",
+    "tuition_amount": 0,
+    "currency": null,
+    "extra_cost_note": "Certificates, hosted APIs, cloud compute or labs may cost extra.",
+    "hrd_claimable_status": "not_verified",
+    "mapping_status": "curated_partial_skill_coverage",
+    "recommendation_note": "A course addresses part of a gap; completion does not certify target-level mastery.",
+    "link_check_status": "retrieved",
+    "checked_at": "2026-10-20T10:00:50.428967+00:00",
+    "source_url": "https://github.com/microsoft/generative-ai-for-beginners",
+    "catalogue_origin": "manually curated from provider pages",
+    "default_recommendation_eligible": true,
+    "price_scope": "Learning materials/video access only; not all labs or credentials.",
+    "resource_type": "course_or_curriculum",
+    "parent_course_id": null,
+    "difficulty_level": "Intermediate",
+    "difficulty_basis": "team_curated_for_this_pathway_not_provider_accreditation",
+    "pathway_stage_label": "Stage 2: Applied Skills",
+    "pathway_stage_basis": "team_curated_learning_order",
+    "resource_format": [
+      "text",
+      "code_examples",
+      "video"
+    ],
+    "metadata_reviewed_at": "2026-10-20T10:51:59.171483+00:00",
+    "language_support": [
+      {
+        "language_code": "en",
+        "language_label": "English",
+        "mode": "written_material_or_public_lesson",
+        "verification_status": "public_material_verified",
+        "evidence_url": "https://github.com/microsoft/generative-ai-for-beginners",
+        "checked_at": "2026-10-20T10:00:50.428967+00:00",
+        "scope_note": "Public learning materials only; not a guarantee about every video, lab or assessment."
+      },
+      {
+        "language_code": "ms",
+        "language_label": "Bahasa Melayu",
+        "mode": "machine_translated_text",
+        "verification_status": "public_material_verified",
+        "evidence_url": "https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/main/translations/ms/README.md",
+        "checked_at": "2026-10-20T10:48:14.550180+00:00",
+        "scope_note": "Translation entry/chapter verified; coverage and currency may differ from English. Not verified video subtitles."
+      },
+      {
+        "language_code": "zh-CN",
+        "language_label": "Chinese (Simplified)",
+        "mode": "machine_translated_text",
+        "verification_status": "public_material_verified",
+        "evidence_url": "https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/main/translations/zh-CN/README.md",
+        "checked_at": "2026-10-20T10:48:14.977833+00:00",
+        "scope_note": "Translation entry/chapter verified; coverage and currency may differ from English. Not verified video subtitles."
+      }
+    ],
+    "language_verification_status": "public_material_language_verified",
+    "subtitle_languages_verified": [],
+    "subtitle_verification_status": "not_verified",
+    "language_note_zh": "只记录有证据的教材语言；课程页面语言、浏览器自动翻译和字幕语言不等价。未列某语言不表示该语言不存在。",
+    "low_bandwidth_access": {
+      "text_alternative_available": true,
+      "evidence_url": "https://github.com/microsoft/generative-ai-for-beginners",
+      "scope": "Reading portions only; videos, downloads, model APIs and labs may require more bandwidth.",
+      "assessment_basis": "team_review_of_public_resource_format"
+    },
+    "recommended_preparation_course_ids": []
+  },
+  {
+    "course_id": "C08",
+    "title": "AI Agents for Beginners",
+    "provider": "Microsoft",
+    "url": "https://github.com/microsoft/ai-agents-for-beginners",
+    "skill_ids": [
+      "agents",
+      "evaluation"
+    ],
+    "estimated_hours": 18,
+    "duration_basis": "team_planning_estimate_verify_before_enrolment",
+    "prerequisite_course_ids": [
+      "C07"
+    ],
+    "pathway_stage": 2,
+    "cost_access": "open_materials",
+    "tuition_amount": 0,
+    "currency": null,
+    "extra_cost_note": "Certificates, hosted APIs, cloud compute or labs may cost extra.",
+    "hrd_claimable_status": "not_verified",
+    "mapping_status": "curated_partial_skill_coverage",
+    "recommendation_note": "A course addresses part of a gap; completion does not certify target-level mastery.",
+    "link_check_status": "retrieved",
+    "checked_at": "2026-10-20T10:00:50.331842+00:00",
+    "source_url": "https://github.com/microsoft/ai-agents-for-beginners",
+    "catalogue_origin": "manually curated from provider pages",
+    "default_recommendation_eligible": true,
+    "price_scope": "Learning materials/video access only; not all labs or credentials.",
+    "resource_type": "course_or_curriculum",
+    "parent_course_id": null,
+    "difficulty_level": "Intermediate",
+    "difficulty_basis": "team_curated_for_this_pathway_not_provider_accreditation",
+    "pathway_stage_label": "Stage 2: Applied Skills",
+    "pathway_stage_basis": "team_curated_learning_order",
+    "resource_format": [
+      "text",
+      "notebooks",
+      "video"
+    ],
+    "metadata_reviewed_at": "2026-10-20T10:51:59.171483+00:00",
+    "language_support": [
+      {
+        "language_code": "en",
+        "language_label": "English",
+        "mode": "written_material_or_public_lesson",
+        "verification_status": "public_material_verified",
+        "evidence_url": "https://github.com/microsoft/ai-agents-for-beginners",
+        "checked_at": "2026-10-20T10:00:50.331842+00:00",
+        "scope_note": "Public learning materials only; not a guarantee about every video, lab or assessment."
+      }
+    ],
+    "language_verification_status": "public_material_language_verified",
+    "subtitle_languages_verified": [],
+    "subtitle_verification_status": "not_verified",
+    "language_note_zh": "只记录有证据的教材语言；课程页面语言、浏览器自动翻译和字幕语言不等价。未列某语言不表示该语言不存在。",
+    "low_bandwidth_access": {
+      "text_alternative_available": true,
+      "evidence_url": "https://github.com/microsoft/ai-agents-for-beginners",
+      "scope": "Reading portions only; videos, downloads, model APIs and labs may require more bandwidth.",
+      "assessment_basis": "team_review_of_public_resource_format"
+    },
+    "recommended_preparation_course_ids": []
+  },
+  {
+    "course_id": "C09",
+    "title": "Agents Course",
+    "provider": "Hugging Face",
+    "url": "https://huggingface.co/learn/agents-course/unit0/introduction",
+    "skill_ids": [
+      "agents",
+      "rag"
+    ],
+    "estimated_hours": 16,
+    "duration_basis": "team_planning_estimate_verify_before_enrolment",
+    "prerequisite_course_ids": [
+      "C07"
+    ],
+    "pathway_stage": 2,
+    "cost_access": "free_course",
+    "tuition_amount": 0,
+    "currency": null,
+    "extra_cost_note": "Certificates, hosted APIs, cloud compute or labs may cost extra.",
+    "hrd_claimable_status": "not_verified",
+    "mapping_status": "curated_partial_skill_coverage",
+    "recommendation_note": "A course addresses part of a gap; completion does not certify target-level mastery.",
+    "link_check_status": "retrieved",
+    "checked_at": "2026-10-20T10:00:50.331842+00:00",
+    "source_url": "https://huggingface.co/learn/agents-course/unit0/introduction",
+    "catalogue_origin": "manually curated from provider pages",
+    "default_recommendation_eligible": true,
+    "price_scope": "Learning materials/video access only; not all labs or credentials.",
+    "resource_type": "course_or_curriculum",
+    "parent_course_id": null,
+    "difficulty_level": "Intermediate",
+    "difficulty_basis": "team_curated_for_this_pathway_not_provider_accreditation",
+    "pathway_stage_label": "Stage 2: Applied Skills",
+    "pathway_stage_basis": "team_curated_learning_order",
+    "resource_format": [
+      "text",
+      "notebooks",
+      "video"
+    ],
+    "metadata_reviewed_at": "2026-10-20T10:51:59.171483+00:00",
+    "language_support": [
+      {
+        "language_code": "en",
+        "language_label": "English",
+        "mode": "written_material_or_public_lesson",
+        "verification_status": "public_material_verified",
+        "evidence_url": "https://huggingface.co/learn/agents-course/unit0/introduction",
+        "checked_at": "2026-10-20T10:00:50.331842+00:00",
+        "scope_note": "Public learning materials only; not a guarantee about every video, lab or assessment."
+      }
+    ],
+    "language_verification_status": "public_material_language_verified",
+    "subtitle_languages_verified": [],
+    "subtitle_verification_status": "not_verified",
+    "language_note_zh": "只记录有证据的教材语言；课程页面语言、浏览器自动翻译和字幕语言不等价。未列某语言不表示该语言不存在。",
+    "low_bandwidth_access": {
+      "text_alternative_available": true,
+      "evidence_url": "https://huggingface.co/learn/agents-course/unit0/introduction",
+      "scope": "Reading portions only; videos, downloads, model APIs and labs may require more bandwidth.",
+      "assessment_basis": "team_review_of_public_resource_format"
+    },
+    "recommended_preparation_course_ids": []
+  },
+  {
+    "course_id": "C10",
+    "title": "MLOps Zoomcamp",
+    "provider": "DataTalks.Club",
+    "url": "https://github.com/DataTalksClub/mlops-zoomcamp",
+    "skill_ids": [
+      "mlops",
+      "evaluation"
+    ],
+    "estimated_hours": 36,
+    "duration_basis": "team_planning_estimate_verify_before_enrolment",
+    "prerequisite_course_ids": [
+      "C01",
+      "C04"
+    ],
+    "pathway_stage": 3,
+    "cost_access": "open_materials",
+    "tuition_amount": 0,
+    "currency": null,
+    "extra_cost_note": "Certificates, hosted APIs, cloud compute or labs may cost extra.",
+    "hrd_claimable_status": "not_verified",
+    "mapping_status": "curated_partial_skill_coverage",
+    "recommendation_note": "A course addresses part of a gap; completion does not certify target-level mastery.",
+    "link_check_status": "retrieved",
+    "checked_at": "2026-10-20T10:00:51.354663+00:00",
+    "source_url": "https://github.com/DataTalksClub/mlops-zoomcamp",
+    "catalogue_origin": "manually curated from provider pages",
+    "default_recommendation_eligible": true,
+    "price_scope": "Learning materials/video access only; not all labs or credentials.",
+    "resource_type": "course_or_curriculum",
+    "parent_course_id": null,
+    "difficulty_level": "Advanced",
+    "difficulty_basis": "team_curated_for_this_pathway_not_provider_accreditation",
+    "pathway_stage_label": "Stage 3: Engineering Practice",
+    "pathway_stage_basis": "team_curated_learning_order",
+    "resource_format": [
+      "video",
+      "notebooks",
+      "projects"
+    ],
+    "metadata_reviewed_at": "2026-10-20T10:51:59.171483+00:00",
+    "language_support": [
+      {
+        "language_code": "en",
+        "language_label": "English",
+        "mode": "written_material_or_public_lesson",
+        "verification_status": "public_material_verified",
+        "evidence_url": "https://github.com/DataTalksClub/mlops-zoomcamp",
+        "checked_at": "2026-10-20T10:00:51.354663+00:00",
+        "scope_note": "Public learning materials only; not a guarantee about every video, lab or assessment."
+      }
+    ],
+    "language_verification_status": "public_material_language_verified",
+    "subtitle_languages_verified": [],
+    "subtitle_verification_status": "not_verified",
+    "language_note_zh": "只记录有证据的教材语言；课程页面语言、浏览器自动翻译和字幕语言不等价。未列某语言不表示该语言不存在。",
+    "low_bandwidth_access": {
+      "text_alternative_available": null,
+      "evidence_url": null,
+      "scope": "Reading portions only; videos, downloads, model APIs and labs may require more bandwidth.",
+      "assessment_basis": "team_review_of_public_resource_format"
+    },
+    "recommended_preparation_course_ids": []
+  },
+  {
+    "course_id": "C11",
+    "title": "Data Engineering Zoomcamp",
+    "provider": "DataTalks.Club",
+    "url": "https://github.com/DataTalksClub/data-engineering-zoomcamp",
+    "skill_ids": [
+      "sql",
+      "cloud"
+    ],
+    "estimated_hours": 40,
+    "duration_basis": "team_planning_estimate_verify_before_enrolment",
+    "prerequisite_course_ids": [
+      "C01",
+      "C02"
+    ],
+    "pathway_stage": 3,
+    "cost_access": "open_materials",
+    "tuition_amount": 0,
+    "currency": null,
+    "extra_cost_note": "Certificates, hosted APIs, cloud compute or labs may cost extra.",
+    "hrd_claimable_status": "not_verified",
+    "mapping_status": "curated_partial_skill_coverage",
+    "recommendation_note": "A course addresses part of a gap; completion does not certify target-level mastery.",
+    "link_check_status": "retrieved",
+    "checked_at": "2026-10-20T10:00:51.468741+00:00",
+    "source_url": "https://github.com/DataTalksClub/data-engineering-zoomcamp",
+    "catalogue_origin": "manually curated from provider pages",
+    "default_recommendation_eligible": true,
+    "price_scope": "Learning materials/video access only; not all labs or credentials.",
+    "resource_type": "course_or_curriculum",
+    "parent_course_id": null,
+    "difficulty_level": "Advanced",
+    "difficulty_basis": "team_curated_for_this_pathway_not_provider_accreditation",
+    "pathway_stage_label": "Stage 3: Engineering Practice",
+    "pathway_stage_basis": "team_curated_learning_order",
+    "resource_format": [
+      "video",
+      "code_examples",
+      "projects"
+    ],
+    "metadata_reviewed_at": "2026-10-20T10:51:59.171483+00:00",
+    "language_support": [
+      {
+        "language_code": "en",
+        "language_label": "English",
+        "mode": "written_material_or_public_lesson",
+        "verification_status": "public_material_verified",
+        "evidence_url": "https://github.com/DataTalksClub/data-engineering-zoomcamp",
+        "checked_at": "2026-10-20T10:00:51.468741+00:00",
+        "scope_note": "Public learning materials only; not a guarantee about every video, lab or assessment."
+      }
+    ],
+    "language_verification_status": "public_material_language_verified",
+    "subtitle_languages_verified": [],
+    "subtitle_verification_status": "not_verified",
+    "language_note_zh": "只记录有证据的教材语言；课程页面语言、浏览器自动翻译和字幕语言不等价。未列某语言不表示该语言不存在。",
+    "low_bandwidth_access": {
+      "text_alternative_available": null,
+      "evidence_url": null,
+      "scope": "Reading portions only; videos, downloads, model APIs and labs may require more bandwidth.",
+      "assessment_basis": "team_review_of_public_resource_format"
+    },
+    "recommended_preparation_course_ids": []
+  },
+  {
+    "course_id": "C12",
+    "title": "Introduction to Kubernetes",
+    "provider": "Linux Foundation / edX",
+    "url": "https://www.edx.org/learn/kubernetes/the-linux-foundation-introduction-to-kubernetes",
+    "skill_ids": [
+      "cloud"
+    ],
+    "estimated_hours": 12,
+    "duration_basis": "team_planning_estimate_verify_before_enrolment",
+    "prerequisite_course_ids": [],
+    "pathway_stage": 2,
+    "cost_access": "verify_enrolment",
+    "tuition_amount": null,
+    "currency": null,
+    "extra_cost_note": "Certificates, hosted APIs, cloud compute or labs may cost extra.",
+    "hrd_claimable_status": "not_verified",
+    "mapping_status": "curated_partial_skill_coverage",
+    "recommendation_note": "A course addresses part of a gap; completion does not certify target-level mastery.",
+    "link_check_status": "retrieved",
+    "checked_at": "2026-10-20T10:00:50.987844+00:00",
+    "source_url": "https://www.edx.org/learn/kubernetes/the-linux-foundation-introduction-to-kubernetes",
+    "catalogue_origin": "manually curated from provider pages",
+    "default_recommendation_eligible": false,
+    "resource_type": "course_or_curriculum",
+    "parent_course_id": null,
+    "difficulty_level": "Intermediate",
+    "difficulty_basis": "team_curated_for_this_pathway_not_provider_accreditation",
+    "pathway_stage_label": "Stage 2: Applied Skills",
+    "pathway_stage_basis": "team_curated_learning_order",
+    "resource_format": [
+      "online_course"
+    ],
+    "metadata_reviewed_at": "2026-10-20T10:51:59.171483+00:00",
+    "language_support": [],
+    "language_verification_status": "course_delivery_language_not_verified",
+    "subtitle_languages_verified": [],
+    "subtitle_verification_status": "not_verified",
+    "language_note_zh": "只记录有证据的教材语言；课程页面语言、浏览器自动翻译和字幕语言不等价。未列某语言不表示该语言不存在。",
+    "low_bandwidth_access": {
+      "text_alternative_available": null,
+      "evidence_url": null,
+      "scope": "Reading portions only; videos, downloads, model APIs and labs may require more bandwidth.",
+      "assessment_basis": "team_review_of_public_resource_format"
+    },
+    "recommended_preparation_course_ids": []
+  },
+  {
+    "course_id": "C13",
+    "title": "ChatGPT Prompt Engineering for Developers",
+    "provider": "DeepLearning.AI",
+    "url": "https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/",
+    "skill_ids": [
+      "prompting"
+    ],
+    "estimated_hours": 4,
+    "duration_basis": "team_planning_estimate_verify_before_enrolment",
+    "prerequisite_course_ids": [
+      "C01"
+    ],
+    "pathway_stage": 2,
+    "cost_access": "free_videos_paid_extras",
+    "tuition_amount": 0,
+    "currency": null,
+    "extra_cost_note": "Certificates, hosted APIs, cloud compute or labs may cost extra.",
+    "hrd_claimable_status": "not_verified",
+    "mapping_status": "curated_partial_skill_coverage",
+    "recommendation_note": "A course addresses part of a gap; completion does not certify target-level mastery.",
+    "link_check_status": "retrieved",
+    "checked_at": "2026-10-20T10:00:51.557790+00:00",
+    "source_url": "https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/",
+    "catalogue_origin": "manually curated from provider pages",
+    "default_recommendation_eligible": true,
+    "price_scope": "Learning materials/video access only; not all labs or credentials.",
+    "resource_type": "course_or_curriculum",
+    "parent_course_id": null,
+    "difficulty_level": "Intermediate",
+    "difficulty_basis": "team_curated_for_this_pathway_not_provider_accreditation",
+    "pathway_stage_label": "Stage 2: Applied Skills",
+    "pathway_stage_basis": "team_curated_learning_order",
+    "resource_format": [
+      "video",
+      "code_examples"
+    ],
+    "metadata_reviewed_at": "2026-10-20T10:51:59.171483+00:00",
+    "language_support": [
+      {
+        "language_code": "en",
+        "language_label": "English",
+        "mode": "written_material_or_public_lesson",
+        "verification_status": "public_material_verified",
+        "evidence_url": "https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/",
+        "checked_at": "2026-10-20T10:00:51.557790+00:00",
+        "scope_note": "Public learning materials only; not a guarantee about every video, lab or assessment."
+      }
+    ],
+    "language_verification_status": "public_material_language_verified",
+    "subtitle_languages_verified": [],
+    "subtitle_verification_status": "not_verified",
+    "language_note_zh": "只记录有证据的教材语言；课程页面语言、浏览器自动翻译和字幕语言不等价。未列某语言不表示该语言不存在。",
+    "low_bandwidth_access": {
+      "text_alternative_available": null,
+      "evidence_url": null,
+      "scope": "Reading portions only; videos, downloads, model APIs and labs may require more bandwidth.",
+      "assessment_basis": "team_review_of_public_resource_format"
+    },
+    "recommended_preparation_course_ids": []
+  },
+  {
+    "course_id": "C14",
+    "title": "Evaluating and Debugging Generative AI",
+    "provider": "DeepLearning.AI",
+    "url": "https://www.deeplearning.ai/short-courses/evaluating-debugging-generative-ai/",
+    "skill_ids": [
+      "evaluation"
+    ],
+    "estimated_hours": 4,
+    "duration_basis": "team_planning_estimate_verify_before_enrolment",
+    "prerequisite_course_ids": [
+      "C07"
+    ],
+    "pathway_stage": 2,
+    "cost_access": "free_videos_paid_extras",
+    "tuition_amount": 0,
+    "currency": null,
+    "extra_cost_note": "Certificates, hosted APIs, cloud compute or labs may cost extra.",
+    "hrd_claimable_status": "not_verified",
+    "mapping_status": "curated_partial_skill_coverage",
+    "recommendation_note": "A course addresses part of a gap; completion does not certify target-level mastery.",
+    "link_check_status": "retrieved",
+    "checked_at": "2026-10-20T10:00:51.965348+00:00",
+    "source_url": "https://www.deeplearning.ai/short-courses/evaluating-debugging-generative-ai/",
+    "catalogue_origin": "manually curated from provider pages",
+    "default_recommendation_eligible": true,
+    "price_scope": "Learning materials/video access only; not all labs or credentials.",
+    "resource_type": "course_or_curriculum",
+    "parent_course_id": null,
+    "difficulty_level": "Intermediate",
+    "difficulty_basis": "team_curated_for_this_pathway_not_provider_accreditation",
+    "pathway_stage_label": "Stage 2: Applied Skills",
+    "pathway_stage_basis": "team_curated_learning_order",
+    "resource_format": [
+      "video",
+      "code_examples"
+    ],
+    "metadata_reviewed_at": "2026-10-20T10:51:59.171483+00:00",
+    "language_support": [
+      {
+        "language_code": "en",
+        "language_label": "English",
+        "mode": "written_material_or_public_lesson",
+        "verification_status": "public_material_verified",
+        "evidence_url": "https://www.deeplearning.ai/short-courses/evaluating-debugging-generative-ai/",
+        "checked_at": "2026-10-20T10:00:51.965348+00:00",
+        "scope_note": "Public learning materials only; not a guarantee about every video, lab or assessment."
+      }
+    ],
+    "language_verification_status": "public_material_language_verified",
+    "subtitle_languages_verified": [],
+    "subtitle_verification_status": "not_verified",
+    "language_note_zh": "只记录有证据的教材语言；课程页面语言、浏览器自动翻译和字幕语言不等价。未列某语言不表示该语言不存在。",
+    "low_bandwidth_access": {
+      "text_alternative_available": null,
+      "evidence_url": null,
+      "scope": "Reading portions only; videos, downloads, model APIs and labs may require more bandwidth.",
+      "assessment_basis": "team_review_of_public_resource_format"
+    },
+    "recommended_preparation_course_ids": []
+  },
+  {
+    "course_id": "C15",
+    "title": "Human Resource Management and EDI",
+    "provider": "The Open University",
+    "url": "https://www.open.edu/openlearn/money-business/human-resource-management-and-edi/content-section-0",
+    "skill_ids": [
+      "hr",
+      "responsible_ai"
+    ],
+    "estimated_hours": 2,
+    "duration_basis": "provider_stated",
+    "prerequisite_course_ids": [],
+    "pathway_stage": 1,
+    "cost_access": "free_course",
+    "tuition_amount": 0,
+    "currency": null,
+    "extra_cost_note": "Certificates, hosted APIs, cloud compute or labs may cost extra.",
+    "hrd_claimable_status": "not_verified",
+    "mapping_status": "curated_partial_skill_coverage",
+    "recommendation_note": "A course addresses part of a gap; completion does not certify target-level mastery.",
+    "link_check_status": "verified_via_web_reader",
+    "checked_at": "2026-10-20",
+    "source_url": "https://www.open.edu/openlearn/money-business/human-resource-management-and-edi/content-section-0",
+    "catalogue_origin": "manually curated from provider pages",
+    "default_recommendation_eligible": true,
+    "price_scope": "Learning materials/video access only; not all labs or credentials.",
+    "skill_coverage_note": "HR fairness and EDI foundations transfer to responsible AI review; this is not an AI technical course.",
+    "resource_type": "course_or_curriculum",
+    "parent_course_id": null,
+    "difficulty_level": "Beginner",
+    "difficulty_basis": "team_curated_for_this_pathway_not_provider_accreditation",
+    "pathway_stage_label": "Stage 1: Foundations and Literacy",
+    "pathway_stage_basis": "team_curated_learning_order",
+    "resource_format": [
+      "text",
+      "activities"
+    ],
+    "metadata_reviewed_at": "2026-10-20T10:51:59.171483+00:00",
+    "language_support": [
+      {
+        "language_code": "en",
+        "language_label": "English",
+        "mode": "written_material_or_public_lesson",
+        "verification_status": "public_material_verified",
+        "evidence_url": "https://www.open.edu/openlearn/money-business/human-resource-management-and-edi/content-section-0",
+        "checked_at": "2026-10-20",
+        "scope_note": "Public learning materials only; not a guarantee about every video, lab or assessment."
+      }
+    ],
+    "language_verification_status": "public_material_language_verified",
+    "subtitle_languages_verified": [],
+    "subtitle_verification_status": "not_verified",
+    "language_note_zh": "只记录有证据的教材语言；课程页面语言、浏览器自动翻译和字幕语言不等价。未列某语言不表示该语言不存在。",
+    "low_bandwidth_access": {
+      "text_alternative_available": true,
+      "evidence_url": "https://www.open.edu/openlearn/money-business/human-resource-management-and-edi/content-section-0",
+      "scope": "Reading portions only; videos, downloads, model APIs and labs may require more bandwidth.",
+      "assessment_basis": "team_review_of_public_resource_format"
+    },
+    "recommended_preparation_course_ids": []
+  },
+  {
+    "course_id": "C16",
+    "title": "Future Skills Mapping for Organisations",
+    "provider": "ACCESS IDEAS (M) SDN BHD / HRD Corp e-LATiH",
+    "url": "https://elatih.hrdcorp.gov.my/courses-details/future-skills-mapping-for-organisations-1",
+    "skill_ids": [
+      "hr",
+      "training",
+      "change"
+    ],
+    "estimated_hours": 1.5,
+    "duration_basis": "provider_stated",
+    "prerequisite_course_ids": [],
+    "pathway_stage": 1,
+    "cost_access": "free_course",
+    "tuition_amount": 0,
+    "currency": "MYR",
+    "extra_cost_note": "Certificates, hosted APIs, cloud compute or labs may cost extra.",
+    "hrd_claimable_status": "not_verified",
+    "mapping_status": "curated_partial_skill_coverage",
+    "recommendation_note": "A course addresses part of a gap; completion does not certify target-level mastery.",
+    "link_check_status": "retrieved",
+    "checked_at": "2026-10-20T10:05:34.964574+00:00",
+    "source_url": "https://elatih.hrdcorp.gov.my/courses-details/future-skills-mapping-for-organisations-1",
+    "catalogue_origin": "manually curated from provider pages",
+    "default_recommendation_eligible": true,
+    "price_scope": "Learning materials/video access only; not all labs or credentials.",
+    "replaced_source_note": "Retired OpenLearn strategic HR course excluded after verification.",
+    "resource_type": "course_or_curriculum",
+    "parent_course_id": null,
+    "difficulty_level": "Beginner",
+    "difficulty_basis": "team_curated_for_this_pathway_not_provider_accreditation",
+    "pathway_stage_label": "Stage 1: Foundations and Literacy",
+    "pathway_stage_basis": "team_curated_learning_order",
+    "resource_format": [
+      "online_course"
+    ],
+    "metadata_reviewed_at": "2026-10-20T10:51:59.171483+00:00",
+    "language_support": [],
+    "language_verification_status": "course_delivery_language_not_verified",
+    "subtitle_languages_verified": [],
+    "subtitle_verification_status": "not_verified",
+    "language_note_zh": "只记录有证据的教材语言；课程页面语言、浏览器自动翻译和字幕语言不等价。未列某语言不表示该语言不存在。",
+    "low_bandwidth_access": {
+      "text_alternative_available": null,
+      "evidence_url": null,
+      "scope": "Reading portions only; videos, downloads, model APIs and labs may require more bandwidth.",
+      "assessment_basis": "team_review_of_public_resource_format"
+    },
+    "recommended_preparation_course_ids": []
+  },
+  {
+    "course_id": "C17",
+    "title": "Cybersecurity for Beginners (Security-101)",
+    "provider": "Microsoft",
+    "url": "https://github.com/microsoft/Security-101",
+    "skill_ids": [
+      "cybersecurity",
+      "privacy"
+    ],
+    "estimated_hours": 10,
+    "duration_basis": "team_planning_estimate_verify_before_enrolment",
+    "prerequisite_course_ids": [],
+    "pathway_stage": 1,
+    "cost_access": "open_materials",
+    "tuition_amount": 0,
+    "currency": null,
+    "extra_cost_note": "Certificates, hosted APIs, cloud compute or labs may cost extra.",
+    "hrd_claimable_status": "not_verified",
+    "mapping_status": "curated_partial_skill_coverage",
+    "recommendation_note": "A course addresses part of a gap; completion does not certify target-level mastery.",
+    "link_check_status": "verified_via_web_reader",
+    "checked_at": "2026-10-20",
+    "source_url": "https://github.com/microsoft/Security-101",
+    "catalogue_origin": "manually curated from provider pages",
+    "default_recommendation_eligible": true,
+    "price_scope": "Learning materials/video access only; not all labs or credentials.",
+    "replaced_source_note": "Retired OpenLearn cybersecurity course excluded after verification.",
+    "resource_type": "course_or_curriculum",
+    "parent_course_id": null,
+    "difficulty_level": "Beginner",
+    "difficulty_basis": "team_curated_for_this_pathway_not_provider_accreditation",
+    "pathway_stage_label": "Stage 1: Foundations and Literacy",
+    "pathway_stage_basis": "team_curated_learning_order",
+    "resource_format": [
+      "text",
+      "exercises"
+    ],
+    "metadata_reviewed_at": "2026-10-20T10:51:59.171483+00:00",
+    "language_support": [
+      {
+        "language_code": "en",
+        "language_label": "English",
+        "mode": "written_material_or_public_lesson",
+        "verification_status": "public_material_verified",
+        "evidence_url": "https://github.com/microsoft/Security-101",
+        "checked_at": "2026-10-20",
+        "scope_note": "Public learning materials only; not a guarantee about every video, lab or assessment."
+      }
+    ],
+    "language_verification_status": "public_material_language_verified",
+    "subtitle_languages_verified": [],
+    "subtitle_verification_status": "not_verified",
+    "language_note_zh": "只记录有证据的教材语言；课程页面语言、浏览器自动翻译和字幕语言不等价。未列某语言不表示该语言不存在。",
+    "low_bandwidth_access": {
+      "text_alternative_available": true,
+      "evidence_url": "https://github.com/microsoft/Security-101",
+      "scope": "Reading portions only; videos, downloads, model APIs and labs may require more bandwidth.",
+      "assessment_basis": "team_review_of_public_resource_format"
+    },
+    "recommended_preparation_course_ids": []
+  },
+  {
+    "course_id": "C18",
+    "title": "Using Generative AI Responsibly",
+    "provider": "Microsoft",
+    "url": "https://github.com/microsoft/generative-ai-for-beginners/tree/main/03-using-generative-ai-responsibly",
+    "skill_ids": [
+      "responsible_ai",
+      "privacy"
+    ],
+    "estimated_hours": 3,
+    "duration_basis": "team_planning_estimate_verify_before_enrolment",
+    "prerequisite_course_ids": [],
+    "pathway_stage": 1,
+    "cost_access": "open_materials",
+    "tuition_amount": 0,
+    "currency": null,
+    "extra_cost_note": "Certificates, hosted APIs, cloud compute or labs may cost extra.",
+    "hrd_claimable_status": "not_verified",
+    "mapping_status": "curated_partial_skill_coverage",
+    "recommendation_note": "A course addresses part of a gap; completion does not certify target-level mastery.",
+    "link_check_status": "retrieved",
+    "checked_at": "2026-10-20T10:00:52.710384+00:00",
+    "source_url": "https://github.com/microsoft/generative-ai-for-beginners/tree/main/03-using-generative-ai-responsibly",
+    "catalogue_origin": "manually curated from provider pages",
+    "default_recommendation_eligible": true,
+    "price_scope": "Learning materials/video access only; not all labs or credentials.",
+    "resource_type": "standalone_module",
+    "parent_course_id": "C07",
+    "difficulty_level": "Beginner",
+    "difficulty_basis": "team_curated_for_this_pathway_not_provider_accreditation",
+    "pathway_stage_label": "Stage 1: Foundations and Literacy",
+    "pathway_stage_basis": "team_curated_learning_order",
+    "resource_format": [
+      "text",
+      "video"
+    ],
+    "metadata_reviewed_at": "2026-10-20T10:51:59.171483+00:00",
+    "language_support": [
+      {
+        "language_code": "en",
+        "language_label": "English",
+        "mode": "written_material_or_public_lesson",
+        "verification_status": "public_material_verified",
+        "evidence_url": "https://github.com/microsoft/generative-ai-for-beginners/tree/main/03-using-generative-ai-responsibly",
+        "checked_at": "2026-10-20T10:00:52.710384+00:00",
+        "scope_note": "Public learning materials only; not a guarantee about every video, lab or assessment."
+      },
+      {
+        "language_code": "ms",
+        "language_label": "Bahasa Melayu",
+        "mode": "machine_translated_text",
+        "verification_status": "public_material_verified",
+        "evidence_url": "https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/main/translations/ms/03-using-generative-ai-responsibly/README.md",
+        "checked_at": "2026-10-20T10:48:15.237102+00:00",
+        "scope_note": "Translation entry/chapter verified; coverage and currency may differ from English. Not verified video subtitles."
+      },
+      {
+        "language_code": "zh-CN",
+        "language_label": "Chinese (Simplified)",
+        "mode": "machine_translated_text",
+        "verification_status": "public_material_verified",
+        "evidence_url": "https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/main/translations/zh-CN/03-using-generative-ai-responsibly/README.md",
+        "checked_at": "2026-10-20T10:48:15.247239+00:00",
+        "scope_note": "Translation entry/chapter verified; coverage and currency may differ from English. Not verified video subtitles."
+      }
+    ],
+    "language_verification_status": "public_material_language_verified",
+    "subtitle_languages_verified": [],
+    "subtitle_verification_status": "not_verified",
+    "language_note_zh": "只记录有证据的教材语言；课程页面语言、浏览器自动翻译和字幕语言不等价。未列某语言不表示该语言不存在。",
+    "low_bandwidth_access": {
+      "text_alternative_available": true,
+      "evidence_url": "https://github.com/microsoft/generative-ai-for-beginners/tree/main/03-using-generative-ai-responsibly",
+      "scope": "Reading portions only; videos, downloads, model APIs and labs may require more bandwidth.",
+      "assessment_basis": "team_review_of_public_resource_format"
+    },
+    "recommended_preparation_course_ids": []
+  },
+  {
+    "course_id": "C19",
+    "title": "Learning to teach: becoming a reflective practitioner",
+    "provider": "The Open University",
+    "url": "https://www.open.edu/openlearn/education-development/learning-teach-becoming-reflective-practitioner/content-section-0",
+    "skill_ids": [
+      "training"
+    ],
+    "estimated_hours": 5,
+    "duration_basis": "provider_stated",
+    "prerequisite_course_ids": [],
+    "pathway_stage": 1,
+    "cost_access": "free_course",
+    "tuition_amount": 0,
+    "currency": null,
+    "extra_cost_note": "Certificates, hosted APIs, cloud compute or labs may cost extra.",
+    "hrd_claimable_status": "not_verified",
+    "mapping_status": "curated_partial_skill_coverage",
+    "recommendation_note": "A course addresses part of a gap; completion does not certify target-level mastery.",
+    "link_check_status": "verified_via_web_reader",
+    "checked_at": "2026-10-20",
+    "source_url": "https://www.open.edu/openlearn/education-development/learning-teach-becoming-reflective-practitioner/content-section-0",
+    "catalogue_origin": "manually curated from provider pages",
+    "default_recommendation_eligible": true,
+    "price_scope": "Learning materials/video access only; not all labs or credentials.",
+    "skill_coverage_note": "Reflective teaching practice only; does not teach a complete corporate L&D design methodology.",
+    "resource_type": "course_or_curriculum",
+    "parent_course_id": null,
+    "difficulty_level": "Beginner",
+    "difficulty_basis": "team_curated_for_this_pathway_not_provider_accreditation",
+    "pathway_stage_label": "Stage 1: Foundations and Literacy",
+    "pathway_stage_basis": "team_curated_learning_order",
+    "resource_format": [
+      "text",
+      "activities"
+    ],
+    "metadata_reviewed_at": "2026-10-20T10:51:59.171483+00:00",
+    "language_support": [
+      {
+        "language_code": "en",
+        "language_label": "English",
+        "mode": "written_material_or_public_lesson",
+        "verification_status": "public_material_verified",
+        "evidence_url": "https://www.open.edu/openlearn/education-development/learning-teach-becoming-reflective-practitioner/content-section-0",
+        "checked_at": "2026-10-20",
+        "scope_note": "Public learning materials only; not a guarantee about every video, lab or assessment."
+      }
+    ],
+    "language_verification_status": "public_material_language_verified",
+    "subtitle_languages_verified": [],
+    "subtitle_verification_status": "not_verified",
+    "language_note_zh": "只记录有证据的教材语言；课程页面语言、浏览器自动翻译和字幕语言不等价。未列某语言不表示该语言不存在。",
+    "low_bandwidth_access": {
+      "text_alternative_available": true,
+      "evidence_url": "https://www.open.edu/openlearn/education-development/learning-teach-becoming-reflective-practitioner/content-section-0",
+      "scope": "Reading portions only; videos, downloads, model APIs and labs may require more bandwidth.",
+      "assessment_basis": "team_review_of_public_resource_format"
+    },
+    "recommended_preparation_course_ids": []
+  },
+  {
+    "course_id": "C20",
+    "title": "AI For Everyone",
+    "provider": "DeepLearning.AI / Coursera",
+    "url": "https://www.coursera.org/learn/ai-for-everyone",
+    "skill_ids": [
+      "llm",
+      "change",
+      "responsible_ai"
+    ],
+    "estimated_hours": 6,
+    "duration_basis": "team_planning_estimate_verify_before_enrolment",
+    "prerequisite_course_ids": [],
+    "pathway_stage": 1,
+    "cost_access": "verify_enrolment",
+    "tuition_amount": null,
+    "currency": null,
+    "extra_cost_note": "Certificates, hosted APIs, cloud compute or labs may cost extra.",
+    "hrd_claimable_status": "not_verified",
+    "mapping_status": "curated_partial_skill_coverage",
+    "recommendation_note": "A course addresses part of a gap; completion does not certify target-level mastery.",
+    "link_check_status": "retrieved",
+    "checked_at": "2026-10-20T10:00:54.907851+00:00",
+    "source_url": "https://www.coursera.org/learn/ai-for-everyone",
+    "catalogue_origin": "manually curated from provider pages",
+    "default_recommendation_eligible": false,
+    "resource_type": "course_or_curriculum",
+    "parent_course_id": null,
+    "difficulty_level": "Beginner",
+    "difficulty_basis": "team_curated_for_this_pathway_not_provider_accreditation",
+    "pathway_stage_label": "Stage 1: Foundations and Literacy",
+    "pathway_stage_basis": "team_curated_learning_order",
+    "resource_format": [
+      "online_course"
+    ],
+    "metadata_reviewed_at": "2026-10-20T10:51:59.171483+00:00",
+    "language_support": [],
+    "language_verification_status": "course_delivery_language_not_verified",
+    "subtitle_languages_verified": [],
+    "subtitle_verification_status": "not_verified",
+    "language_note_zh": "只记录有证据的教材语言；课程页面语言、浏览器自动翻译和字幕语言不等价。未列某语言不表示该语言不存在。",
+    "low_bandwidth_access": {
+      "text_alternative_available": null,
+      "evidence_url": null,
+      "scope": "Reading portions only; videos, downloads, model APIs and labs may require more bandwidth.",
+      "assessment_basis": "team_review_of_public_resource_format"
+    },
+    "recommended_preparation_course_ids": []
+  },
+  {
+    "course_id": "C21",
+    "title": "Data Privacy and Protection",
+    "provider": "HRD Corp e-LATiH / EQUICK LEARN SDN. BHD.",
+    "url": "https://elatih.hrdcorp.gov.my/courses-details/data-privacy-and-protection",
+    "source_url": "https://elatih.hrdcorp.gov.my/courses-details/data-privacy-and-protection",
+    "skill_ids": [
+      "privacy"
+    ],
+    "estimated_hours": 1,
+    "duration_basis": "provider_stated",
+    "prerequisite_course_ids": [],
+    "pathway_stage": 1,
+    "cost_access": "paid_optional",
+    "tuition_amount": 90,
+    "currency": "MYR",
+    "price_scope": "Listed course price at verification",
+    "hrd_claimable_status": "not_verified",
+    "link_check_status": "retrieved",
+    "checked_at": "2026-10-20T10:05:34.964574+00:00",
+    "default_recommendation_eligible": false,
+    "mapping_status": "curated_partial_skill_coverage",
+    "recommendation_note": "Optional local paid resource; employer claimability not established.",
+    "catalogue_origin": "manually curated from provider page",
+    "resource_type": "course_or_curriculum",
+    "parent_course_id": null,
+    "difficulty_level": "Beginner",
+    "difficulty_basis": "team_curated_for_this_pathway_not_provider_accreditation",
+    "pathway_stage_label": "Stage 1: Foundations and Literacy",
+    "pathway_stage_basis": "team_curated_learning_order",
+    "resource_format": [
+      "online_course"
+    ],
+    "metadata_reviewed_at": "2026-10-20T10:51:59.171483+00:00",
+    "language_support": [],
+    "language_verification_status": "course_delivery_language_not_verified",
+    "subtitle_languages_verified": [],
+    "subtitle_verification_status": "not_verified",
+    "language_note_zh": "只记录有证据的教材语言；课程页面语言、浏览器自动翻译和字幕语言不等价。未列某语言不表示该语言不存在。",
+    "low_bandwidth_access": {
+      "text_alternative_available": null,
+      "evidence_url": null,
+      "scope": "Reading portions only; videos, downloads, model APIs and labs may require more bandwidth.",
+      "assessment_basis": "team_review_of_public_resource_format"
+    },
+    "recommended_preparation_course_ids": []
+  },
+  {
+    "course_id": "C22",
+    "title": "Using AI to Boost Employee Engagement: Predict Burnout and Improve Retention",
+    "provider": "HRD Corp e-LATiH / DIGIRITY PLT",
+    "url": "https://elatih.hrdcorp.gov.my/courses-details/using-ai-to-boost-employee-engagement-predict-burnout-and-improve-retention",
+    "source_url": "https://elatih.hrdcorp.gov.my/courses-details/using-ai-to-boost-employee-engagement-predict-burnout-and-improve-retention",
+    "skill_ids": [
+      "hr",
+      "analytics",
+      "prompting"
+    ],
+    "estimated_hours": 0.733,
+    "duration_basis": "provider_stated",
+    "prerequisite_course_ids": [],
+    "pathway_stage": 1,
+    "cost_access": "paid_optional",
+    "tuition_amount": 47,
+    "currency": "MYR",
+    "price_scope": "Listed course price at verification",
+    "hrd_claimable_status": "not_verified",
+    "link_check_status": "retrieved",
+    "checked_at": "2026-10-20T10:05:34.964574+00:00",
+    "default_recommendation_eligible": false,
+    "mapping_status": "curated_partial_skill_coverage",
+    "recommendation_note": "Optional local paid resource; employer claimability not established.",
+    "catalogue_origin": "manually curated from provider page",
+    "resource_type": "course_or_curriculum",
+    "parent_course_id": null,
+    "difficulty_level": "Beginner",
+    "difficulty_basis": "team_curated_for_this_pathway_not_provider_accreditation",
+    "pathway_stage_label": "Stage 1: Foundations and Literacy",
+    "pathway_stage_basis": "team_curated_learning_order",
+    "resource_format": [
+      "online_course"
+    ],
+    "metadata_reviewed_at": "2026-10-20T10:51:59.171483+00:00",
+    "language_support": [],
+    "language_verification_status": "course_delivery_language_not_verified",
+    "subtitle_languages_verified": [],
+    "subtitle_verification_status": "not_verified",
+    "language_note_zh": "只记录有证据的教材语言；课程页面语言、浏览器自动翻译和字幕语言不等价。未列某语言不表示该语言不存在。",
+    "low_bandwidth_access": {
+      "text_alternative_available": null,
+      "evidence_url": null,
+      "scope": "Reading portions only; videos, downloads, model APIs and labs may require more bandwidth.",
+      "assessment_basis": "team_review_of_public_resource_format"
+    },
+    "recommended_preparation_course_ids": []
+  }
+]

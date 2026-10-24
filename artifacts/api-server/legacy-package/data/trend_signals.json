@@ -1,0 +1,741 @@
+{
+  "computed_at": "2026-10-20T10:57:03.156153+00:00",
+  "signals": [
+    {
+      "skill_id": "python",
+      "research_growth_pct": null,
+      "research_share_change_pp": null,
+      "research_previous_count": null,
+      "research_current_count": null,
+      "research_status": "not_measured",
+      "job_snapshot_count": 116,
+      "job_snapshot_share_pct": 12.932,
+      "job_growth_pct": null,
+      "job_sample_size": 897,
+      "job_retrieved_at": "2026-10-20T10:03:19.188590+00:00",
+      "signal_scope": "Research-topic attention and Europe-oriented job sample; not Malaysia hiring growth.",
+      "industry_demand_level": null,
+      "industry_demand_status": "not_established_from_available_sources",
+      "seasonality_adjusted": false,
+      "seasonality_note": "Short windows may reflect submission timing, keyword changes and indexing effects. Seasonality has NOT been estimated, and the cause of a decline is unknown. Research decline is not evidence of hiring decline.",
+      "uncertainty_flags": [
+        "keyword_proxy",
+        "nonrepresentative_job_sample",
+        "no_causal_attribution"
+      ],
+      "trend_indicator_basis": "Sign of measured relative topic-share change; descriptive, not a forecast.",
+      "research_momentum_floor_applied": false,
+      "trend_indicator": "not_measured",
+      "trend_indicator_label_zh": "未测量研究趋势"
+    },
+    {
+      "skill_id": "sql",
+      "research_growth_pct": null,
+      "research_share_change_pp": null,
+      "research_previous_count": null,
+      "research_current_count": null,
+      "research_status": "not_measured",
+      "job_snapshot_count": 72,
+      "job_snapshot_share_pct": 8.027,
+      "job_growth_pct": null,
+      "job_sample_size": 897,
+      "job_retrieved_at": "2026-10-20T10:03:19.188590+00:00",
+      "signal_scope": "Research-topic attention and Europe-oriented job sample; not Malaysia hiring growth.",
+      "industry_demand_level": null,
+      "industry_demand_status": "not_established_from_available_sources",
+      "seasonality_adjusted": false,
+      "seasonality_note": "Short windows may reflect submission timing, keyword changes and indexing effects. Seasonality has NOT been estimated, and the cause of a decline is unknown. Research decline is not evidence of hiring decline.",
+      "uncertainty_flags": [
+        "keyword_proxy",
+        "nonrepresentative_job_sample",
+        "no_causal_attribution"
+      ],
+      "trend_indicator_basis": "Sign of measured relative topic-share change; descriptive, not a forecast.",
+      "research_momentum_floor_applied": false,
+      "trend_indicator": "not_measured",
+      "trend_indicator_label_zh": "未测量研究趋势"
+    },
+    {
+      "skill_id": "analytics",
+      "research_growth_pct": null,
+      "research_share_change_pp": null,
+      "research_previous_count": null,
+      "research_current_count": null,
+      "research_status": "not_measured",
+      "job_snapshot_count": 55,
+      "job_snapshot_share_pct": 6.132,
+      "job_growth_pct": null,
+      "job_sample_size": 897,
+      "job_retrieved_at": "2026-10-20T10:03:19.188590+00:00",
+      "signal_scope": "Research-topic attention and Europe-oriented job sample; not Malaysia hiring growth.",
+      "industry_demand_level": null,
+      "industry_demand_status": "not_established_from_available_sources",
+      "seasonality_adjusted": false,
+      "seasonality_note": "Short windows may reflect submission timing, keyword changes and indexing effects. Seasonality has NOT been estimated, and the cause of a decline is unknown. Research decline is not evidence of hiring decline.",
+      "uncertainty_flags": [
+        "keyword_proxy",
+        "nonrepresentative_job_sample",
+        "no_causal_attribution"
+      ],
+      "trend_indicator_basis": "Sign of measured relative topic-share change; descriptive, not a forecast.",
+      "research_momentum_floor_applied": false,
+      "trend_indicator": "not_measured",
+      "trend_indicator_label_zh": "未测量研究趋势"
+    },
+    {
+      "skill_id": "ml",
+      "research_growth_pct": -17.588,
+      "research_share_change_pp": -0.8755,
+      "research_previous_count": 1808,
+      "research_current_count": 1490,
+      "research_status": "usable",
+      "job_snapshot_count": 38,
+      "job_snapshot_share_pct": 4.236,
+      "job_growth_pct": null,
+      "research_share_relative_change": -0.1778106674630404,
+      "research_windows": {
+        "previous": {
+          "start": "2026-04-16T00:00:00+00:00",
+          "end_exclusive": "2026-07-15T00:00:00+00:00"
+        },
+        "current": {
+          "start": "2026-07-15T00:00:00+00:00",
+          "end_exclusive": "2026-10-13T00:00:00+00:00"
+        }
+      },
+      "source_urls": [
+        "https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL+OR+cat%3Acs.CV%29+AND+%28abs%3A%22machine+learning%22%29+AND+submittedDate%3A%5B202604160000+TO+202607142359%5D&start=0&max_results=3&sortBy=submittedDate&sortOrder=descending",
+        "https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL+OR+cat%3Acs.CV%29+AND+%28abs%3A%22machine+learning%22%29+AND+submittedDate%3A%5B202607150000+TO+202610122359%5D&start=0&max_results=3&sortBy=submittedDate&sortOrder=descending"
+      ],
+      "research_retrieved_at": "2026-10-20T10:02:49.784560+00:00",
+      "job_sample_size": 897,
+      "job_retrieved_at": "2026-10-20T10:03:19.188590+00:00",
+      "signal_scope": "Research-topic attention and Europe-oriented job sample; not Malaysia hiring growth.",
+      "industry_demand_level": null,
+      "industry_demand_status": "not_established_from_available_sources",
+      "seasonality_adjusted": false,
+      "seasonality_note": "Short windows may reflect submission timing, keyword changes and indexing effects. Seasonality has NOT been estimated, and the cause of a decline is unknown. Research decline is not evidence of hiring decline.",
+      "uncertainty_flags": [
+        "keyword_proxy",
+        "nonrepresentative_job_sample",
+        "no_causal_attribution"
+      ],
+      "trend_indicator_basis": "Sign of measured relative topic-share change; descriptive, not a forecast.",
+      "research_momentum_floor_applied": false,
+      "trend_indicator": "research_share_decreasing",
+      "trend_indicator_label_zh": "研究主题占比下降（不等于招聘下降）"
+    },
+    {
+      "skill_id": "deep_learning",
+      "research_growth_pct": -24.222,
+      "research_share_change_pp": -0.9821,
+      "research_previous_count": 1478,
+      "research_current_count": 1120,
+      "research_status": "usable",
+      "job_snapshot_count": 14,
+      "job_snapshot_share_pct": 1.561,
+      "job_growth_pct": null,
+      "research_share_relative_change": -0.24398992343451523,
+      "research_windows": {
+        "previous": {
+          "start": "2026-04-16T00:00:00+00:00",
+          "end_exclusive": "2026-07-15T00:00:00+00:00"
+        },
+        "current": {
+          "start": "2026-07-15T00:00:00+00:00",
+          "end_exclusive": "2026-10-13T00:00:00+00:00"
+        }
+      },
+      "source_urls": [
+        "https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL+OR+cat%3Acs.CV%29+AND+%28abs%3A%22deep+learning%22%29+AND+submittedDate%3A%5B202604160000+TO+202607142359%5D&start=0&max_results=3&sortBy=submittedDate&sortOrder=descending",
+        "https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL+OR+cat%3Acs.CV%29+AND+%28abs%3A%22deep+learning%22%29+AND+submittedDate%3A%5B202607150000+TO+202610122359%5D&start=0&max_results=3&sortBy=submittedDate&sortOrder=descending"
+      ],
+      "research_retrieved_at": "2026-10-20T10:02:49.784560+00:00",
+      "job_sample_size": 897,
+      "job_retrieved_at": "2026-10-20T10:03:19.188590+00:00",
+      "signal_scope": "Research-topic attention and Europe-oriented job sample; not Malaysia hiring growth.",
+      "industry_demand_level": null,
+      "industry_demand_status": "not_established_from_available_sources",
+      "seasonality_adjusted": false,
+      "seasonality_note": "Short windows may reflect submission timing, keyword changes and indexing effects. Seasonality has NOT been estimated, and the cause of a decline is unknown. Research decline is not evidence of hiring decline.",
+      "uncertainty_flags": [
+        "keyword_proxy",
+        "nonrepresentative_job_sample",
+        "no_causal_attribution"
+      ],
+      "trend_indicator_basis": "Sign of measured relative topic-share change; descriptive, not a forecast.",
+      "research_momentum_floor_applied": false,
+      "trend_indicator": "research_share_decreasing",
+      "trend_indicator_label_zh": "研究主题占比下降（不等于招聘下降）"
+    },
+    {
+      "skill_id": "nlp",
+      "research_growth_pct": -29.442,
+      "research_share_change_pp": -0.1588,
+      "research_previous_count": 197,
+      "research_current_count": 139,
+      "research_status": "usable",
+      "job_snapshot_count": 5,
+      "job_snapshot_share_pct": 0.557,
+      "job_growth_pct": null,
+      "research_share_relative_change": -0.2960649830050474,
+      "research_windows": {
+        "previous": {
+          "start": "2026-04-16T00:00:00+00:00",
+          "end_exclusive": "2026-07-15T00:00:00+00:00"
+        },
+        "current": {
+          "start": "2026-07-15T00:00:00+00:00",
+          "end_exclusive": "2026-10-13T00:00:00+00:00"
+        }
+      },
+      "source_urls": [
+        "https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL+OR+cat%3Acs.CV%29+AND+%28abs%3A%22natural+language+processing%22%29+AND+submittedDate%3A%5B202604160000+TO+202607142359%5D&start=0&max_results=3&sortBy=submittedDate&sortOrder=descending",
+        "https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL+OR+cat%3Acs.CV%29+AND+%28abs%3A%22natural+language+processing%22%29+AND+submittedDate%3A%5B202607150000+TO+202610122359%5D&start=0&max_results=3&sortBy=submittedDate&sortOrder=descending"
+      ],
+      "research_retrieved_at": "2026-10-20T10:02:49.784560+00:00",
+      "job_sample_size": 897,
+      "job_retrieved_at": "2026-10-20T10:03:19.188590+00:00",
+      "signal_scope": "Research-topic attention and Europe-oriented job sample; not Malaysia hiring growth.",
+      "industry_demand_level": null,
+      "industry_demand_status": "not_established_from_available_sources",
+      "seasonality_adjusted": false,
+      "seasonality_note": "Short windows may reflect submission timing, keyword changes and indexing effects. Seasonality has NOT been estimated, and the cause of a decline is unknown. Research decline is not evidence of hiring decline.",
+      "uncertainty_flags": [
+        "keyword_proxy",
+        "nonrepresentative_job_sample",
+        "no_causal_attribution"
+      ],
+      "trend_indicator_basis": "Sign of measured relative topic-share change; descriptive, not a forecast.",
+      "research_momentum_floor_applied": false,
+      "trend_indicator": "research_share_decreasing",
+      "trend_indicator_label_zh": "研究主题占比下降（不等于招聘下降）"
+    },
+    {
+      "skill_id": "llm",
+      "research_growth_pct": -15.193,
+      "research_share_change_pp": -2.8583,
+      "research_previous_count": 6819,
+      "research_current_count": 5783,
+      "research_status": "usable",
+      "job_snapshot_count": 54,
+      "job_snapshot_share_pct": 6.02,
+      "job_growth_pct": null,
+      "research_share_relative_change": -0.15391012622737707,
+      "research_windows": {
+        "previous": {
+          "start": "2026-04-16T00:00:00+00:00",
+          "end_exclusive": "2026-07-15T00:00:00+00:00"
+        },
+        "current": {
+          "start": "2026-07-15T00:00:00+00:00",
+          "end_exclusive": "2026-10-13T00:00:00+00:00"
+        }
+      },
+      "source_urls": [
+        "https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL+OR+cat%3Acs.CV%29+AND+%28abs%3A%22large+language+model%22%29+AND+submittedDate%3A%5B202604160000+TO+202607142359%5D&start=0&max_results=3&sortBy=submittedDate&sortOrder=descending",
+        "https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL+OR+cat%3Acs.CV%29+AND+%28abs%3A%22large+language+model%22%29+AND+submittedDate%3A%5B202607150000+TO+202610122359%5D&start=0&max_results=3&sortBy=submittedDate&sortOrder=descending"
+      ],
+      "research_retrieved_at": "2026-10-20T10:02:49.784560+00:00",
+      "job_sample_size": 897,
+      "job_retrieved_at": "2026-10-20T10:03:19.188590+00:00",
+      "signal_scope": "Research-topic attention and Europe-oriented job sample; not Malaysia hiring growth.",
+      "industry_demand_level": null,
+      "industry_demand_status": "not_established_from_available_sources",
+      "seasonality_adjusted": false,
+      "seasonality_note": "Short windows may reflect submission timing, keyword changes and indexing effects. Seasonality has NOT been estimated, and the cause of a decline is unknown. Research decline is not evidence of hiring decline.",
+      "uncertainty_flags": [
+        "keyword_proxy",
+        "nonrepresentative_job_sample",
+        "no_causal_attribution"
+      ],
+      "trend_indicator_basis": "Sign of measured relative topic-share change; descriptive, not a forecast.",
+      "research_momentum_floor_applied": false,
+      "trend_indicator": "research_share_decreasing",
+      "trend_indicator_label_zh": "研究主题占比下降（不等于招聘下降）"
+    },
+    {
+      "skill_id": "rag",
+      "research_growth_pct": -22.222,
+      "research_share_change_pp": -0.3569,
+      "research_previous_count": 585,
+      "research_current_count": 455,
+      "research_status": "usable",
+      "job_snapshot_count": 13,
+      "job_snapshot_share_pct": 1.449,
+      "job_growth_pct": null,
+      "research_share_relative_change": -0.2240396575251483,
+      "research_windows": {
+        "previous": {
+          "start": "2026-04-16T00:00:00+00:00",
+          "end_exclusive": "2026-07-15T00:00:00+00:00"
+        },
+        "current": {
+          "start": "2026-07-15T00:00:00+00:00",
+          "end_exclusive": "2026-10-13T00:00:00+00:00"
+        }
+      },
+      "source_urls": [
+        "https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL+OR+cat%3Acs.CV%29+AND+%28%28abs%3A%22retrieval+augmented+generation%22+OR+abs%3A%22retrieval-augmented+generation%22%29%29+AND+submittedDate%3A%5B202604160000+TO+202607142359%5D&start=0&max_results=3&sortBy=submittedDate&sortOrder=descending",
+        "https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL+OR+cat%3Acs.CV%29+AND+%28%28abs%3A%22retrieval+augmented+generation%22+OR+abs%3A%22retrieval-augmented+generation%22%29%29+AND+submittedDate%3A%5B202607150000+TO+202610122359%5D&start=0&max_results=3&sortBy=submittedDate&sortOrder=descending"
+      ],
+      "research_retrieved_at": "2026-10-20T10:02:49.784560+00:00",
+      "job_sample_size": 897,
+      "job_retrieved_at": "2026-10-20T10:03:19.188590+00:00",
+      "signal_scope": "Research-topic attention and Europe-oriented job sample; not Malaysia hiring growth.",
+      "industry_demand_level": null,
+      "industry_demand_status": "not_established_from_available_sources",
+      "seasonality_adjusted": false,
+      "seasonality_note": "Short windows may reflect submission timing, keyword changes and indexing effects. Seasonality has NOT been estimated, and the cause of a decline is unknown. Research decline is not evidence of hiring decline.",
+      "uncertainty_flags": [
+        "keyword_proxy",
+        "nonrepresentative_job_sample",
+        "no_causal_attribution"
+      ],
+      "trend_indicator_basis": "Sign of measured relative topic-share change; descriptive, not a forecast.",
+      "research_momentum_floor_applied": false,
+      "trend_indicator": "research_share_decreasing",
+      "trend_indicator_label_zh": "研究主题占比下降（不等于招聘下降）"
+    },
+    {
+      "skill_id": "agents",
+      "research_growth_pct": 8.953,
+      "research_share_change_pp": 1.5003,
+      "research_previous_count": 6333,
+      "research_current_count": 6900,
+      "research_status": "usable",
+      "job_snapshot_count": 43,
+      "job_snapshot_share_pct": 4.794,
+      "job_growth_pct": null,
+      "research_share_relative_change": 0.08698511803677554,
+      "research_windows": {
+        "previous": {
+          "start": "2026-04-16T00:00:00+00:00",
+          "end_exclusive": "2026-07-15T00:00:00+00:00"
+        },
+        "current": {
+          "start": "2026-07-15T00:00:00+00:00",
+          "end_exclusive": "2026-10-13T00:00:00+00:00"
+        }
+      },
+      "source_urls": [
+        "https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL+OR+cat%3Acs.CV%29+AND+%28%28abs%3A%22agentic%22+OR+abs%3A%22language+model+agents%22+OR+abs%3A%22llm+agents%22%29%29+AND+submittedDate%3A%5B202604160000+TO+202607142359%5D&start=0&max_results=3&sortBy=submittedDate&sortOrder=descending",
+        "https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL+OR+cat%3Acs.CV%29+AND+%28%28abs%3A%22agentic%22+OR+abs%3A%22language+model+agents%22+OR+abs%3A%22llm+agents%22%29%29+AND+submittedDate%3A%5B202607150000+TO+202610122359%5D&start=0&max_results=3&sortBy=submittedDate&sortOrder=descending"
+      ],
+      "research_retrieved_at": "2026-10-20T10:02:49.784560+00:00",
+      "job_sample_size": 897,
+      "job_retrieved_at": "2026-10-20T10:03:19.188590+00:00",
+      "signal_scope": "Research-topic attention and Europe-oriented job sample; not Malaysia hiring growth.",
+      "industry_demand_level": null,
+      "industry_demand_status": "not_established_from_available_sources",
+      "seasonality_adjusted": false,
+      "seasonality_note": "Short windows may reflect submission timing, keyword changes and indexing effects. Seasonality has NOT been estimated, and the cause of a decline is unknown. Research decline is not evidence of hiring decline.",
+      "uncertainty_flags": [
+        "keyword_proxy",
+        "nonrepresentative_job_sample",
+        "no_causal_attribution"
+      ],
+      "trend_indicator_basis": "Sign of measured relative topic-share change; descriptive, not a forecast.",
+      "research_momentum_floor_applied": false,
+      "trend_indicator": "research_share_increasing",
+      "trend_indicator_label_zh": "研究主题占比上升（不等于招聘增长）"
+    },
+    {
+      "skill_id": "mlops",
+      "research_growth_pct": -29.167,
+      "research_share_change_pp": -0.0383,
+      "research_previous_count": 48,
+      "research_current_count": 34,
+      "research_status": "usable",
+      "job_snapshot_count": 8,
+      "job_snapshot_share_pct": 0.892,
+      "job_growth_pct": null,
+      "research_share_relative_change": -0.2933218309604028,
+      "research_windows": {
+        "previous": {
+          "start": "2026-04-16T00:00:00+00:00",
+          "end_exclusive": "2026-07-15T00:00:00+00:00"
+        },
+        "current": {
+          "start": "2026-07-15T00:00:00+00:00",
+          "end_exclusive": "2026-10-13T00:00:00+00:00"
+        }
+      },
+      "source_urls": [
+        "https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL+OR+cat%3Acs.CV%29+AND+%28%28abs%3A%22MLOps%22+OR+abs%3A%22model+deployment%22%29%29+AND+submittedDate%3A%5B202604160000+TO+202607142359%5D&start=0&max_results=3&sortBy=submittedDate&sortOrder=descending",
+        "https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL+OR+cat%3Acs.CV%29+AND+%28%28abs%3A%22MLOps%22+OR+abs%3A%22model+deployment%22%29%29+AND+submittedDate%3A%5B202607150000+TO+202610122359%5D&start=0&max_results=3&sortBy=submittedDate&sortOrder=descending"
+      ],
+      "research_retrieved_at": "2026-10-20T10:02:49.784560+00:00",
+      "job_sample_size": 897,
+      "job_retrieved_at": "2026-10-20T10:03:19.188590+00:00",
+      "signal_scope": "Research-topic attention and Europe-oriented job sample; not Malaysia hiring growth.",
+      "industry_demand_level": null,
+      "industry_demand_status": "not_established_from_available_sources",
+      "seasonality_adjusted": false,
+      "seasonality_note": "Short windows may reflect submission timing, keyword changes and indexing effects. Seasonality has NOT been estimated, and the cause of a decline is unknown. Research decline is not evidence of hiring decline.",
+      "uncertainty_flags": [
+        "keyword_proxy",
+        "nonrepresentative_job_sample",
+        "no_causal_attribution"
+      ],
+      "trend_indicator_basis": "Sign of measured relative topic-share change; descriptive, not a forecast.",
+      "research_momentum_floor_applied": false,
+      "trend_indicator": "research_share_decreasing",
+      "trend_indicator_label_zh": "研究主题占比下降（不等于招聘下降）"
+    },
+    {
+      "skill_id": "cloud",
+      "research_growth_pct": null,
+      "research_share_change_pp": null,
+      "research_previous_count": null,
+      "research_current_count": null,
+      "research_status": "not_measured",
+      "job_snapshot_count": 115,
+      "job_snapshot_share_pct": 12.821,
+      "job_growth_pct": null,
+      "job_sample_size": 897,
+      "job_retrieved_at": "2026-10-20T10:03:19.188590+00:00",
+      "signal_scope": "Research-topic attention and Europe-oriented job sample; not Malaysia hiring growth.",
+      "industry_demand_level": null,
+      "industry_demand_status": "not_established_from_available_sources",
+      "seasonality_adjusted": false,
+      "seasonality_note": "Short windows may reflect submission timing, keyword changes and indexing effects. Seasonality has NOT been estimated, and the cause of a decline is unknown. Research decline is not evidence of hiring decline.",
+      "uncertainty_flags": [
+        "keyword_proxy",
+        "nonrepresentative_job_sample",
+        "no_causal_attribution"
+      ],
+      "trend_indicator_basis": "Sign of measured relative topic-share change; descriptive, not a forecast.",
+      "research_momentum_floor_applied": false,
+      "trend_indicator": "not_measured",
+      "trend_indicator_label_zh": "未测量研究趋势"
+    },
+    {
+      "skill_id": "responsible_ai",
+      "research_growth_pct": -30.928,
+      "research_share_change_pp": -0.0821,
+      "research_previous_count": 97,
+      "research_current_count": 67,
+      "research_status": "usable",
+      "job_snapshot_count": 9,
+      "job_snapshot_share_pct": 1.003,
+      "job_growth_pct": null,
+      "research_share_relative_change": -0.31089236154295197,
+      "research_windows": {
+        "previous": {
+          "start": "2026-04-16T00:00:00+00:00",
+          "end_exclusive": "2026-07-15T00:00:00+00:00"
+        },
+        "current": {
+          "start": "2026-07-15T00:00:00+00:00",
+          "end_exclusive": "2026-10-13T00:00:00+00:00"
+        }
+      },
+      "source_urls": [
+        "https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL+OR+cat%3Acs.CV%29+AND+%28%28abs%3A%22responsible+AI%22+OR+abs%3A%22algorithmic+fairness%22+OR+abs%3A%22AI+governance%22%29%29+AND+submittedDate%3A%5B202604160000+TO+202607142359%5D&start=0&max_results=3&sortBy=submittedDate&sortOrder=descending",
+        "https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL+OR+cat%3Acs.CV%29+AND+%28%28abs%3A%22responsible+AI%22+OR+abs%3A%22algorithmic+fairness%22+OR+abs%3A%22AI+governance%22%29%29+AND+submittedDate%3A%5B202607150000+TO+202610122359%5D&start=0&max_results=3&sortBy=submittedDate&sortOrder=descending"
+      ],
+      "research_retrieved_at": "2026-10-20T10:02:49.784560+00:00",
+      "job_sample_size": 897,
+      "job_retrieved_at": "2026-10-20T10:03:19.188590+00:00",
+      "signal_scope": "Research-topic attention and Europe-oriented job sample; not Malaysia hiring growth.",
+      "industry_demand_level": null,
+      "industry_demand_status": "not_established_from_available_sources",
+      "seasonality_adjusted": false,
+      "seasonality_note": "Short windows may reflect submission timing, keyword changes and indexing effects. Seasonality has NOT been estimated, and the cause of a decline is unknown. Research decline is not evidence of hiring decline.",
+      "uncertainty_flags": [
+        "keyword_proxy",
+        "nonrepresentative_job_sample",
+        "no_causal_attribution"
+      ],
+      "trend_indicator_basis": "Sign of measured relative topic-share change; descriptive, not a forecast.",
+      "research_momentum_floor_applied": false,
+      "trend_indicator": "research_share_decreasing",
+      "trend_indicator_label_zh": "研究主题占比下降（不等于招聘下降）"
+    },
+    {
+      "skill_id": "evaluation",
+      "research_growth_pct": 8.411,
+      "research_share_change_pp": 0.0238,
+      "research_previous_count": 107,
+      "research_current_count": 116,
+      "research_status": "usable",
+      "job_snapshot_count": 8,
+      "job_snapshot_share_pct": 0.892,
+      "job_growth_pct": null,
+      "research_share_relative_change": 0.08157890192756362,
+      "research_windows": {
+        "previous": {
+          "start": "2026-04-16T00:00:00+00:00",
+          "end_exclusive": "2026-07-15T00:00:00+00:00"
+        },
+        "current": {
+          "start": "2026-07-15T00:00:00+00:00",
+          "end_exclusive": "2026-10-13T00:00:00+00:00"
+        }
+      },
+      "source_urls": [
+        "https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL+OR+cat%3Acs.CV%29+AND+%28%28abs%3A%22LLM+evaluation%22+OR+abs%3A%22language+model+evaluation%22%29%29+AND+submittedDate%3A%5B202604160000+TO+202607142359%5D&start=0&max_results=3&sortBy=submittedDate&sortOrder=descending",
+        "https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL+OR+cat%3Acs.CV%29+AND+%28%28abs%3A%22LLM+evaluation%22+OR+abs%3A%22language+model+evaluation%22%29%29+AND+submittedDate%3A%5B202607150000+TO+202610122359%5D&start=0&max_results=3&sortBy=submittedDate&sortOrder=descending"
+      ],
+      "research_retrieved_at": "2026-10-20T10:02:49.784560+00:00",
+      "job_sample_size": 897,
+      "job_retrieved_at": "2026-10-20T10:03:19.188590+00:00",
+      "signal_scope": "Research-topic attention and Europe-oriented job sample; not Malaysia hiring growth.",
+      "industry_demand_level": null,
+      "industry_demand_status": "not_established_from_available_sources",
+      "seasonality_adjusted": false,
+      "seasonality_note": "Short windows may reflect submission timing, keyword changes and indexing effects. Seasonality has NOT been estimated, and the cause of a decline is unknown. Research decline is not evidence of hiring decline.",
+      "uncertainty_flags": [
+        "keyword_proxy",
+        "nonrepresentative_job_sample",
+        "no_causal_attribution"
+      ],
+      "trend_indicator_basis": "Sign of measured relative topic-share change; descriptive, not a forecast.",
+      "research_momentum_floor_applied": false,
+      "trend_indicator": "research_share_increasing",
+      "trend_indicator_label_zh": "研究主题占比上升（不等于招聘增长）"
+    },
+    {
+      "skill_id": "privacy",
+      "research_growth_pct": -31.319,
+      "research_share_change_pp": -0.3121,
+      "research_previous_count": 364,
+      "research_current_count": 250,
+      "research_status": "usable",
+      "job_snapshot_count": 31,
+      "job_snapshot_share_pct": 3.456,
+      "job_growth_pct": null,
+      "research_share_relative_change": -0.3147916912996795,
+      "research_windows": {
+        "previous": {
+          "start": "2026-04-16T00:00:00+00:00",
+          "end_exclusive": "2026-07-15T00:00:00+00:00"
+        },
+        "current": {
+          "start": "2026-07-15T00:00:00+00:00",
+          "end_exclusive": "2026-10-13T00:00:00+00:00"
+        }
+      },
+      "source_urls": [
+        "https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL+OR+cat%3Acs.CV%29+AND+%28%28abs%3A%22differential+privacy%22+OR+abs%3A%22privacy+preserving%22%29%29+AND+submittedDate%3A%5B202604160000+TO+202607142359%5D&start=0&max_results=3&sortBy=submittedDate&sortOrder=descending",
+        "https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL+OR+cat%3Acs.CV%29+AND+%28%28abs%3A%22differential+privacy%22+OR+abs%3A%22privacy+preserving%22%29%29+AND+submittedDate%3A%5B202607150000+TO+202610122359%5D&start=0&max_results=3&sortBy=submittedDate&sortOrder=descending"
+      ],
+      "research_retrieved_at": "2026-10-20T10:02:49.784560+00:00",
+      "job_sample_size": 897,
+      "job_retrieved_at": "2026-10-20T10:03:19.188590+00:00",
+      "signal_scope": "Research-topic attention and Europe-oriented job sample; not Malaysia hiring growth.",
+      "industry_demand_level": null,
+      "industry_demand_status": "not_established_from_available_sources",
+      "seasonality_adjusted": false,
+      "seasonality_note": "Short windows may reflect submission timing, keyword changes and indexing effects. Seasonality has NOT been estimated, and the cause of a decline is unknown. Research decline is not evidence of hiring decline.",
+      "uncertainty_flags": [
+        "keyword_proxy",
+        "nonrepresentative_job_sample",
+        "no_causal_attribution"
+      ],
+      "trend_indicator_basis": "Sign of measured relative topic-share change; descriptive, not a forecast.",
+      "research_momentum_floor_applied": false,
+      "trend_indicator": "research_share_decreasing",
+      "trend_indicator_label_zh": "研究主题占比下降（不等于招聘下降）"
+    },
+    {
+      "skill_id": "cybersecurity",
+      "research_growth_pct": -10.084,
+      "research_share_change_pp": -0.0334,
+      "research_previous_count": 119,
+      "research_current_count": 107,
+      "research_status": "usable",
+      "job_snapshot_count": 31,
+      "job_snapshot_share_pct": 3.456,
+      "job_growth_pct": null,
+      "research_share_relative_change": -0.10294140479798052,
+      "research_windows": {
+        "previous": {
+          "start": "2026-04-16T00:00:00+00:00",
+          "end_exclusive": "2026-07-15T00:00:00+00:00"
+        },
+        "current": {
+          "start": "2026-07-15T00:00:00+00:00",
+          "end_exclusive": "2026-10-13T00:00:00+00:00"
+        }
+      },
+      "source_urls": [
+        "https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL+OR+cat%3Acs.CV%29+AND+%28abs%3A%22cybersecurity%22%29+AND+submittedDate%3A%5B202604160000+TO+202607142359%5D&start=0&max_results=3&sortBy=submittedDate&sortOrder=descending",
+        "https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL+OR+cat%3Acs.CV%29+AND+%28abs%3A%22cybersecurity%22%29+AND+submittedDate%3A%5B202607150000+TO+202610122359%5D&start=0&max_results=3&sortBy=submittedDate&sortOrder=descending"
+      ],
+      "research_retrieved_at": "2026-10-20T10:02:49.784560+00:00",
+      "job_sample_size": 897,
+      "job_retrieved_at": "2026-10-20T10:03:19.188590+00:00",
+      "signal_scope": "Research-topic attention and Europe-oriented job sample; not Malaysia hiring growth.",
+      "industry_demand_level": null,
+      "industry_demand_status": "not_established_from_available_sources",
+      "seasonality_adjusted": false,
+      "seasonality_note": "Short windows may reflect submission timing, keyword changes and indexing effects. Seasonality has NOT been estimated, and the cause of a decline is unknown. Research decline is not evidence of hiring decline.",
+      "uncertainty_flags": [
+        "keyword_proxy",
+        "nonrepresentative_job_sample",
+        "no_causal_attribution"
+      ],
+      "trend_indicator_basis": "Sign of measured relative topic-share change; descriptive, not a forecast.",
+      "research_momentum_floor_applied": false,
+      "trend_indicator": "research_share_decreasing",
+      "trend_indicator_label_zh": "研究主题占比下降（不等于招聘下降）"
+    },
+    {
+      "skill_id": "prompting",
+      "research_growth_pct": -40.0,
+      "research_share_change_pp": -0.1367,
+      "research_previous_count": 125,
+      "research_current_count": 75,
+      "research_status": "usable",
+      "job_snapshot_count": 9,
+      "job_snapshot_share_pct": 1.003,
+      "job_growth_pct": null,
+      "research_share_relative_change": -0.40140202151940013,
+      "research_windows": {
+        "previous": {
+          "start": "2026-04-16T00:00:00+00:00",
+          "end_exclusive": "2026-07-15T00:00:00+00:00"
+        },
+        "current": {
+          "start": "2026-07-15T00:00:00+00:00",
+          "end_exclusive": "2026-10-13T00:00:00+00:00"
+        }
+      },
+      "source_urls": [
+        "https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL+OR+cat%3Acs.CV%29+AND+%28abs%3A%22prompt+engineering%22%29+AND+submittedDate%3A%5B202604160000+TO+202607142359%5D&start=0&max_results=3&sortBy=submittedDate&sortOrder=descending",
+        "https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL+OR+cat%3Acs.CV%29+AND+%28abs%3A%22prompt+engineering%22%29+AND+submittedDate%3A%5B202607150000+TO+202610122359%5D&start=0&max_results=3&sortBy=submittedDate&sortOrder=descending"
+      ],
+      "research_retrieved_at": "2026-10-20T10:02:49.784560+00:00",
+      "job_sample_size": 897,
+      "job_retrieved_at": "2026-10-20T10:03:19.188590+00:00",
+      "signal_scope": "Research-topic attention and Europe-oriented job sample; not Malaysia hiring growth.",
+      "industry_demand_level": null,
+      "industry_demand_status": "not_established_from_available_sources",
+      "seasonality_adjusted": false,
+      "seasonality_note": "Short windows may reflect submission timing, keyword changes and indexing effects. Seasonality has NOT been estimated, and the cause of a decline is unknown. Research decline is not evidence of hiring decline.",
+      "uncertainty_flags": [
+        "keyword_proxy",
+        "nonrepresentative_job_sample",
+        "no_causal_attribution"
+      ],
+      "trend_indicator_basis": "Sign of measured relative topic-share change; descriptive, not a forecast.",
+      "research_momentum_floor_applied": false,
+      "trend_indicator": "research_share_decreasing",
+      "trend_indicator_label_zh": "研究主题占比下降（不等于招聘下降）"
+    },
+    {
+      "skill_id": "hr",
+      "research_growth_pct": null,
+      "research_share_change_pp": null,
+      "research_previous_count": null,
+      "research_current_count": null,
+      "research_status": "not_measured",
+      "job_snapshot_count": 11,
+      "job_snapshot_share_pct": 1.226,
+      "job_growth_pct": null,
+      "job_sample_size": 897,
+      "job_retrieved_at": "2026-10-20T10:03:19.188590+00:00",
+      "signal_scope": "Research-topic attention and Europe-oriented job sample; not Malaysia hiring growth.",
+      "industry_demand_level": null,
+      "industry_demand_status": "not_established_from_available_sources",
+      "seasonality_adjusted": false,
+      "seasonality_note": "Short windows may reflect submission timing, keyword changes and indexing effects. Seasonality has NOT been estimated, and the cause of a decline is unknown. Research decline is not evidence of hiring decline.",
+      "uncertainty_flags": [
+        "keyword_proxy",
+        "nonrepresentative_job_sample",
+        "no_causal_attribution"
+      ],
+      "trend_indicator_basis": "Sign of measured relative topic-share change; descriptive, not a forecast.",
+      "research_momentum_floor_applied": false,
+      "trend_indicator": "not_measured",
+      "trend_indicator_label_zh": "未测量研究趋势"
+    },
+    {
+      "skill_id": "change",
+      "research_growth_pct": null,
+      "research_share_change_pp": null,
+      "research_previous_count": null,
+      "research_current_count": null,
+      "research_status": "not_measured",
+      "job_snapshot_count": 288,
+      "job_snapshot_share_pct": 32.107,
+      "job_growth_pct": null,
+      "job_sample_size": 897,
+      "job_retrieved_at": "2026-10-20T10:03:19.188590+00:00",
+      "signal_scope": "Research-topic attention and Europe-oriented job sample; not Malaysia hiring growth.",
+      "industry_demand_level": null,
+      "industry_demand_status": "not_established_from_available_sources",
+      "seasonality_adjusted": false,
+      "seasonality_note": "Short windows may reflect submission timing, keyword changes and indexing effects. Seasonality has NOT been estimated, and the cause of a decline is unknown. Research decline is not evidence of hiring decline.",
+      "uncertainty_flags": [
+        "keyword_proxy",
+        "nonrepresentative_job_sample",
+        "no_causal_attribution"
+      ],
+      "trend_indicator_basis": "Sign of measured relative topic-share change; descriptive, not a forecast.",
+      "research_momentum_floor_applied": false,
+      "trend_indicator": "not_measured",
+      "trend_indicator_label_zh": "未测量研究趋势"
+    },
+    {
+      "skill_id": "training",
+      "research_growth_pct": null,
+      "research_share_change_pp": null,
+      "research_previous_count": null,
+      "research_current_count": null,
+      "research_status": "not_measured",
+      "job_snapshot_count": 13,
+      "job_snapshot_share_pct": 1.449,
+      "job_growth_pct": null,
+      "job_sample_size": 897,
+      "job_retrieved_at": "2026-10-20T10:03:19.188590+00:00",
+      "signal_scope": "Research-topic attention and Europe-oriented job sample; not Malaysia hiring growth.",
+      "industry_demand_level": null,
+      "industry_demand_status": "not_established_from_available_sources",
+      "seasonality_adjusted": false,
+      "seasonality_note": "Short windows may reflect submission timing, keyword changes and indexing effects. Seasonality has NOT been estimated, and the cause of a decline is unknown. Research decline is not evidence of hiring decline.",
+      "uncertainty_flags": [
+        "keyword_proxy",
+        "nonrepresentative_job_sample",
+        "no_causal_attribution"
+      ],
+      "trend_indicator_basis": "Sign of measured relative topic-share change; descriptive, not a forecast.",
+      "research_momentum_floor_applied": false,
+      "trend_indicator": "not_measured",
+      "trend_indicator_label_zh": "未测量研究趋势"
+    },
+    {
+      "skill_id": "manual_entry",
+      "research_growth_pct": null,
+      "research_share_change_pp": null,
+      "research_previous_count": null,
+      "research_current_count": null,
+      "research_status": "not_measured",
+      "job_snapshot_count": 0,
+      "job_snapshot_share_pct": 0.0,
+      "job_growth_pct": null,
+      "job_sample_size": 897,
+      "job_retrieved_at": "2026-10-20T10:03:19.188590+00:00",
+      "signal_scope": "Research-topic attention and Europe-oriented job sample; not Malaysia hiring growth.",
+      "industry_demand_level": null,
+      "industry_demand_status": "not_established_from_available_sources",
+      "seasonality_adjusted": false,
+      "seasonality_note": "Short windows may reflect submission timing, keyword changes and indexing effects. Seasonality has NOT been estimated, and the cause of a decline is unknown. Research decline is not evidence of hiring decline.",
+      "uncertainty_flags": [
+        "keyword_proxy",
+        "nonrepresentative_job_sample",
+        "no_causal_attribution"
+      ],
+      "trend_indicator_basis": "Sign of measured relative topic-share change; descriptive, not a forecast.",
+      "research_momentum_floor_applied": false,
+      "trend_indicator": "not_measured",
+      "trend_indicator_label_zh": "未测量研究趋势"
+    }
+  ],
+  "semantics": "Research growth, active-job prevalence and employment projections are distinct metrics.",
+  "cache_policy": "Show source retrieval times; computed_at does not mean source refreshed.",
+  "schema_version": "2.0",
+  "methodology_note": "Raw counts and signs are retained. No assumed high-demand labels, causal seasonal corrections or 0.35 momentum floor."
+}

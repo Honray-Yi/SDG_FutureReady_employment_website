@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Skill Atlas · Skills Profile Intake</title>
+<link rel="stylesheet" href="/intake-static/style.css"><script defer src="/intake-static/app.js?v=20261025-fix1"></script>
+</head>
+<body>
+<header>
+  <a class="brand" href="/">◈ <span>Skill Atlas</span></a>
+  <span class="stage">MODULE 01 <b data-i18n="stage">Skills Profile Intake</b></span>
+  <div class="header-actions"><a href="/api/docs" target="_blank" rel="noopener" data-i18n="apiDocs">API docs ↗</a><button id="language-toggle" class="language-toggle" type="button" aria-label="Switch language">中文</button></div>
+</header>
+<main>
+  <div class="intro"><div><div class="eyebrow">YOUR SKILLS, IN CONTEXT</div><h1 data-i18n="headline">Build your skills profile from your experience.</h1><p data-i18n="intro">Synthetic data only. Never upload a real résumé. You confirm every skill.</p></div><span class="local-badge" data-i18n="localBadge">● Local processing · No external AI calls</span></div>
+  <div id="notice" class="notice" role="status" aria-live="polite">Loading skill dictionary…</div>
+  <nav class="jump-nav" aria-label="Profile steps"><a href="#start" data-i18n="stepStart">01 Choose a starting point</a><a href="#editor" data-i18n="stepReview">02 Review skills ↓</a><a href="#summary" data-i18n="stepOutput">03 Generate profile ↓</a></nav>
+  <div class="layout">
+    <aside id="start">
+      <section class="panel">
+        <div class="section-kicker" data-i18n="startKicker">01 / GET STARTED</div><h2 data-i18n="startTitle">Your skills start here</h2>
+        <label for="name" data-i18n="profileName">Profile name (nickname is fine)</label><input id="name" maxlength="80" value="Synthetic skills profile" autocomplete="off">
+        <label for="demo" data-i18n="demoProfile">Demo profile</label><select id="demo"><option value="" data-i18n="chooseDemo">Choose a synthetic profile</option></select><button id="load-demo" class="secondary" data-i18n="loadDemo">Load demo profile</button><p class="hint" data-i18n="demoHint">Demo data is fictional. Loading it replaces your current entries.</p>
+        <div class="divider"></div><h3 data-i18n="extractTitle">Extract from a synthetic PDF résumé</h3><p class="hint" data-i18n="extractHint">Text-selectable PDFs · Up to 8 MB / 20 pages<br>For scans, use the manual form.</p><label class="file-label" for="pdf" data-i18n="choosePdf">Choose a synthetic PDF résumé</label><input id="pdf" type="file" accept="application/pdf,.pdf"><label><input id="synthetic-consent" type="checkbox"><span data-i18n="consent">I confirm this is a fictional test PDF with no real personal data</span></label><button id="parse" class="secondary" data-i18n="parse">Extract and review candidate skills</button><p id="file-status" class="hint"></p><p class="privacy" data-i18n="privacy">Parsing replaces the current profile. The app does not save the résumé file or full text; parsing happens in the local service. Exported JSON may contain evidence snippets. Store it safely.</p>
+        <button id="reset" class="text-button" data-i18n="reset">Clear and start a synthetic profile</button>
+      </section>
+      <section class="panel rubric"><h3 data-i18n="rubricTitle">A shared skill scale</h3><dl><dt data-i18n="unknown">Unknown</dt><dd data-i18n="unknownDesc">Not enough information yet</dd><dt>0</dt><dd data-i18n="level0">I confirm I have not learned this yet</dd><dt>1</dt><dd data-i18n="level1">Complete basic tasks with guidance</dd><dt>2</dt><dd data-i18n="level2">Complete common tasks independently</dd><dt>3</dt><dd data-i18n="level3">Handle complex tasks and evaluate results independently</dd></dl><p class="hint" data-i18n="scaleHint">Self-reported levels are not an objective assessment.</p></section>
+    </aside>
+    <section class="editor" id="editor"><div class="editor-heading"><div><div class="section-kicker" data-i18n="reviewKicker">02 / REVIEW & ADD</div><h2 data-i18n="skillsTitle">20 core skills</h2></div><span id="profile-kind" class="pill">Synthetic profile</span></div><p class="hint" data-i18n="reviewHint">Selecting a level confirms your self-assessment. Leave it as “Unknown” if you are unsure.</p><div class="filters"><input id="search" type="search" placeholder="Search skills, e.g. NLP or data analytics" aria-label="Search skills"><select id="filter" aria-label="Filter skills"><option value="all" data-i18n="allSkills">All skills</option><option value="candidate" data-i18n="resumeCandidates">Résumé candidates</option><option value="unknown" data-i18n="toConfirm">To confirm / Unknown</option><option value="known" data-i18n="confirmed">Confirmed</option></select></div><div id="skill-list"></div><div id="empty" class="empty" hidden data-i18n="empty">No skills match these filters. Try another search.</div></section>
+    <aside class="summary" id="summary"><section class="panel"><div class="section-kicker" data-i18n="outputKicker">03 / STANDARDIZED OUTPUT</div><h2 data-i18n="readyTitle">Ready for the next step?</h2><div class="count"><strong id="known">0</strong><span id="known-label">/ 20 confirmed</span></div><progress id="progress" max="20" value="0" aria-label="Skill confirmation progress"></progress><div class="stats"><span><span data-i18n="proficient">Skills with a level</span> <b id="present">0</b></span><span><span data-i18n="unknown">Unknown</span> <b id="unknown-count">20</b></span></div><div id="mini-vector" class="mini-vector" aria-label="20 skill statuses"></div><p class="hint" data-i18n="vectorHint">? Unknown　0 Not learned　1–3 Self-reported level</p><div class="divider"></div><p data-i18n="outputDescription">Generate a standardized skill ID, level and binary vector for the job-matching and learning-path modules.</p><button id="submit" class="primary" data-i18n="submit">Confirm and generate profile →</button><button id="download" class="secondary" disabled data-i18n="download">Download profile JSON</button><button id="return-to-workspace" class="text-button" type="button" disabled data-i18n="return">Send this profile to the job workspace for analysis →</button><p id="result-status" class="hint">After any edits, generate the profile again.</p><details><summary data-i18n="viewData">View data structure</summary><pre id="result">No profile generated yet</pre></details></section><p class="footnote"><span data-i18n="dictionary">Dictionary</span> <span id="version">—</span><br><span data-i18n="taxonomy">Custom project taxonomy; it may be revised in future versions.</span><br><span data-i18n="noPrediction">No job recommendations or ability predictions are made here.</span></p></aside>
+  </div>
+</main>
+<footer><span>Skill Atlas / Module 1 Prototype</span><span data-i18n="footer">Form → Evidence review → Standardized profile</span></footer>
+</body>
+</html>

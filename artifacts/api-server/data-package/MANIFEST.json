@@ -1,0 +1,198 @@
+{
+  "package": "future_workforce_data",
+  "schema_version": "module1-aligned-1.0",
+  "release_date": "2026-10-24",
+  "note": "Source retrieval dates unchanged; refreshed file integrity only. Core80 embedding is a separate namespace.",
+  "files": [
+    {
+      "path": "ATTRIBUTION_AND_USE.md",
+      "bytes": 2300,
+      "sha256": "13659550979072e63d9a4f85a70a1b9151ad20a753ffdadc368851d835069720"
+    },
+    {
+      "path": "DATA_DICTIONARY.md",
+      "bytes": 332,
+      "sha256": "3b8b0db6d6165cf31027978b4e0149c040dc3186b80e931bb5bdc6eb36e105de"
+    },
+    {
+      "path": "README_先读这里.md",
+      "bytes": 16402,
+      "sha256": "9099c74ecc0812ff6b1f5e9ca3e15e3f2b06b8d31f0758213f3da3562ae585ef"
+    },
+    {
+      "path": "data/courses.json",
+      "bytes": 66529,
+      "sha256": "3581f8068616fbfdee340f90c9a56536abf04de9bee3b0f75f409105ad02d0b7"
+    },
+    {
+      "path": "data/demo_profiles.json",
+      "bytes": 897,
+      "sha256": "14e1b9120371c9b2bf60c54620a86ae0500cfd0a97ffe838c719885bc0796437"
+    },
+    {
+      "path": "data/jobs_snapshot.json",
+      "bytes": 423558,
+      "sha256": "d5edc8c779a5e88d26be779a65613dd6969a91b4e08b761c53ebc036d36c9c45"
+    },
+    {
+      "path": "data/local_programmes.json",
+      "bytes": 967,
+      "sha256": "caeecff1bc18f7868990e78ab30e95d87a4e8eccdaa0fa009d70c8acbb34a2ed"
+    },
+    {
+      "path": "data/malaysia_context.json",
+      "bytes": 9711,
+      "sha256": "725ccd83124d26d11ac7187879f347d0f732f50ae5b58ff25d387194f30fb01d"
+    },
+    {
+      "path": "data/malaysia_masco.json",
+      "bytes": 11640,
+      "sha256": "ed17ad20b871b0211c9764b05660224d48f11859f9ac2373b38fb70f6c1aabe0"
+    },
+    {
+      "path": "data/malaysia_mycol.json",
+      "bytes": 5023,
+      "sha256": "70a8d6e6eacc2c22348ff0fc61e2e4d2347ef03ef0745f77b0ee760bf997f017"
+    },
+    {
+      "path": "data/occupation_outlook.json",
+      "bytes": 1595,
+      "sha256": "1202646561af64af21a74dd1e42ffec792911c4bf7b3a25ff22b7c433e22d61a"
+    },
+    {
+      "path": "data/research_counts.json",
+      "bytes": 31416,
+      "sha256": "e219a71842c24c10b95ec786b3e634d5627b23640832e0f0c413e88d13bfeff5"
+    },
+    {
+      "path": "data/roles.json",
+      "bytes": 53837,
+      "sha256": "e121849928a494be935799a6bfb2aa55f48f8f5bd922927b00e3d66ba171b001"
+    },
+    {
+      "path": "data/scenarios.json",
+      "bytes": 410,
+      "sha256": "ed811ed0fa3b839e7efc7861a08c5c29316d09e45bf01012798e847aefbca85d"
+    },
+    {
+      "path": "data/skill_dictionary.json",
+      "bytes": 9302,
+      "sha256": "f5e18407ba331783c2caca83b78c1ce3dea58aad5929126b349355c0ad054475"
+    },
+    {
+      "path": "data/skills.json",
+      "bytes": 26427,
+      "sha256": "0f90ee3679761085f74e5590043d1222c2703f28eaf09b04cc7df21c9ee3a6dd"
+    },
+    {
+      "path": "data/source_registry.json",
+      "bytes": 3613,
+      "sha256": "a6aceb392189a4878e0ce9db1299f02c42c68552ea9a4e9384ceda4f1c240ad2"
+    },
+    {
+      "path": "data/synthetic_profiles.json",
+      "bytes": 3322,
+      "sha256": "3140ab1ce8da6a05bd3634c6ddac8eeba434679454d3a0322733ac828b25c464"
+    },
+    {
+      "path": "data/taxonomy_crosswalk.json",
+      "bytes": 886,
+      "sha256": "906de3d8f87a6a97d00fcda2b39d6f0a084b0266de2b3d6b5c4488afab4baf7f"
+    },
+    {
+      "path": "data/trend_signals.json",
+      "bytes": 38732,
+      "sha256": "22aa9182caf0a19b1dc9e53d1b719c4388248579576f89bf1306b4a243fa4505"
+    },
+    {
+      "path": "evidence/course_content_verification.json",
+      "bytes": 1726,
+      "sha256": "2a5b5582462e4caed8b9c3004c4654d305dd2da728e3453187c0af4f9c0aef44"
+    },
+    {
+      "path": "evidence/jobs_20261020T100319Z.json",
+      "bytes": 463660,
+      "sha256": "43ac83388cf431c267c7811d8f3b1c95170fa23470b5bb6ba715527afed43ad7"
+    },
+    {
+      "path": "evidence/link_checks.json",
+      "bytes": 18959,
+      "sha256": "33cca79c80f4f1451c59b4321a7a77a0dc0f6f7817f11ba126cd4db895d9d1ea"
+    },
+    {
+      "path": "evidence/research_20261020T100249Z.json",
+      "bytes": 44434,
+      "sha256": "2b4eb4f7d884a21f03c470a302f6fc52eb99ca046b28450047d8053aa6cfb884"
+    },
+    {
+      "path": "evidence/revision_source_checks.json",
+      "bytes": 3472,
+      "sha256": "fb171c10d11e25baad5146d5321b57446924b85847c06cc2e228ebf2162967a1"
+    },
+    {
+      "path": "reports/README.md",
+      "bytes": 274,
+      "sha256": "e5e9172c3c2ff71210136343beb305f0ff03e1329b0a0a3497cb4f2dc1a786a1"
+    },
+    {
+      "path": "reports/fallback_test.json",
+      "bytes": 342,
+      "sha256": "fafcdee4fce72dd9c8b686fbb866286b05175151018e7ac52b0880626703eb69"
+    },
+    {
+      "path": "reports/last_refresh.json",
+      "bytes": 192,
+      "sha256": "efa81f724c7842dc45cecb90e4ab1274c6cc28257f7bfe2a1aca42735c037ade"
+    },
+    {
+      "path": "reports/matching_demo.json",
+      "bytes": 670004,
+      "sha256": "9aa6dfb01924d36c63f7a07d0545a8d25e84117b0de4746aced473dfb501c06a"
+    },
+    {
+      "path": "reports/revision_validation.json",
+      "bytes": 5935,
+      "sha256": "2cc95c6c1ce50754128caf9b2524a8e3cfc6e4771d90b35b5d22cfe64824c17e"
+    },
+    {
+      "path": "reports/validation.json",
+      "bytes": 68836,
+      "sha256": "7277c07173bd218cd632043aafea365f4bf1949d6b753d834ce6066bd1600d39"
+    },
+    {
+      "path": "reports/数据清单.md",
+      "bytes": 9423,
+      "sha256": "a6e6c4a9859abad332301e853edc652ef8ed0de30ba82e485c7b384989ce1e40"
+    },
+    {
+      "path": "scripts/match.py",
+      "bytes": 10200,
+      "sha256": "e2cc2ea1b9be2a1959dca2f9959372f68edabae17493b04922e6b7d6e337b593"
+    },
+    {
+      "path": "scripts/refresh.py",
+      "bytes": 13346,
+      "sha256": "7f7c54324630525b6f3db87aee4dc96b1c096e0f231405cdf2828635ab0529ab"
+    },
+    {
+      "path": "scripts/refresh_malaysia.py",
+      "bytes": 716,
+      "sha256": "36ce58b8847f90d1ebc27c190d2aef8c1ab384cbf2d313ab06e44dc595ac21a7"
+    },
+    {
+      "path": "scripts/validate.py",
+      "bytes": 121,
+      "sha256": "b146503b6977b676bc6f5b8f558fb0f9fe3e883cd79c0d437af8c0632d22bece"
+    },
+    {
+      "path": "scripts/validate_module1.py",
+      "bytes": 2832,
+      "sha256": "07eb42219863f1ee0ba8dd9d50db05196cacd19102e19011f8a3e636e12c9c4d"
+    },
+    {
+      "path": "反馈审核与修订说明.md",
+      "bytes": 8682,
+      "sha256": "2a95bd236b2ac87ca4806dbce44ba9d89fe42575247200a190aad4ba66b80d75"
+    }
+  ]
+}

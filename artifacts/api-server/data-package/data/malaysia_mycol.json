@@ -1,0 +1,191 @@
+{
+  "source": "TalentCorp MyCOL 2024/2025",
+  "source_url": "https://www.talentcorp.com.my/images/uploads/publication/204/MyMahir-Malaysia-Critical-Occupations-List-MyCOL20242025-1773385490.pdf",
+  "landing_url": "https://www.talentcorp.com.my/resources/publications/mymahir-malaysia-critical-occupations-list-mycol20242025/",
+  "table": "Table 7: 2024/2025 Final MyMahir Malaysia Critical Occupations List",
+  "reference_period": "2024/2025",
+  "verified_on": "2026-10-20",
+  "extraction_method": "Downloaded official PDF; Table 7 visually inspected in full, physical PDF pages 44–45 (printed pages 85–87). Selected titles and all 66 codes transcribed.",
+  "records": [
+    {
+      "masco_code": "1511",
+      "title": "Information and Communications Technology Managers",
+      "listed_as_critical": true,
+      "related_role_ids": [
+        "R08"
+      ],
+      "crosswalk_status": "team_approximation_not_official_ONET_MASCO_crosswalk"
+    },
+    {
+      "masco_code": "2511",
+      "title": "Computer Systems Analysts",
+      "listed_as_critical": true,
+      "related_role_ids": [
+        "R05"
+      ],
+      "crosswalk_status": "team_approximation_not_official_ONET_MASCO_crosswalk"
+    },
+    {
+      "masco_code": "2512",
+      "title": "Software Developers",
+      "listed_as_critical": true,
+      "related_role_ids": [
+        "R01"
+      ],
+      "crosswalk_status": "team_approximation_not_official_ONET_MASCO_crosswalk"
+    },
+    {
+      "masco_code": "2514",
+      "title": "Application Programmers",
+      "listed_as_critical": true,
+      "related_role_ids": [
+        "R01"
+      ],
+      "crosswalk_status": "team_approximation_not_official_ONET_MASCO_crosswalk"
+    },
+    {
+      "masco_code": "2519",
+      "title": "Software and Application Developers and Analysts Not Elsewhere Classified",
+      "listed_as_critical": true,
+      "related_role_ids": [
+        "R07"
+      ],
+      "crosswalk_status": "team_approximation_not_official_ONET_MASCO_crosswalk"
+    },
+    {
+      "masco_code": "2521",
+      "title": "Database Designers and Administrators",
+      "listed_as_critical": true,
+      "related_role_ids": [
+        "R03"
+      ],
+      "crosswalk_status": "team_approximation_not_official_ONET_MASCO_crosswalk"
+    },
+    {
+      "masco_code": "2522",
+      "title": "Information Technology System Administrators",
+      "listed_as_critical": true,
+      "related_role_ids": [
+        "R04"
+      ],
+      "crosswalk_status": "team_approximation_not_official_ONET_MASCO_crosswalk"
+    },
+    {
+      "masco_code": "2523",
+      "title": "Computer Network Professionals",
+      "listed_as_critical": true,
+      "related_role_ids": [
+        "R04"
+      ],
+      "crosswalk_status": "team_approximation_not_official_ONET_MASCO_crosswalk"
+    },
+    {
+      "masco_code": "2524",
+      "title": "Data Professionals",
+      "listed_as_critical": true,
+      "related_role_ids": [
+        "R02"
+      ],
+      "crosswalk_status": "team_approximation_not_official_ONET_MASCO_crosswalk"
+    },
+    {
+      "masco_code": "2531",
+      "title": "Cyber Security Professionals",
+      "listed_as_critical": true,
+      "related_role_ids": [
+        "R06"
+      ],
+      "crosswalk_status": "team_approximation_not_official_ONET_MASCO_crosswalk"
+    },
+    {
+      "masco_code": "2426",
+      "title": "Research and Development Professionals",
+      "listed_as_critical": true,
+      "related_role_ids": [
+        "R12"
+      ],
+      "crosswalk_status": "broad_related_group_only_not_verified_equivalence"
+    }
+  ],
+  "limitations": "Selected titled records plus a complete 66-code Table 7 list for this edition. Not a live vacancy count or growth rate; crosswalks to O*NET remain team interpretations.",
+  "verified_at": "2026-10-20T10:51:59.171483+00:00",
+  "complete_critical_code_list": [
+    "1121",
+    "1211",
+    "1212",
+    "1213",
+    "1214",
+    "1216",
+    "1221",
+    "1311",
+    "1321",
+    "1324",
+    "1511",
+    "2113",
+    "2121",
+    "2141",
+    "2142",
+    "2144",
+    "2145",
+    "2146",
+    "2149",
+    "2151",
+    "2152",
+    "2166",
+    "2171",
+    "2182",
+    "2212",
+    "2221",
+    "2262",
+    "2263",
+    "2264",
+    "2311",
+    "2411",
+    "2412",
+    "2413",
+    "2426",
+    "2431",
+    "2511",
+    "2512",
+    "2514",
+    "2519",
+    "2521",
+    "2522",
+    "2523",
+    "2524",
+    "2531",
+    "2541",
+    "2542",
+    "2543",
+    "3111",
+    "3112",
+    "3113",
+    "3114",
+    "3115",
+    "3118",
+    "3119",
+    "3122",
+    "3151",
+    "7212",
+    "7231",
+    "7233",
+    "7412",
+    "8141",
+    "8182",
+    "8189",
+    "8332",
+    "8341",
+    "8343"
+  ],
+  "complete_code_list_count": 66,
+  "pdf_pages": [
+    44,
+    45
+  ],
+  "printed_pages": [
+    85,
+    86,
+    87
+  ],
+  "source_pdf_sha256": "bada182b399ee9944231102402f5f5ce3a23c8328d99abb22ead6e1f8ec20937"
+}

@@ -1,0 +1,42 @@
+name: Verify FutureReady
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - uses: astral-sh/setup-uv@v6
+      - run: pnpm install --frozen-lockfile
+      - run: uv sync --frozen --no-dev --no-install-project
+      - uses: actions/cache@v4
+        with:
+          path: .cache/futureready/models
+          key: e5-small-761b726dd34fb83930e26aab4e9ac3899aa1fa78
+      - run: uv run --no-sync python artifacts/api-server/backend/local_model_assets.py --from-hub
+      - run: uv run --no-sync python artifacts/api-server/backend/build_job_index.py
+      - run: uv run --no-sync python -m unittest discover -s artifacts/api-server/backend -p 'test_*.py' -q
+      - run: pnpm --filter @workspace/api-spec run codegen
+      - run: pnpm run typecheck
+      - run: pnpm --filter @workspace/future-ready run build
+        env:
+          PORT: '5173'
+          BASE_PATH: /
+          NODE_ENV: production
+      - run: uv run --no-sync python scripts/smoke_local.py
+      - run: uv run --no-sync python scripts/verify_presentation.py
+      - run: pnpm --filter @workspace/future-ready-presentation run validate-slides
+      - run: pnpm --filter @workspace/future-ready-presentation run build

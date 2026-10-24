@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: future-ready-demo
+    runtime: docker
+    plan: free
+    region: singapore
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/health
+    autoDeploy: true

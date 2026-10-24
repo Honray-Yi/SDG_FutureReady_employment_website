@@ -1,0 +1,358 @@
+openapi: 3.1.0
+info:
+  # Do not change the title, if the title changes, the import paths will be broken
+  title: Api
+  version: 0.1.0
+  description: API specification
+servers:
+  - url: /api
+    description: Base API path
+tags:
+  - name: health
+    description: Health operations
+paths:
+  /demo-auth/login:
+    post:
+      operationId: loginDemo
+      summary: Sign in with the public shared demo account
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: { $ref: "#/components/schemas/DemoLoginInput" }
+      responses:
+        "200":
+          description: HttpOnly session cookie issued
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/DemoSession" }
+        "401": { description: Incorrect email or password }
+        "403": { description: Missing mutation header or cross-site request }
+        "429": { description: Demo sign-in limit reached }
+  /demo-auth/me:
+    get:
+      operationId: getDemoSession
+      summary: Validate the current demo session cookie
+      responses:
+        "200":
+          description: Current shared demo account
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/DemoSession" }
+        "401": { description: Missing or expired session }
+  /demo-auth/logout:
+    post:
+      operationId: logoutDemo
+      summary: Invalidate the current demo session and clear its cookie
+      responses:
+        "204": { description: Signed out }
+  /explorer/jobs/{job_id}/courses:
+    get:
+      operationId: getJobCourses
+      tags: [Explorer]
+      parameters:
+        - name: job_id
+          in: path
+          required: true
+          schema: { type: string }
+        - name: language
+          in: query
+          required: false
+          schema: { type: string, enum: [en, zh], default: en }
+      responses:
+        "200":
+          description: Source-reviewed learning foundations for the selected job, not personal skill gaps.
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/JobCourses" }
+  /explorer/status:
+    get:
+      operationId: getExplorerStatus
+      tags: [explorer]
+      responses:
+        "200":
+          description: Inspect local model and cached job index without external analysis calls
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/ExplorerStatus" }
+  /explorer/jobs:
+    get:
+      operationId: getExplorerJobs
+      tags: [explorer]
+      responses:
+        "200":
+          description: The uploaded curated occupation catalogue, not scraped vacancies
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/JobCatalogue" }
+  /explorer/demos:
+    get:
+      operationId: getExplorerDemos
+      tags: [explorer]
+      responses:
+        "200":
+          description: Synthetic input examples, never precomputed recommendation scores
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/DemoCatalogue" }
+  /explorer/match:
+    post:
+      operationId: createSemanticMatch
+      tags: [explorer]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: { $ref: "#/components/schemas/SemanticMatchInput" }
+      responses:
+        "200":
+          description: Actual cosine similarities from local multilingual E5 embeddings
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/SemanticMatch" }
+        "422":
+          description: Invalid text, unsupported input or missing consent
+        "503":
+          description: Local model missing or invalid cache; never a fake fallback
+  /explorer/upload:
+    post:
+      operationId: extractExplorerDocument
+      tags: [explorer]
+      parameters:
+        - in: header
+          name: X-Synthetic-Profile
+          required: false
+          schema: { type: string, enum: ["true"] }
+          description: Synthetic fixture only. Personal resumes instead require X-Processing-Consent.
+        - in: header
+          name: X-Processing-Consent
+          required: false
+          schema: { type: string, enum: ["true"] }
+          description: Required unless the uploaded document is a confirmed synthetic fixture.
+        - in: header
+          name: X-Document-Format
+          required: true
+          schema: { type: string, enum: [pdf, docx] }
+      requestBody:
+        required: true
+        content:
+          application/pdf:
+            schema: { type: string, format: binary }
+          application/vnd.openxmlformats-officedocument.wordprocessingml.document:
+            schema: { type: string, format: binary }
+      responses:
+        "200":
+          description: Memory-only document extraction, followed by user-initiated local analysis
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/ExtractedDocument" }
+  /health/ready:
+    get:
+      operationId: getReadiness
+      tags: [health]
+      responses:
+        "200":
+          description: Semantic analysis configuration available
+        "503":
+          description: Missing semantic-analysis configuration
+  /healthz:
+    get:
+      operationId: healthCheck
+      tags: [health]
+      summary: Health check
+      description: Returns server health status
+      responses:
+        "200":
+          description: Healthy
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/HealthStatus"
+components:
+  schemas:
+    DemoLoginInput:
+      type: object
+      required: [email, password]
+      properties:
+        email: { type: string, minLength: 3, maxLength: 254 }
+        password: { type: string, minLength: 1, maxLength: 256, format: password }
+    DemoSession:
+      type: object
+      required: [user, expires_in]
+      properties:
+        user:
+          type: object
+          required: [user_id, email, display_name, is_demo]
+          properties:
+            user_id: { type: string }
+            email: { type: string }
+            display_name: { type: string }
+            is_demo: { type: boolean }
+        expires_in: { type: integer }
+    SdgContribution:
+      type: object
+      required: [goal, title_en, title_zh, target, reason_en, reason_zh, url]
+      properties:
+        goal: { type: integer, minimum: 1, maximum: 17 }
+        title_en: { type: string }
+        title_zh: { type: string }
+        target: { type: string }
+        reason_en: { type: string }
+        reason_zh: { type: string }
+        url: { type: string, format: uri }
+    ExplorerStatus:
+      type: object
+      required: [mode, model, dimensions, occupation_count, catalogue_hash, model_ready, cache_ready, state, message, score_semantics, privacy, catalogue_basis]
+      properties:
+        mode: { type: string, enum: [local_text_embedding] }
+        model: { type: string }
+        dimensions: { type: integer }
+        occupation_count: { type: integer }
+        catalogue_hash: { type: string }
+        model_ready: { type: boolean }
+        cache_ready: { type: boolean }
+        state: { type: string, enum: [model_missing, awaiting_index, ready, cache_invalid, catalogue_invalid] }
+        message: { type: string }
+        score_semantics: { type: string }
+        privacy: { type: string }
+        catalogue_basis: { type: string }
+    Job:
+      type: object
+      required: [job_id, job_name, job_text]
+      properties:
+        job_id: { type: string }
+        job_name: { type: string }
+        job_text: { type: string }
+        job_name_en: { type: string }
+        job_text_en: { type: string }
+        sdg_contributions:
+          type: array
+          items: { $ref: "#/components/schemas/SdgContribution" }
+    JobCatalogue:
+      type: object
+      required: [jobs, catalogue_hash, source]
+      properties:
+        jobs:
+          type: array
+          items: { $ref: "#/components/schemas/Job" }
+        catalogue_hash: { type: string }
+        source: { type: string }
+    SyntheticDemo:
+      type: object
+      required: [profile_id, name, text, synthetic]
+      properties:
+        profile_id: { type: string }
+        name: { type: string }
+        text: { type: string }
+        synthetic: { type: boolean }
+    DemoCatalogue:
+      type: object
+      required: [profiles]
+      properties:
+        profiles:
+          type: array
+          items: { $ref: "#/components/schemas/SyntheticDemo" }
+    SemanticMatchInput:
+      type: object
+      additionalProperties: false
+      required: [text]
+      properties:
+        text: { type: string, minLength: 20, maxLength: 100000 }
+        is_synthetic: { type: boolean, default: false }
+        processing_consent: { type: boolean, default: false, description: Required for non-synthetic resumes; authorization for temporary backend processing. }
+        keyword_language: { type: string, enum: [en, zh], default: en, description: Keyword lexicon language only. Multilingual semantic ranking is unchanged. }
+        top_k: { type: integer, minimum: 1, maximum: 65, default: 65 }
+    RecommendedCourse:
+      type: object
+      required: [course_id, title, provider, url, source_url, checked_at, topic, reason, job_evidence, access, cost_note, level]
+      properties:
+        course_id: { type: string }
+        title: { type: string }
+        provider: { type: string }
+        url: { type: string }
+        source_url: { type: string }
+        checked_at: { type: string }
+        topic: { type: string }
+        reason: { type: string }
+        job_evidence: { type: string }
+        access: { type: string }
+        cost_note: { type: string }
+        level: { type: string }
+    JobCourses:
+      type: object
+      required: [job_id, job_name, courses, basis, coverage_note]
+      properties:
+        job_id: { type: string }
+        job_name: { type: string }
+        courses:
+          type: array
+          items: { $ref: "#/components/schemas/RecommendedCourse" }
+        basis: { type: string }
+        coverage_note: { type: string }
+    SemanticRanking:
+      type: object
+      required: [job_id, job_name, job_text, rank, similarity, similarity_percent, relative_difference]
+      properties:
+        job_id: { type: string }
+        job_name: { type: string }
+        job_text: { type: string }
+        job_name_en: { type: string }
+        job_text_en: { type: string }
+        sdg_contributions:
+          type: array
+          items: { $ref: "#/components/schemas/SdgContribution" }
+        matched_keyword_ids:
+          type: array
+          items: { type: string }
+        rank: { type: integer }
+        similarity: { type: number, minimum: -1, maximum: 1 }
+        similarity_percent: { type: number, minimum: 0, maximum: 100, description: "max(0, cosine) times 100, rounded to one decimal. Not a probability." }
+        relative_difference: { type: number }
+    SemanticMatch:
+      type: object
+      required: [rankings, status, input_sha256, input_tokens, chunk_count, aggregation, catalogue_hash, keyword_language, keywords]
+      properties:
+        rankings:
+          type: array
+          items: { $ref: "#/components/schemas/SemanticRanking" }
+        status: { $ref: "#/components/schemas/ExplorerStatus" }
+        input_sha256: { type: string }
+        input_tokens: { type: integer }
+        chunk_count: { type: integer }
+        aggregation: { type: string }
+        catalogue_hash: { type: string }
+        keyword_language: { type: string, enum: [en, zh] }
+        keywords:
+          type: array
+          items: { $ref: "#/components/schemas/RecognizedKeyword" }
+    RecognizedKeyword:
+      type: object
+      required: [keyword_id, label_en, label_zh, evidence, start, end]
+      properties:
+        keyword_id: { type: string }
+        label_en: { type: string }
+        label_zh: { type: string }
+        evidence: { type: string }
+        start: { type: integer }
+        end: { type: integer }
+    ExtractedDocument:
+      type: object
+      required: [document, is_synthetic, privacy]
+      properties:
+        document:
+          type: object
+          required: [text, page_count, format]
+          properties:
+            text: { type: string }
+            page_count: { type: integer }
+            format: { type: string }
+        is_synthetic: { type: boolean }
+        privacy: { type: string }
+    HealthStatus:
+      type: object
+      properties:
+        status:
+          type: string
+      required:
+        - status
+
