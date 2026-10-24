@@ -127,3 +127,64 @@ Ranked roles, skill gaps, evidence, learning options, SDG links, and scenarios
 
 We shaped the prototype around the user journey in the project brief: describe current skills, understand changing opportunities, compare suitable roles, and choose a practical learning path. The interface explains match evidence, data sources and dates, skill gaps, SDG links, and scenario assumptions so users can question recommendations rather than treat them as decisions. Synthetic profiles support a privacy-conscious public demonstration; the local resume workflow includes text review and user confirmation before matching. Technical feasibility is supported by the working web/API architecture, repository automation, and a hosted synthetic demo. Before deploying resume analysis for real users, Phase 2 should test usability and accessibility with intended users, review privacy and data-retention controls, validate data rights and source freshness, and evaluate recommendation quality and potential bias. No formal user study, fairness assessment, or employment-impact measurement has yet been completed.
 
+
+# 4. Preliminary Environmental & SDG Impact Framework
+
+**Metric Category:** Career skills navigation and reskilling readiness (social/economic impact). FutureReady has no measured direct environmental benefit; no emissions or resource savings are claimed.
+
+**Target SDG Sub-Target(s):** Primary: SDG 4, Target 4.4 — “By 2030, substantially increase the number of youth and adults who have relevant skills, including technical and vocational skills, for employment, decent jobs and entrepreneurship.” Supporting: SDG 8, Target 8.5 — “By 2030, achieve full and productive employment and decent work for all women and men, including for young people and persons with disabilities, and equal pay for work of equal value.” The prototype supports career exploration and skills planning; it does not claim to deliver employment outcomes.
+
+**Current Problem Baseline:** The World Economic Forum’s 2025 survey of employers found that 63% identified skills gaps as a major barrier to business transformation; employers also expect 39% of workers’ core skills to change by 2030. These are global employer expectations, not Malaysia-specific worker outcomes. FutureReady has not yet collected a participant baseline; the Phase 2 pilot will record the same task measure before product use.
+
+**Core Measurable KPI:** Percentage-point change in pilot participants who can complete a short, scored task: explain one recommended role, identify one skill gap, and select one linked learning option. Use the same assessment before and after using FutureReady; report numerator, denominator, and completion time.
+
+**Phase 2 Impact Target:** In a small pilot of at least 10 consenting adult participants, achieve at least a 20-percentage-point improvement over the pre-use task pass rate and at least an 80% post-use pass rate. Treat this as an early usability and career-navigation signal, not proof of improved employment or SDG outcomes. Disaggregate results only where consent and sample size protect privacy.
+
+**Sources:** World Economic Forum, The Future of Jobs Report 2025, skills outlook and workforce strategies, published 7 January 2025: https://www.weforum.org/publications/the-future-of-jobs-report-2025/3-skills-outlook/ and https://www.weforum.org/publications/the-future-of-jobs-report-2025/in-full/4-workforce-strategies/ . United Nations, SDG Goal 4, Target 4.4: https://sdgs.un.org/goals/goal4 . United Nations, SDG Goal 8, Target 8.5: https://sdgs.un.org/goals/goal8 .
+
+# 5. Eligibility & Readiness Checklist
+
+- [ ] All team members have completed the mandatory GenAI, Database, and Cloud Deployment upskilling workshops. Team leader: confirm attendance before ticking.
+- [x] The project concept addresses a documented real-world problem and maps directly to SDG Targets 4.4 and 8.5 (see Section 4 and cited sources).
+- [x] The proposed solution is a functional, deployed application. The public Render demo is configured for synthetic profiles; full resume-model analysis requires a properly provisioned local setup.
+- [ ] All fields in this template have been completed within the stated word limits. Leave unchecked until team-specific declarations, sign-off, and remaining submission materials are completed.
+
+# 6. IP & Originality Declaration
+
+## 6.1 Pre-Existing / Prior-Owned Work
+
+**Selection:** [TEAM LEADER MUST CONFIRM — tick Yes or No only after checking the official hackathon start date and project history.]
+
+The FutureReady source repository, interface, data package, and prototype were already present when this submission form was prepared. The team must compare the creation dates of each item with the official hackathon start date and list the actual team member(s) who created or owned any pre-existing work. If applicable, disclose the relevant code, design, research, prototype, and documentation rather than describing the whole project as newly created.
+
+## 6.2 Third-Party Code, Datasets, or Models
+
+**Selection:** YES
+
+| Name | Type | License / terms |
+| --- | --- | --- |
+| React, TypeScript, Vite, FastAPI, Uvicorn, NumPy, ONNX Runtime, Tokenizers, and other locked dependencies | Open-source code libraries and frameworks | Mixed; each package retains its own upstream license. See package.json, pnpm-lock.yaml, pyproject.toml, uv.lock, and requirements.lock. |
+| intfloat/multilingual-e5-small and pinned Xenova/multilingual-e5-small quantized ONNX assets | Pre-trained embedding model | MIT; model revision and asset hashes are recorded in docs/model-notice.md. |
+| Department of Statistics Malaysia / data.gov.my labour-force skills-related underemployment data | Public dataset | CC BY 4.0 as recorded in the project attribution file; retain attribution. |
+| O*NET, U.S. Bureau of Labor Statistics, TalentCorp MYCOL, Arbeitnow job postings, and arXiv metadata | Public occupational, forecast, job-posting, or research-source facts/metadata | Source-specific terms apply. Attribution and reuse notes are in artifacts/api-server/data-package/ATTRIBUTION_AND_USE.md; public access does not imply unrestricted redistribution. |
+| Course/provider catalogue metadata and United Nations SDG references | Third-party metadata and public reference text | Provider/source terms apply. The project stores selected metadata and links, not course content. |
+| Project-supplied 65-role catalogue | Role and skill dataset | Upstream redistribution terms were not supplied with the repository; the team must confirm the catalogue owner’s license/permission before external redistribution. |
+
+The project root Apache License 2.0 covers original FutureReady code and documentation only where no separate notice applies. It does not override third-party terms. See NOTICE, docs/model-notice.md, and the data-package attribution file.
+
+## 6.3 Employment-Related IP Conflicts
+
+**Selection:** [EACH TEAM MEMBER MUST CONFIRM — tick Yes or No after checking applicable employment, internship, and consulting agreements.]
+
+If Yes, identify the affected member(s) and describe the relevant agreement or potential ownership claim. Do not include confidential contract text. If none of the team members is subject to such a claim, tick No.
+
+# 7. Declaration
+
+By submitting this proposal, the team leader confirms that the information provided is accurate to the best of the team’s knowledge and that the project is original work created during the SDC 2026 hackathon period. The team leader must verify the originality statement against the project history and the official hackathon dates before signing.
+
+**Signature:** ____________________________________
+
+**Name:** ________________________________________
+
+**Date:** _________________________________________
+
