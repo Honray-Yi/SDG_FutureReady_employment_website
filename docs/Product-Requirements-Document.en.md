@@ -163,7 +163,7 @@ Source is separated into frontend pages/components, backend services, interface 
 
 Runtime model files, generated indexes, account caches, secrets and sessions are excluded from GitHub source. Setup regenerates necessary caches. Lack of model files in the source ZIP is intentional, not a missing database.
 
-The repository does not grant new rights over third-party data or adopt a new whole-project licence merely by packaging it. Consult README, model notices and source attribution records before redistribution.
+The root Apache-2.0 license applies to original project source code and project-authored documentation, as scoped in NOTICE. It does not relicense third-party data, the supplied 65-role catalogue, model assets, dependencies, fonts, images, logos or challenge materials. The upstream redistribution license for the supplied 65-role catalogue was not provided and must be confirmed by its owner. Consult README, NOTICE, model notices and source attribution records before redistribution.
 
 ## 8. Authentication, Privacy and Security Boundaries
 

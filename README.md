@@ -20,6 +20,23 @@ React + TypeScript 前端，FastAPI 后端；保留 WebGL 光球及 Canvas 粒�
 - **无需 PostgreSQL、MySQL、OpenAI Key、Replit 账号或其他分析 API Key。** 本项目实际使用的“数据库”是包内 JSON/CSV 快照及本地派生索引，见下方完整来源表。`lib/db` 和 API 下旧 TypeScript 服务骨架不参与当前 FastAPI 运行，不需要设置 `DATABASE_URL`。
 - 模型权重超过普通 GitHub 单文件大小限制，不放入源码仓库；下载脚本固定公开版本并校验 SHA-256，不会静默换成其他模型。
 
+## Submission package
+
+| Submission item | Status and location |
+|---|---|
+| Complete, functional repository | This repository contains the frontend, FastAPI backend, datasets, setup, and verification files. |
+| Proof of Replit utilization | Upload evidence to `submission/evidence/replit/`. |
+| Proof of RunPod utilization | Team to confirm; if applicable, upload to `submission/evidence/runpod/` and update the declaration. |
+| Completed submission template | `submission/completed-submission-template.docx` and `.md`. Enter team identity fields before submission. |
+| Completed tech tools declaration | `submission/tech-tools-declaration.docx` and `.md`. Confirm RunPod status and sign before submission. |
+| Pitch deck slides | `docs/deliverables/FutureReady-Project-Presentation.pptx`. |
+| YouTube product demo | Paste the URL into `submission/demo/youtube-demo-link.txt` after uploading the video. |
+| Live prototype | https://future-ready-demo.onrender.com/ (synthetic-profile demo). |
+| Product requirements document | `docs/deliverables/FutureReady-Product-Requirements-Document.docx` and `docs/Product-Requirements-Document.en.md`. |
+| Apache License 2.0 | `LICENSE`; its scope and exclusions are described in `NOTICE`. |
+
+The original source code and project-authored documentation are licensed under Apache-2.0. Third-party data and assets keep their own terms. In particular, the upstream redistribution license for the supplied 65-role catalogue was not provided; the Apache license does not grant rights to it.
+
 ## 功能与边界
 
 - 经授权的简历文本粘贴、文字版 PDF / DOCX 后端文本提取，以及合成测试示例。
@@ -290,4 +307,4 @@ python scripts/export_github.py
 
 - 模型、转换版本、校验和及模型 MIT 声明见 [model-notice.md](docs/model-notice.md)。
 - 各类数据的来源记录保留在相应数据包中；公开和再分发前需确认自己的使用授权。模型 MIT 许可不自动覆盖所有数据或素材。
-- 本次整理不替项目所有者新增整仓库开源授权。若要正式开源，请由权利人确定代码许可证并添加根目录 `LICENSE`。
+- 项目原创代码与项目原创文档按 Apache-2.0 授权，范围见根目录 `LICENSE` 和 `NOTICE`。原始 65 职业 CSV 的上游授权未随文件提供，对外分发前须由权利人确认；其他第三方数据与素材保留各自许可。
