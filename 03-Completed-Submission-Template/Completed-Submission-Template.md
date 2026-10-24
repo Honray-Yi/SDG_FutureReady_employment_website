@@ -77,6 +77,8 @@ Before submitting, enter the official team name, member names, and contact email
 
 ---
 
+---
+
 ## Copy-ready answers for the SDC form
 
 # 2. Executive Summary & Problem Statement
@@ -93,12 +95,6 @@ FutureReady is a bilingual web application that takes a user from a skills profi
 
 ## 3.1 Conceptual Tech Stack
 
-## 3.2 Design-Thinking & Deployment Strategy
-
-We shaped the prototype around the user journey in the project brief: describe current skills, understand changing opportunities, compare suitable roles, and choose a practical learning path. The interface explains match evidence, data sources and dates, skill gaps, SDG links, and scenario assumptions so users can question recommendations rather than treat them as decisions. Synthetic profiles support a privacy-conscious public demonstration; the local resume workflow includes text review and user confirmation before matching. Technical feasibility is supported by the working web/API architecture, repository automation, and a hosted synthetic demo. Before deploying resume analysis for real users, Phase 2 should test usability and accessibility with intended users, review privacy and data-retention controls, validate data rights and source freshness, and evaluate recommendation quality and potential bias. No formal user study, fairness assessment, or employment-impact measurement has yet been completed.
-
-### 3.1 Stack details and architecture
-
 **Frontend:** React, TypeScript, and Vite provide the bilingual browser interface and profile review flow.
 
 **API and application logic:** Python with FastAPI, Uvicorn, and OpenAPI provides the API, intake, role matching, pathway, SDG, and scenario features.
@@ -109,8 +105,25 @@ We shaped the prototype around the user journey in the project brief: describe c
 
 **Build and deployment:** Docker packages the app; GitHub Actions runs repository checks; Render Free hosts the synthetic-profile demonstration.
 
-**System flow:** User → React/Vite interface (profile entry and review) → FastAPI application → profile and catalogue data (JSON/CSV) → matching and pathway logic → ranked roles, skill gaps, source evidence, learning options, SDG links, and scenarios. In a full local setup, reviewed resume text is embedded by the local E5 ONNX model before role matching.
+**System flow:**
+
+```text
+User
+  ↓
+React / TypeScript / Vite (profile entry and review)
+  ↓
+FastAPI application
+  ↓
+Matching and pathway logic ← dated JSON/CSV role, trend, course, source, and SDG data
+  ↑
+Local E5 ONNX embeddings (full local resume workflow only)
+  ↓
+Ranked roles, skill gaps, evidence, learning options, SDG links, and scenarios
+```
 
 **SDC sponsor-provided services:** No official SDC sponsor-provided GenAI API or cloud platform is used in the current prototype. Render is a third-party hosting provider. ChatGPT/Codex assisted development and documentation only; neither is called by the deployed application for runtime matching.
 
+## 3.2 Design-Thinking & Deployment Strategy
+
+We shaped the prototype around the user journey in the project brief: describe current skills, understand changing opportunities, compare suitable roles, and choose a practical learning path. The interface explains match evidence, data sources and dates, skill gaps, SDG links, and scenario assumptions so users can question recommendations rather than treat them as decisions. Synthetic profiles support a privacy-conscious public demonstration; the local resume workflow includes text review and user confirmation before matching. Technical feasibility is supported by the working web/API architecture, repository automation, and a hosted synthetic demo. Before deploying resume analysis for real users, Phase 2 should test usability and accessibility with intended users, review privacy and data-retention controls, validate data rights and source freshness, and evaluate recommendation quality and potential bias. No formal user study, fairness assessment, or employment-impact measurement has yet been completed.
 
