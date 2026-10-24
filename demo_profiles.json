@@ -1,0 +1,41 @@
+[
+  {
+    "profile_id": "DEMO-ANALYST",
+    "display_name": "数据分析师 · 合成档案",
+    "is_synthetic": true,
+    "levels": {
+      "programming": 1,
+      "math_stats": 2,
+      "data_engineering": 1,
+      "data_analytics": 2,
+      "machine_learning": 0,
+      "generative_ai": 1
+    }
+  },
+  {
+    "profile_id": "DEMO-TESTER",
+    "display_name": "软件测试员 · 合成档案",
+    "is_synthetic": true,
+    "levels": {
+      "programming": 2,
+      "data_engineering": 1,
+      "data_analytics": 1,
+      "generative_ai": 1,
+      "security_privacy": 1,
+      "mlops": 0
+    }
+  },
+  {
+    "profile_id": "DEMO-LD",
+    "display_name": "培训规划者 · 合成档案",
+    "is_synthetic": true,
+    "levels": {
+      "data_analytics": 1,
+      "generative_ai": 1,
+      "human_ai": 1,
+      "responsible_ai": 1,
+      "workflow_adoption": 2,
+      "programming": 0
+    }
+  }
+]

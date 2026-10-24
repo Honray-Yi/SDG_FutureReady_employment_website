@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checked_at": "2026-10-20T10:57:03.478299+00:00",
+  "experiment": "Network failure injected in isolated v2 copy; no request sent.",
+  "checks": [
+    "Nonzero failure exit",
+    "Source caches byte-identical",
+    "New derived metadata preserved",
+    "All 5 synthetic profiles can rank 12 roles offline"
+  ]
+}

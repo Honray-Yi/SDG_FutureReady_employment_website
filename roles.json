@@ -1,0 +1,1385 @@
+[
+  {
+    "role_id": "R01",
+    "title": "Software Developers",
+    "onet_code": "15-1252.00",
+    "focus_label": "AI application / MLOps engineering",
+    "focus_status": "curated_application_direction_not_official_job_title",
+    "source_url": "https://www.onetonline.org/link/summary/15-1252.00",
+    "geography": "US occupational taxonomy; transferable reference, not Malaysia vacancy evidence",
+    "required_skills": [
+      {
+        "skill_id": "programming",
+        "target_level": 3,
+        "weight": 1,
+        "legacy_skill_ids": [
+          "python"
+        ]
+      },
+      {
+        "skill_id": "machine_learning",
+        "target_level": 2,
+        "weight": 1,
+        "legacy_skill_ids": [
+          "ml"
+        ]
+      },
+      {
+        "skill_id": "mlops",
+        "target_level": 3,
+        "weight": 1,
+        "legacy_skill_ids": [
+          "mlops"
+        ]
+      }
+    ],
+    "mapping_method": "team-curated MVP requirements; not O*NET numeric skill ratings",
+    "trend_skill_ids": [
+      "mlops",
+      "generative_ai"
+    ],
+    "sdg_mappings": [
+      {
+        "sdg": 8,
+        "target": "8.2",
+        "rationale_zh": "在人工监督下改进流程和生产率。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal8",
+        "sdg_id": 8,
+        "target_code": "8.2",
+        "sdg_label": "Decent Work and Economic Growth"
+      },
+      {
+        "sdg": 9,
+        "target": "9.5",
+        "rationale_zh": "开发、评估和运维可靠的数据与 AI 技术。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal9",
+        "sdg_id": 9,
+        "target_code": "9.5",
+        "sdg_label": "Industry, Innovation and Infrastructure"
+      }
+    ],
+    "readiness_note": "Skill similarity does not establish education, experience or hiring eligibility.",
+    "emerging_trend": null,
+    "source_checked_at": "2026-10-20T10:00:56.837039+00:00",
+    "title_verification": "15-1252.00 - Software Developers",
+    "malaysia_reference_codes": [
+      "2512",
+      "2514"
+    ],
+    "malaysia_mapping_status": "team_approximate_crosswalk",
+    "malaysia_mappings": [
+      {
+        "masco_code": "2512",
+        "title": "Software Developers",
+        "classification_source_url": "https://www.talentcorp.com.my/images/uploads/publication/204/MyMahir-Malaysia-Critical-Occupations-List-MyCOL20242025-1773385490.pdf",
+        "classification_edition": "MyCOL 2024/2025 code labels",
+        "source_pdf_page": 44,
+        "mapping_status": "team_approximate_crosswalk",
+        "mapping_basis": "Team review of occupation title and tasks; no official O*NET–MASCO crosswalk.",
+        "is_mycol_code_critical": true,
+        "mycol_edition": "2024/2025",
+        "mycol_source_url": "https://www.talentcorp.com.my/images/uploads/publication/204/MyMahir-Malaysia-Critical-Occupations-List-MyCOL20242025-1773385490.pdf",
+        "checked_at": "2026-10-20T10:51:59.171483+00:00"
+      },
+      {
+        "masco_code": "2514",
+        "title": "Application Programmers",
+        "classification_source_url": "https://www.talentcorp.com.my/images/uploads/publication/204/MyMahir-Malaysia-Critical-Occupations-List-MyCOL20242025-1773385490.pdf",
+        "classification_edition": "MyCOL 2024/2025 code labels",
+        "source_pdf_page": 44,
+        "mapping_status": "team_approximate_crosswalk",
+        "mapping_basis": "Team review of occupation title and tasks; no official O*NET–MASCO crosswalk.",
+        "is_mycol_code_critical": true,
+        "mycol_edition": "2024/2025",
+        "mycol_source_url": "https://www.talentcorp.com.my/images/uploads/publication/204/MyMahir-Malaysia-Critical-Occupations-List-MyCOL20242025-1773385490.pdf",
+        "checked_at": "2026-10-20T10:51:59.171483+00:00"
+      }
+    ],
+    "is_mycol_critical": true,
+    "mycol_status": "mapped_group_listed",
+    "mycol_status_scope": "2024/2025 mapped MASCO group only; not a direct official designation of the O*NET role or AI focus label.",
+    "mycol_reference_period": "2024/2025",
+    "mycol_source_url": "https://www.talentcorp.com.my/images/uploads/publication/204/MyMahir-Malaysia-Critical-Occupations-List-MyCOL20242025-1773385490.pdf",
+    "salary_range_myr": {
+      "min": null,
+      "max": null,
+      "currency": "MYR",
+      "period": "month",
+      "status": "not_verified",
+      "source_url": null,
+      "reference_period": null,
+      "note_zh": "尚无与本岗位、地区、资历和薪资口径一致的已核验区间；不得填入反馈中的示例数字。"
+    },
+    "malaysia_mapping_note_zh": "职业名称与任务的团队近似映射。未列入该版紧缺名单不代表没有需求，不应因此扣减匹配分数。",
+    "unmapped_requirements": [
+      {
+        "skill_id": "cloud",
+        "target_level": 3,
+        "weight": 1
+      },
+      {
+        "skill_id": "evaluation",
+        "target_level": 2,
+        "weight": 1
+      }
+    ],
+    "taxonomy_mapping_note": "Partial team crosswalk to Module 1. Unmapped requirements are excluded from this index and require separate assessment."
+  },
+  {
+    "role_id": "R02",
+    "title": "Data Scientists",
+    "onet_code": "15-2051.00",
+    "focus_label": "Applied AI and responsible analytics",
+    "focus_status": "curated_application_direction_not_official_job_title",
+    "source_url": "https://www.onetonline.org/link/summary/15-2051.00",
+    "geography": "US occupational taxonomy; transferable reference, not Malaysia vacancy evidence",
+    "required_skills": [
+      {
+        "skill_id": "programming",
+        "target_level": 3,
+        "weight": 1,
+        "legacy_skill_ids": [
+          "python"
+        ]
+      },
+      {
+        "skill_id": "data_engineering",
+        "target_level": 2,
+        "weight": 1,
+        "legacy_skill_ids": [
+          "sql"
+        ]
+      },
+      {
+        "skill_id": "data_analytics",
+        "target_level": 3,
+        "weight": 1,
+        "legacy_skill_ids": [
+          "analytics"
+        ]
+      },
+      {
+        "skill_id": "machine_learning",
+        "target_level": 3,
+        "weight": 1,
+        "legacy_skill_ids": [
+          "ml"
+        ]
+      },
+      {
+        "skill_id": "responsible_ai",
+        "target_level": 2,
+        "weight": 1,
+        "legacy_skill_ids": [
+          "responsible_ai"
+        ]
+      }
+    ],
+    "mapping_method": "team-curated MVP requirements; not O*NET numeric skill ratings",
+    "trend_skill_ids": [
+      "machine_learning",
+      "deep_learning",
+      "responsible_ai"
+    ],
+    "sdg_mappings": [
+      {
+        "sdg": 8,
+        "target": "8.2",
+        "rationale_zh": "在人工监督下改进流程和生产率。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal8",
+        "sdg_id": 8,
+        "target_code": "8.2",
+        "sdg_label": "Decent Work and Economic Growth"
+      },
+      {
+        "sdg": 9,
+        "target": "9.5",
+        "rationale_zh": "开发、评估和运维可靠的数据与 AI 技术。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal9",
+        "sdg_id": 9,
+        "target_code": "9.5",
+        "sdg_label": "Industry, Innovation and Infrastructure"
+      }
+    ],
+    "readiness_note": "Skill similarity does not establish education, experience or hiring eligibility.",
+    "emerging_trend": null,
+    "source_checked_at": "2026-10-20T10:00:56.589031+00:00",
+    "title_verification": "15-2051.00 - Data Scientists",
+    "malaysia_reference_codes": [
+      "2524"
+    ],
+    "malaysia_mapping_status": "team_approximate_crosswalk",
+    "malaysia_mappings": [
+      {
+        "masco_code": "2524",
+        "title": "Data Professionals",
+        "classification_source_url": "https://www.talentcorp.com.my/images/uploads/publication/204/MyMahir-Malaysia-Critical-Occupations-List-MyCOL20242025-1773385490.pdf",
+        "classification_edition": "MyCOL 2024/2025 code labels",
+        "source_pdf_page": 44,
+        "mapping_status": "team_approximate_crosswalk",
+        "mapping_basis": "Team review of occupation title and tasks; no official O*NET–MASCO crosswalk.",
+        "is_mycol_code_critical": true,
+        "mycol_edition": "2024/2025",
+        "mycol_source_url": "https://www.talentcorp.com.my/images/uploads/publication/204/MyMahir-Malaysia-Critical-Occupations-List-MyCOL20242025-1773385490.pdf",
+        "checked_at": "2026-10-20T10:51:59.171483+00:00"
+      }
+    ],
+    "is_mycol_critical": true,
+    "mycol_status": "mapped_group_listed",
+    "mycol_status_scope": "2024/2025 mapped MASCO group only; not a direct official designation of the O*NET role or AI focus label.",
+    "mycol_reference_period": "2024/2025",
+    "mycol_source_url": "https://www.talentcorp.com.my/images/uploads/publication/204/MyMahir-Malaysia-Critical-Occupations-List-MyCOL20242025-1773385490.pdf",
+    "salary_range_myr": {
+      "min": null,
+      "max": null,
+      "currency": "MYR",
+      "period": "month",
+      "status": "not_verified",
+      "source_url": null,
+      "reference_period": null,
+      "note_zh": "尚无与本岗位、地区、资历和薪资口径一致的已核验区间；不得填入反馈中的示例数字。"
+    },
+    "malaysia_mapping_note_zh": "职业名称与任务的团队近似映射。未列入该版紧缺名单不代表没有需求，不应因此扣减匹配分数。",
+    "unmapped_requirements": [],
+    "taxonomy_mapping_note": "Partial team crosswalk to Module 1. Unmapped requirements are excluded from this index and require separate assessment."
+  },
+  {
+    "role_id": "R03",
+    "title": "Database Architects",
+    "onet_code": "15-1243.00",
+    "focus_label": "AI-ready data and retrieval infrastructure",
+    "focus_status": "curated_application_direction_not_official_job_title",
+    "source_url": "https://www.onetonline.org/link/summary/15-1243.00",
+    "geography": "US occupational taxonomy; transferable reference, not Malaysia vacancy evidence",
+    "required_skills": [
+      {
+        "skill_id": "data_engineering",
+        "target_level": 3,
+        "weight": 1,
+        "legacy_skill_ids": [
+          "sql"
+        ]
+      },
+      {
+        "skill_id": "programming",
+        "target_level": 2,
+        "weight": 1,
+        "legacy_skill_ids": [
+          "python"
+        ]
+      },
+      {
+        "skill_id": "retrieval",
+        "target_level": 2,
+        "weight": 1,
+        "legacy_skill_ids": [
+          "rag"
+        ]
+      },
+      {
+        "skill_id": "security_privacy",
+        "target_level": 2,
+        "weight": 1,
+        "legacy_skill_ids": [
+          "privacy"
+        ]
+      }
+    ],
+    "mapping_method": "team-curated MVP requirements; not O*NET numeric skill ratings",
+    "trend_skill_ids": [
+      "retrieval",
+      "security_privacy"
+    ],
+    "sdg_mappings": [
+      {
+        "sdg": 9,
+        "target": "9.5",
+        "rationale_zh": "开发、评估和运维可靠的数据与 AI 技术。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal9",
+        "sdg_id": 9,
+        "target_code": "9.5",
+        "sdg_label": "Industry, Innovation and Infrastructure"
+      },
+      {
+        "sdg": 16,
+        "target": "16.6",
+        "rationale_zh": "通过记录、问责和数据保护增强透明度。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal16",
+        "sdg_id": 16,
+        "target_code": "16.6",
+        "sdg_label": "Peace, Justice and Strong Institutions"
+      }
+    ],
+    "readiness_note": "Skill similarity does not establish education, experience or hiring eligibility.",
+    "emerging_trend": null,
+    "source_checked_at": "2026-10-20T10:00:58.327706+00:00",
+    "title_verification": "15-1243.00 - Database Architects",
+    "malaysia_reference_codes": [
+      "2521"
+    ],
+    "malaysia_mapping_status": "team_approximate_crosswalk",
+    "malaysia_mappings": [
+      {
+        "masco_code": "2521",
+        "title": "Database Designers and Administrators",
+        "classification_source_url": "https://www.talentcorp.com.my/images/uploads/publication/204/MyMahir-Malaysia-Critical-Occupations-List-MyCOL20242025-1773385490.pdf",
+        "classification_edition": "MyCOL 2024/2025 code labels",
+        "source_pdf_page": 44,
+        "mapping_status": "team_approximate_crosswalk",
+        "mapping_basis": "Team review of occupation title and tasks; no official O*NET–MASCO crosswalk.",
+        "is_mycol_code_critical": true,
+        "mycol_edition": "2024/2025",
+        "mycol_source_url": "https://www.talentcorp.com.my/images/uploads/publication/204/MyMahir-Malaysia-Critical-Occupations-List-MyCOL20242025-1773385490.pdf",
+        "checked_at": "2026-10-20T10:51:59.171483+00:00"
+      }
+    ],
+    "is_mycol_critical": true,
+    "mycol_status": "mapped_group_listed",
+    "mycol_status_scope": "2024/2025 mapped MASCO group only; not a direct official designation of the O*NET role or AI focus label.",
+    "mycol_reference_period": "2024/2025",
+    "mycol_source_url": "https://www.talentcorp.com.my/images/uploads/publication/204/MyMahir-Malaysia-Critical-Occupations-List-MyCOL20242025-1773385490.pdf",
+    "salary_range_myr": {
+      "min": null,
+      "max": null,
+      "currency": "MYR",
+      "period": "month",
+      "status": "not_verified",
+      "source_url": null,
+      "reference_period": null,
+      "note_zh": "尚无与本岗位、地区、资历和薪资口径一致的已核验区间；不得填入反馈中的示例数字。"
+    },
+    "malaysia_mapping_note_zh": "职业名称与任务的团队近似映射。未列入该版紧缺名单不代表没有需求，不应因此扣减匹配分数。",
+    "unmapped_requirements": [
+      {
+        "skill_id": "cloud",
+        "target_level": 2,
+        "weight": 1
+      }
+    ],
+    "taxonomy_mapping_note": "Partial team crosswalk to Module 1. Unmapped requirements are excluded from this index and require separate assessment."
+  },
+  {
+    "role_id": "R04",
+    "title": "Computer Network Architects",
+    "onet_code": "15-1241.00",
+    "focus_label": "Cloud infrastructure for AI workloads",
+    "focus_status": "curated_application_direction_not_official_job_title",
+    "source_url": "https://www.onetonline.org/link/summary/15-1241.00",
+    "geography": "US occupational taxonomy; transferable reference, not Malaysia vacancy evidence",
+    "required_skills": [
+      {
+        "skill_id": "security_privacy",
+        "target_level": 2,
+        "weight": 1,
+        "legacy_skill_ids": [
+          "cybersecurity"
+        ]
+      },
+      {
+        "skill_id": "mlops",
+        "target_level": 2,
+        "weight": 1,
+        "legacy_skill_ids": [
+          "mlops"
+        ]
+      }
+    ],
+    "mapping_method": "team-curated MVP requirements; not O*NET numeric skill ratings",
+    "trend_skill_ids": [
+      "mlops",
+      "security_privacy"
+    ],
+    "sdg_mappings": [
+      {
+        "sdg": 9,
+        "target": "9.1",
+        "rationale_zh": "保护数字基础设施的可靠性。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal9",
+        "sdg_id": 9,
+        "target_code": "9.1",
+        "sdg_label": "Industry, Innovation and Infrastructure"
+      },
+      {
+        "sdg": 9,
+        "target": "9.5",
+        "rationale_zh": "开发、评估和运维可靠的数据与 AI 技术。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal9",
+        "sdg_id": 9,
+        "target_code": "9.5",
+        "sdg_label": "Industry, Innovation and Infrastructure"
+      }
+    ],
+    "readiness_note": "Skill similarity does not establish education, experience or hiring eligibility.",
+    "emerging_trend": null,
+    "source_checked_at": "2026-10-20T10:00:57.735691+00:00",
+    "title_verification": "15-1241.00 - Computer Network Architects",
+    "malaysia_reference_codes": [
+      "2522",
+      "2523"
+    ],
+    "malaysia_mapping_status": "team_approximate_crosswalk",
+    "malaysia_mappings": [
+      {
+        "masco_code": "2522",
+        "title": "Information Technology System Administrators",
+        "classification_source_url": "https://www.talentcorp.com.my/images/uploads/publication/204/MyMahir-Malaysia-Critical-Occupations-List-MyCOL20242025-1773385490.pdf",
+        "classification_edition": "MyCOL 2024/2025 code labels",
+        "source_pdf_page": 44,
+        "mapping_status": "team_approximate_crosswalk",
+        "mapping_basis": "Team review of occupation title and tasks; no official O*NET–MASCO crosswalk.",
+        "is_mycol_code_critical": true,
+        "mycol_edition": "2024/2025",
+        "mycol_source_url": "https://www.talentcorp.com.my/images/uploads/publication/204/MyMahir-Malaysia-Critical-Occupations-List-MyCOL20242025-1773385490.pdf",
+        "checked_at": "2026-10-20T10:51:59.171483+00:00"
+      },
+      {
+        "masco_code": "2523",
+        "title": "Computer Network Professionals",
+        "classification_source_url": "https://www.talentcorp.com.my/images/uploads/publication/204/MyMahir-Malaysia-Critical-Occupations-List-MyCOL20242025-1773385490.pdf",
+        "classification_edition": "MyCOL 2024/2025 code labels",
+        "source_pdf_page": 44,
+        "mapping_status": "team_approximate_crosswalk",
+        "mapping_basis": "Team review of occupation title and tasks; no official O*NET–MASCO crosswalk.",
+        "is_mycol_code_critical": true,
+        "mycol_edition": "2024/2025",
+        "mycol_source_url": "https://www.talentcorp.com.my/images/uploads/publication/204/MyMahir-Malaysia-Critical-Occupations-List-MyCOL20242025-1773385490.pdf",
+        "checked_at": "2026-10-20T10:51:59.171483+00:00"
+      }
+    ],
+    "is_mycol_critical": true,
+    "mycol_status": "mapped_group_listed",
+    "mycol_status_scope": "2024/2025 mapped MASCO group only; not a direct official designation of the O*NET role or AI focus label.",
+    "mycol_reference_period": "2024/2025",
+    "mycol_source_url": "https://www.talentcorp.com.my/images/uploads/publication/204/MyMahir-Malaysia-Critical-Occupations-List-MyCOL20242025-1773385490.pdf",
+    "salary_range_myr": {
+      "min": null,
+      "max": null,
+      "currency": "MYR",
+      "period": "month",
+      "status": "not_verified",
+      "source_url": null,
+      "reference_period": null,
+      "note_zh": "尚无与本岗位、地区、资历和薪资口径一致的已核验区间；不得填入反馈中的示例数字。"
+    },
+    "malaysia_mapping_note_zh": "职业名称与任务的团队近似映射。未列入该版紧缺名单不代表没有需求，不应因此扣减匹配分数。",
+    "unmapped_requirements": [
+      {
+        "skill_id": "cloud",
+        "target_level": 3,
+        "weight": 1
+      },
+      {
+        "skill_id": "change",
+        "target_level": 2,
+        "weight": 1
+      }
+    ],
+    "taxonomy_mapping_note": "Partial team crosswalk to Module 1. Unmapped requirements are excluded from this index and require separate assessment."
+  },
+  {
+    "role_id": "R05",
+    "title": "Computer Systems Analysts",
+    "onet_code": "15-1211.00",
+    "focus_label": "AI systems integration",
+    "focus_status": "curated_application_direction_not_official_job_title",
+    "source_url": "https://www.onetonline.org/link/summary/15-1211.00",
+    "geography": "US occupational taxonomy; transferable reference, not Malaysia vacancy evidence",
+    "required_skills": [
+      {
+        "skill_id": "data_analytics",
+        "target_level": 2,
+        "weight": 1,
+        "legacy_skill_ids": [
+          "analytics"
+        ]
+      },
+      {
+        "skill_id": "data_engineering",
+        "target_level": 2,
+        "weight": 1,
+        "legacy_skill_ids": [
+          "sql"
+        ]
+      },
+      {
+        "skill_id": "generative_ai",
+        "target_level": 2,
+        "weight": 1,
+        "legacy_skill_ids": [
+          "llm"
+        ]
+      }
+    ],
+    "mapping_method": "team-curated MVP requirements; not O*NET numeric skill ratings",
+    "trend_skill_ids": [
+      "generative_ai"
+    ],
+    "sdg_mappings": [
+      {
+        "sdg": 8,
+        "target": "8.2",
+        "rationale_zh": "在人工监督下改进流程和生产率。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal8",
+        "sdg_id": 8,
+        "target_code": "8.2",
+        "sdg_label": "Decent Work and Economic Growth"
+      },
+      {
+        "sdg": 9,
+        "target": "9.5",
+        "rationale_zh": "开发、评估和运维可靠的数据与 AI 技术。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal9",
+        "sdg_id": 9,
+        "target_code": "9.5",
+        "sdg_label": "Industry, Innovation and Infrastructure"
+      }
+    ],
+    "readiness_note": "Skill similarity does not establish education, experience or hiring eligibility.",
+    "emerging_trend": null,
+    "source_checked_at": "2026-10-20T10:00:59.011750+00:00",
+    "title_verification": "15-1211.00 - Computer Systems Analysts",
+    "malaysia_reference_codes": [
+      "2511"
+    ],
+    "malaysia_mapping_status": "team_approximate_crosswalk",
+    "malaysia_mappings": [
+      {
+        "masco_code": "2511",
+        "title": "Computer Systems Analysts",
+        "classification_source_url": "https://www.talentcorp.com.my/images/uploads/publication/204/MyMahir-Malaysia-Critical-Occupations-List-MyCOL20242025-1773385490.pdf",
+        "classification_edition": "MyCOL 2024/2025 code labels",
+        "source_pdf_page": 44,
+        "mapping_status": "team_approximate_crosswalk",
+        "mapping_basis": "Team review of occupation title and tasks; no official O*NET–MASCO crosswalk.",
+        "is_mycol_code_critical": true,
+        "mycol_edition": "2024/2025",
+        "mycol_source_url": "https://www.talentcorp.com.my/images/uploads/publication/204/MyMahir-Malaysia-Critical-Occupations-List-MyCOL20242025-1773385490.pdf",
+        "checked_at": "2026-10-20T10:51:59.171483+00:00"
+      }
+    ],
+    "is_mycol_critical": true,
+    "mycol_status": "mapped_group_listed",
+    "mycol_status_scope": "2024/2025 mapped MASCO group only; not a direct official designation of the O*NET role or AI focus label.",
+    "mycol_reference_period": "2024/2025",
+    "mycol_source_url": "https://www.talentcorp.com.my/images/uploads/publication/204/MyMahir-Malaysia-Critical-Occupations-List-MyCOL20242025-1773385490.pdf",
+    "salary_range_myr": {
+      "min": null,
+      "max": null,
+      "currency": "MYR",
+      "period": "month",
+      "status": "not_verified",
+      "source_url": null,
+      "reference_period": null,
+      "note_zh": "尚无与本岗位、地区、资历和薪资口径一致的已核验区间；不得填入反馈中的示例数字。"
+    },
+    "malaysia_mapping_note_zh": "职业名称与任务的团队近似映射。未列入该版紧缺名单不代表没有需求，不应因此扣减匹配分数。",
+    "unmapped_requirements": [
+      {
+        "skill_id": "change",
+        "target_level": 3,
+        "weight": 1
+      },
+      {
+        "skill_id": "evaluation",
+        "target_level": 2,
+        "weight": 1
+      }
+    ],
+    "taxonomy_mapping_note": "Partial team crosswalk to Module 1. Unmapped requirements are excluded from this index and require separate assessment."
+  },
+  {
+    "role_id": "R06",
+    "title": "Information Security Analysts",
+    "onet_code": "15-1212.00",
+    "focus_label": "AI security and data protection",
+    "focus_status": "curated_application_direction_not_official_job_title",
+    "source_url": "https://www.onetonline.org/link/summary/15-1212.00",
+    "geography": "US occupational taxonomy; transferable reference, not Malaysia vacancy evidence",
+    "required_skills": [
+      {
+        "skill_id": "security_privacy",
+        "target_level": 3,
+        "weight": 1,
+        "legacy_skill_ids": [
+          "cybersecurity",
+          "privacy"
+        ]
+      },
+      {
+        "skill_id": "programming",
+        "target_level": 2,
+        "weight": 1,
+        "legacy_skill_ids": [
+          "python"
+        ]
+      },
+      {
+        "skill_id": "responsible_ai",
+        "target_level": 2,
+        "weight": 1,
+        "legacy_skill_ids": [
+          "responsible_ai"
+        ]
+      }
+    ],
+    "mapping_method": "team-curated MVP requirements; not O*NET numeric skill ratings",
+    "trend_skill_ids": [
+      "security_privacy"
+    ],
+    "sdg_mappings": [
+      {
+        "sdg": 9,
+        "target": "9.1",
+        "rationale_zh": "保护数字基础设施的可靠性。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal9",
+        "sdg_id": 9,
+        "target_code": "9.1",
+        "sdg_label": "Industry, Innovation and Infrastructure"
+      },
+      {
+        "sdg": 16,
+        "target": "16.6",
+        "rationale_zh": "通过记录、问责和数据保护增强透明度。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal16",
+        "sdg_id": 16,
+        "target_code": "16.6",
+        "sdg_label": "Peace, Justice and Strong Institutions"
+      }
+    ],
+    "readiness_note": "Skill similarity does not establish education, experience or hiring eligibility.",
+    "emerging_trend": null,
+    "source_checked_at": "2026-10-20T10:00:59.434090+00:00",
+    "title_verification": "15-1212.00 - Information Security Analysts",
+    "malaysia_reference_codes": [
+      "2531"
+    ],
+    "malaysia_mapping_status": "team_approximate_crosswalk",
+    "malaysia_mappings": [
+      {
+        "masco_code": "2531",
+        "title": "Cyber Security Professionals",
+        "classification_source_url": "https://www.talentcorp.com.my/images/uploads/publication/204/MyMahir-Malaysia-Critical-Occupations-List-MyCOL20242025-1773385490.pdf",
+        "classification_edition": "MyCOL 2024/2025 code labels",
+        "source_pdf_page": 44,
+        "mapping_status": "team_approximate_crosswalk",
+        "mapping_basis": "Team review of occupation title and tasks; no official O*NET–MASCO crosswalk.",
+        "is_mycol_code_critical": true,
+        "mycol_edition": "2024/2025",
+        "mycol_source_url": "https://www.talentcorp.com.my/images/uploads/publication/204/MyMahir-Malaysia-Critical-Occupations-List-MyCOL20242025-1773385490.pdf",
+        "checked_at": "2026-10-20T10:51:59.171483+00:00"
+      }
+    ],
+    "is_mycol_critical": true,
+    "mycol_status": "mapped_group_listed",
+    "mycol_status_scope": "2024/2025 mapped MASCO group only; not a direct official designation of the O*NET role or AI focus label.",
+    "mycol_reference_period": "2024/2025",
+    "mycol_source_url": "https://www.talentcorp.com.my/images/uploads/publication/204/MyMahir-Malaysia-Critical-Occupations-List-MyCOL20242025-1773385490.pdf",
+    "salary_range_myr": {
+      "min": null,
+      "max": null,
+      "currency": "MYR",
+      "period": "month",
+      "status": "not_verified",
+      "source_url": null,
+      "reference_period": null,
+      "note_zh": "尚无与本岗位、地区、资历和薪资口径一致的已核验区间；不得填入反馈中的示例数字。"
+    },
+    "malaysia_mapping_note_zh": "职业名称与任务的团队近似映射。未列入该版紧缺名单不代表没有需求，不应因此扣减匹配分数。",
+    "unmapped_requirements": [
+      {
+        "skill_id": "cloud",
+        "target_level": 2,
+        "weight": 1
+      }
+    ],
+    "taxonomy_mapping_note": "Partial team crosswalk to Module 1. Unmapped requirements are excluded from this index and require separate assessment."
+  },
+  {
+    "role_id": "R07",
+    "title": "Software Quality Assurance Analysts and Testers",
+    "onet_code": "15-1253.00",
+    "focus_label": "AI evaluation and assurance",
+    "focus_status": "curated_application_direction_not_official_job_title",
+    "source_url": "https://www.onetonline.org/link/summary/15-1253.00",
+    "geography": "US occupational taxonomy; transferable reference, not Malaysia vacancy evidence",
+    "required_skills": [
+      {
+        "skill_id": "programming",
+        "target_level": 2,
+        "weight": 1,
+        "legacy_skill_ids": [
+          "python"
+        ]
+      },
+      {
+        "skill_id": "responsible_ai",
+        "target_level": 2,
+        "weight": 1,
+        "legacy_skill_ids": [
+          "responsible_ai"
+        ]
+      },
+      {
+        "skill_id": "generative_ai",
+        "target_level": 2,
+        "weight": 1,
+        "legacy_skill_ids": [
+          "llm"
+        ]
+      },
+      {
+        "skill_id": "security_privacy",
+        "target_level": 1,
+        "weight": 1,
+        "legacy_skill_ids": [
+          "privacy"
+        ]
+      }
+    ],
+    "mapping_method": "team-curated MVP requirements; not O*NET numeric skill ratings",
+    "trend_skill_ids": [
+      "responsible_ai"
+    ],
+    "sdg_mappings": [
+      {
+        "sdg": 9,
+        "target": "9.5",
+        "rationale_zh": "开发、评估和运维可靠的数据与 AI 技术。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal9",
+        "sdg_id": 9,
+        "target_code": "9.5",
+        "sdg_label": "Industry, Innovation and Infrastructure"
+      },
+      {
+        "sdg": 16,
+        "target": "16.6",
+        "rationale_zh": "通过记录、问责和数据保护增强透明度。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal16",
+        "sdg_id": 16,
+        "target_code": "16.6",
+        "sdg_label": "Peace, Justice and Strong Institutions"
+      }
+    ],
+    "readiness_note": "Skill similarity does not establish education, experience or hiring eligibility.",
+    "emerging_trend": null,
+    "source_checked_at": "2026-10-20T10:01:01.250402+00:00",
+    "title_verification": "15-1253.00 - Software Quality Assurance Analysts and Testers",
+    "malaysia_reference_codes": [
+      "2519"
+    ],
+    "malaysia_mapping_status": "team_approximate_crosswalk",
+    "malaysia_mappings": [
+      {
+        "masco_code": "2519",
+        "title": "Software and Application Developers and Analysts Not Elsewhere Classified",
+        "classification_source_url": "https://www.talentcorp.com.my/images/uploads/publication/204/MyMahir-Malaysia-Critical-Occupations-List-MyCOL20242025-1773385490.pdf",
+        "classification_edition": "MyCOL 2024/2025 code labels",
+        "source_pdf_page": 44,
+        "mapping_status": "team_approximate_crosswalk",
+        "mapping_basis": "Team review of occupation title and tasks; no official O*NET–MASCO crosswalk.",
+        "is_mycol_code_critical": true,
+        "mycol_edition": "2024/2025",
+        "mycol_source_url": "https://www.talentcorp.com.my/images/uploads/publication/204/MyMahir-Malaysia-Critical-Occupations-List-MyCOL20242025-1773385490.pdf",
+        "checked_at": "2026-10-20T10:51:59.171483+00:00"
+      }
+    ],
+    "is_mycol_critical": true,
+    "mycol_status": "mapped_group_listed",
+    "mycol_status_scope": "2024/2025 mapped MASCO group only; not a direct official designation of the O*NET role or AI focus label.",
+    "mycol_reference_period": "2024/2025",
+    "mycol_source_url": "https://www.talentcorp.com.my/images/uploads/publication/204/MyMahir-Malaysia-Critical-Occupations-List-MyCOL20242025-1773385490.pdf",
+    "salary_range_myr": {
+      "min": null,
+      "max": null,
+      "currency": "MYR",
+      "period": "month",
+      "status": "not_verified",
+      "source_url": null,
+      "reference_period": null,
+      "note_zh": "尚无与本岗位、地区、资历和薪资口径一致的已核验区间；不得填入反馈中的示例数字。"
+    },
+    "malaysia_mapping_note_zh": "职业名称与任务的团队近似映射。未列入该版紧缺名单不代表没有需求，不应因此扣减匹配分数。",
+    "unmapped_requirements": [
+      {
+        "skill_id": "evaluation",
+        "target_level": 3,
+        "weight": 1
+      }
+    ],
+    "taxonomy_mapping_note": "Partial team crosswalk to Module 1. Unmapped requirements are excluded from this index and require separate assessment."
+  },
+  {
+    "role_id": "R08",
+    "title": "Computer and Information Systems Managers",
+    "onet_code": "11-3021.00",
+    "focus_label": "AI governance and adoption management",
+    "focus_status": "curated_application_direction_not_official_job_title",
+    "source_url": "https://www.onetonline.org/link/summary/11-3021.00",
+    "geography": "US occupational taxonomy; transferable reference, not Malaysia vacancy evidence",
+    "required_skills": [
+      {
+        "skill_id": "responsible_ai",
+        "target_level": 3,
+        "weight": 1,
+        "legacy_skill_ids": [
+          "responsible_ai"
+        ]
+      },
+      {
+        "skill_id": "security_privacy",
+        "target_level": 2,
+        "weight": 1,
+        "legacy_skill_ids": [
+          "privacy"
+        ]
+      },
+      {
+        "skill_id": "data_analytics",
+        "target_level": 2,
+        "weight": 1,
+        "legacy_skill_ids": [
+          "analytics"
+        ]
+      }
+    ],
+    "mapping_method": "team-curated MVP requirements; not O*NET numeric skill ratings",
+    "trend_skill_ids": [
+      "responsible_ai",
+      "security_privacy",
+      "generative_ai"
+    ],
+    "sdg_mappings": [
+      {
+        "sdg": 8,
+        "target": "8.2",
+        "rationale_zh": "在人工监督下改进流程和生产率。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal8",
+        "sdg_id": 8,
+        "target_code": "8.2",
+        "sdg_label": "Decent Work and Economic Growth"
+      },
+      {
+        "sdg": 16,
+        "target": "16.6",
+        "rationale_zh": "通过记录、问责和数据保护增强透明度。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal16",
+        "sdg_id": 16,
+        "target_code": "16.6",
+        "sdg_label": "Peace, Justice and Strong Institutions"
+      }
+    ],
+    "readiness_note": "Skill similarity does not establish education, experience or hiring eligibility.",
+    "emerging_trend": null,
+    "source_checked_at": "2026-10-20T10:01:02.539033+00:00",
+    "title_verification": "11-3021.00 - Computer and Information Systems Managers",
+    "malaysia_reference_codes": [
+      "1511"
+    ],
+    "malaysia_mapping_status": "team_approximate_crosswalk",
+    "malaysia_mappings": [
+      {
+        "masco_code": "1511",
+        "title": "Information and Communications Technology Managers",
+        "classification_source_url": "https://www.talentcorp.com.my/images/uploads/publication/204/MyMahir-Malaysia-Critical-Occupations-List-MyCOL20242025-1773385490.pdf",
+        "classification_edition": "MyCOL 2024/2025 code labels",
+        "source_pdf_page": 44,
+        "mapping_status": "team_approximate_crosswalk",
+        "mapping_basis": "Team review of occupation title and tasks; no official O*NET–MASCO crosswalk.",
+        "is_mycol_code_critical": true,
+        "mycol_edition": "2024/2025",
+        "mycol_source_url": "https://www.talentcorp.com.my/images/uploads/publication/204/MyMahir-Malaysia-Critical-Occupations-List-MyCOL20242025-1773385490.pdf",
+        "checked_at": "2026-10-20T10:51:59.171483+00:00"
+      }
+    ],
+    "is_mycol_critical": true,
+    "mycol_status": "mapped_group_listed",
+    "mycol_status_scope": "2024/2025 mapped MASCO group only; not a direct official designation of the O*NET role or AI focus label.",
+    "mycol_reference_period": "2024/2025",
+    "mycol_source_url": "https://www.talentcorp.com.my/images/uploads/publication/204/MyMahir-Malaysia-Critical-Occupations-List-MyCOL20242025-1773385490.pdf",
+    "salary_range_myr": {
+      "min": null,
+      "max": null,
+      "currency": "MYR",
+      "period": "month",
+      "status": "not_verified",
+      "source_url": null,
+      "reference_period": null,
+      "note_zh": "尚无与本岗位、地区、资历和薪资口径一致的已核验区间；不得填入反馈中的示例数字。"
+    },
+    "malaysia_mapping_note_zh": "职业名称与任务的团队近似映射。未列入该版紧缺名单不代表没有需求，不应因此扣减匹配分数。",
+    "unmapped_requirements": [
+      {
+        "skill_id": "change",
+        "target_level": 3,
+        "weight": 1
+      },
+      {
+        "skill_id": "cloud",
+        "target_level": 2,
+        "weight": 1
+      }
+    ],
+    "taxonomy_mapping_note": "Partial team crosswalk to Module 1. Unmapped requirements are excluded from this index and require separate assessment."
+  },
+  {
+    "role_id": "R09",
+    "title": "Human Resources Specialists",
+    "onet_code": "13-1071.00",
+    "focus_label": "AI-supported workforce transformation",
+    "focus_status": "curated_application_direction_not_official_job_title",
+    "source_url": "https://www.onetonline.org/link/summary/13-1071.00",
+    "geography": "US occupational taxonomy; transferable reference, not Malaysia vacancy evidence",
+    "required_skills": [
+      {
+        "skill_id": "data_analytics",
+        "target_level": 2,
+        "weight": 1,
+        "legacy_skill_ids": [
+          "analytics"
+        ]
+      },
+      {
+        "skill_id": "responsible_ai",
+        "target_level": 2,
+        "weight": 1,
+        "legacy_skill_ids": [
+          "responsible_ai"
+        ]
+      },
+      {
+        "skill_id": "generative_ai",
+        "target_level": 2,
+        "weight": 1,
+        "legacy_skill_ids": [
+          "prompting"
+        ]
+      }
+    ],
+    "mapping_method": "team-curated MVP requirements; not O*NET numeric skill ratings",
+    "trend_skill_ids": [
+      "responsible_ai",
+      "generative_ai"
+    ],
+    "sdg_mappings": [
+      {
+        "sdg": 8,
+        "target": "8.5",
+        "rationale_zh": "支持公平的就业机会与职业转换。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal8",
+        "sdg_id": 8,
+        "target_code": "8.5",
+        "sdg_label": "Decent Work and Economic Growth"
+      },
+      {
+        "sdg": 10,
+        "target": "10.3",
+        "rationale_zh": "识别并减少模型或人事流程中的不公平结果。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal10",
+        "sdg_id": 10,
+        "target_code": "10.3",
+        "sdg_label": "Reduced Inequalities"
+      }
+    ],
+    "readiness_note": "Skill similarity does not establish education, experience or hiring eligibility.",
+    "emerging_trend": null,
+    "source_checked_at": "2026-10-20T10:01:01.966121+00:00",
+    "title_verification": "13-1071.00 - Human Resources Specialists",
+    "malaysia_reference_codes": [
+      "2423"
+    ],
+    "malaysia_mapping_status": "team_approximate_crosswalk",
+    "malaysia_mappings": [
+      {
+        "masco_code": "2423",
+        "title": "Personnel and Career Professionals",
+        "classification_source_url": "https://jtksm.mohr.gov.my/sites/default/files/2022-12/MASCO_2020_BI_Edaran.pdf",
+        "classification_edition": "MASCO 2020",
+        "source_pdf_page": 88,
+        "mapping_status": "team_approximate_crosswalk",
+        "mapping_basis": "Team review of occupation title and tasks; no official O*NET–MASCO crosswalk.",
+        "is_mycol_code_critical": false,
+        "mycol_edition": "2024/2025",
+        "mycol_source_url": "https://www.talentcorp.com.my/images/uploads/publication/204/MyMahir-Malaysia-Critical-Occupations-List-MyCOL20242025-1773385490.pdf",
+        "checked_at": "2026-10-20T10:51:59.171483+00:00"
+      }
+    ],
+    "is_mycol_critical": false,
+    "mycol_status": "mapped_group_not_listed",
+    "mycol_status_scope": "2024/2025 mapped MASCO group only; not a direct official designation of the O*NET role or AI focus label.",
+    "mycol_reference_period": "2024/2025",
+    "mycol_source_url": "https://www.talentcorp.com.my/images/uploads/publication/204/MyMahir-Malaysia-Critical-Occupations-List-MyCOL20242025-1773385490.pdf",
+    "salary_range_myr": {
+      "min": null,
+      "max": null,
+      "currency": "MYR",
+      "period": "month",
+      "status": "not_verified",
+      "source_url": null,
+      "reference_period": null,
+      "note_zh": "尚无与本岗位、地区、资历和薪资口径一致的已核验区间；不得填入反馈中的示例数字。"
+    },
+    "malaysia_mapping_note_zh": "职业名称与任务的团队近似映射。未列入该版紧缺名单不代表没有需求，不应因此扣减匹配分数。",
+    "unmapped_requirements": [
+      {
+        "skill_id": "hr",
+        "target_level": 3,
+        "weight": 1
+      },
+      {
+        "skill_id": "change",
+        "target_level": 3,
+        "weight": 1
+      }
+    ],
+    "taxonomy_mapping_note": "Partial team crosswalk to Module 1. Unmapped requirements are excluded from this index and require separate assessment."
+  },
+  {
+    "role_id": "R10",
+    "title": "Training and Development Specialists",
+    "onet_code": "13-1151.00",
+    "focus_label": "AI literacy and reskilling programmes",
+    "focus_status": "curated_application_direction_not_official_job_title",
+    "source_url": "https://www.onetonline.org/link/summary/13-1151.00",
+    "geography": "US occupational taxonomy; transferable reference, not Malaysia vacancy evidence",
+    "required_skills": [
+      {
+        "skill_id": "generative_ai",
+        "target_level": 2,
+        "weight": 1,
+        "legacy_skill_ids": [
+          "prompting"
+        ]
+      },
+      {
+        "skill_id": "responsible_ai",
+        "target_level": 2,
+        "weight": 1,
+        "legacy_skill_ids": [
+          "responsible_ai"
+        ]
+      }
+    ],
+    "mapping_method": "team-curated MVP requirements; not O*NET numeric skill ratings",
+    "trend_skill_ids": [
+      "generative_ai",
+      "responsible_ai"
+    ],
+    "sdg_mappings": [
+      {
+        "sdg": 4,
+        "target": "4.3",
+        "rationale_zh": "以可负担的持续学习支持成人再培训。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal4",
+        "sdg_id": 4,
+        "target_code": "4.3",
+        "sdg_label": "Quality Education"
+      },
+      {
+        "sdg": 4,
+        "target": "4.4",
+        "rationale_zh": "用于就业与再培训的技能培养；不表示完成课程必然获得工作。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal4",
+        "sdg_id": 4,
+        "target_code": "4.4",
+        "sdg_label": "Quality Education"
+      }
+    ],
+    "readiness_note": "Skill similarity does not establish education, experience or hiring eligibility.",
+    "emerging_trend": null,
+    "source_checked_at": "2026-10-20T10:01:01.412527+00:00",
+    "title_verification": "13-1151.00 - Training and Development Specialists",
+    "malaysia_reference_codes": [
+      "2424"
+    ],
+    "malaysia_mapping_status": "team_approximate_crosswalk",
+    "malaysia_mappings": [
+      {
+        "masco_code": "2424",
+        "title": "Training and Staff Development Professionals",
+        "classification_source_url": "https://jtksm.mohr.gov.my/sites/default/files/2022-12/MASCO_2020_BI_Edaran.pdf",
+        "classification_edition": "MASCO 2020",
+        "source_pdf_page": 88,
+        "mapping_status": "team_approximate_crosswalk",
+        "mapping_basis": "Team review of occupation title and tasks; no official O*NET–MASCO crosswalk.",
+        "is_mycol_code_critical": false,
+        "mycol_edition": "2024/2025",
+        "mycol_source_url": "https://www.talentcorp.com.my/images/uploads/publication/204/MyMahir-Malaysia-Critical-Occupations-List-MyCOL20242025-1773385490.pdf",
+        "checked_at": "2026-10-20T10:51:59.171483+00:00"
+      }
+    ],
+    "is_mycol_critical": false,
+    "mycol_status": "mapped_group_not_listed",
+    "mycol_status_scope": "2024/2025 mapped MASCO group only; not a direct official designation of the O*NET role or AI focus label.",
+    "mycol_reference_period": "2024/2025",
+    "mycol_source_url": "https://www.talentcorp.com.my/images/uploads/publication/204/MyMahir-Malaysia-Critical-Occupations-List-MyCOL20242025-1773385490.pdf",
+    "salary_range_myr": {
+      "min": null,
+      "max": null,
+      "currency": "MYR",
+      "period": "month",
+      "status": "not_verified",
+      "source_url": null,
+      "reference_period": null,
+      "note_zh": "尚无与本岗位、地区、资历和薪资口径一致的已核验区间；不得填入反馈中的示例数字。"
+    },
+    "malaysia_mapping_note_zh": "职业名称与任务的团队近似映射。未列入该版紧缺名单不代表没有需求，不应因此扣减匹配分数。",
+    "unmapped_requirements": [
+      {
+        "skill_id": "training",
+        "target_level": 3,
+        "weight": 1
+      },
+      {
+        "skill_id": "change",
+        "target_level": 3,
+        "weight": 1
+      },
+      {
+        "skill_id": "hr",
+        "target_level": 2,
+        "weight": 1
+      }
+    ],
+    "taxonomy_mapping_note": "Partial team crosswalk to Module 1. Unmapped requirements are excluded from this index and require separate assessment."
+  },
+  {
+    "role_id": "R11",
+    "title": "Management Analysts",
+    "onet_code": "13-1111.00",
+    "focus_label": "AI process transformation",
+    "focus_status": "curated_application_direction_not_official_job_title",
+    "source_url": "https://www.onetonline.org/link/summary/13-1111.00",
+    "geography": "US occupational taxonomy; transferable reference, not Malaysia vacancy evidence",
+    "required_skills": [
+      {
+        "skill_id": "data_analytics",
+        "target_level": 3,
+        "weight": 1,
+        "legacy_skill_ids": [
+          "analytics"
+        ]
+      },
+      {
+        "skill_id": "generative_ai",
+        "target_level": 2,
+        "weight": 1,
+        "legacy_skill_ids": [
+          "llm"
+        ]
+      },
+      {
+        "skill_id": "responsible_ai",
+        "target_level": 2,
+        "weight": 1,
+        "legacy_skill_ids": [
+          "responsible_ai"
+        ]
+      }
+    ],
+    "mapping_method": "team-curated MVP requirements; not O*NET numeric skill ratings",
+    "trend_skill_ids": [
+      "generative_ai"
+    ],
+    "sdg_mappings": [
+      {
+        "sdg": 8,
+        "target": "8.2",
+        "rationale_zh": "在人工监督下改进流程和生产率。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal8",
+        "sdg_id": 8,
+        "target_code": "8.2",
+        "sdg_label": "Decent Work and Economic Growth"
+      },
+      {
+        "sdg": 8,
+        "target": "8.5",
+        "rationale_zh": "支持公平的就业机会与职业转换。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal8",
+        "sdg_id": 8,
+        "target_code": "8.5",
+        "sdg_label": "Decent Work and Economic Growth"
+      }
+    ],
+    "readiness_note": "Skill similarity does not establish education, experience or hiring eligibility.",
+    "emerging_trend": null,
+    "source_checked_at": "2026-10-20T10:01:03.052023+00:00",
+    "title_verification": "13-1111.00 - Management Analysts",
+    "malaysia_reference_codes": [
+      "2421"
+    ],
+    "malaysia_mapping_status": "team_approximate_crosswalk",
+    "malaysia_mappings": [
+      {
+        "masco_code": "2421",
+        "title": "Management and Organisation Analysts",
+        "classification_source_url": "https://jtksm.mohr.gov.my/sites/default/files/2022-12/MASCO_2020_BI_Edaran.pdf",
+        "classification_edition": "MASCO 2020",
+        "source_pdf_page": 87,
+        "mapping_status": "team_approximate_crosswalk",
+        "mapping_basis": "Team review of occupation title and tasks; no official O*NET–MASCO crosswalk.",
+        "is_mycol_code_critical": false,
+        "mycol_edition": "2024/2025",
+        "mycol_source_url": "https://www.talentcorp.com.my/images/uploads/publication/204/MyMahir-Malaysia-Critical-Occupations-List-MyCOL20242025-1773385490.pdf",
+        "checked_at": "2026-10-20T10:51:59.171483+00:00"
+      }
+    ],
+    "is_mycol_critical": false,
+    "mycol_status": "mapped_group_not_listed",
+    "mycol_status_scope": "2024/2025 mapped MASCO group only; not a direct official designation of the O*NET role or AI focus label.",
+    "mycol_reference_period": "2024/2025",
+    "mycol_source_url": "https://www.talentcorp.com.my/images/uploads/publication/204/MyMahir-Malaysia-Critical-Occupations-List-MyCOL20242025-1773385490.pdf",
+    "salary_range_myr": {
+      "min": null,
+      "max": null,
+      "currency": "MYR",
+      "period": "month",
+      "status": "not_verified",
+      "source_url": null,
+      "reference_period": null,
+      "note_zh": "尚无与本岗位、地区、资历和薪资口径一致的已核验区间；不得填入反馈中的示例数字。"
+    },
+    "malaysia_mapping_note_zh": "职业名称与任务的团队近似映射。未列入该版紧缺名单不代表没有需求，不应因此扣减匹配分数。",
+    "unmapped_requirements": [
+      {
+        "skill_id": "change",
+        "target_level": 3,
+        "weight": 1
+      },
+      {
+        "skill_id": "hr",
+        "target_level": 1,
+        "weight": 1
+      }
+    ],
+    "taxonomy_mapping_note": "Partial team crosswalk to Module 1. Unmapped requirements are excluded from this index and require separate assessment."
+  },
+  {
+    "role_id": "R12",
+    "title": "Computer and Information Research Scientists",
+    "onet_code": "15-1221.00",
+    "focus_label": "Long-term AI research / architecture pathway",
+    "focus_status": "curated_application_direction_not_official_job_title",
+    "source_url": "https://www.onetonline.org/link/summary/15-1221.00",
+    "geography": "US occupational taxonomy; transferable reference, not Malaysia vacancy evidence",
+    "required_skills": [
+      {
+        "skill_id": "programming",
+        "target_level": 3,
+        "weight": 1,
+        "legacy_skill_ids": [
+          "python"
+        ]
+      },
+      {
+        "skill_id": "machine_learning",
+        "target_level": 3,
+        "weight": 1,
+        "legacy_skill_ids": [
+          "ml"
+        ]
+      },
+      {
+        "skill_id": "deep_learning",
+        "target_level": 3,
+        "weight": 1,
+        "legacy_skill_ids": [
+          "deep_learning"
+        ]
+      },
+      {
+        "skill_id": "nlp",
+        "target_level": 2,
+        "weight": 1,
+        "legacy_skill_ids": [
+          "nlp"
+        ]
+      }
+    ],
+    "mapping_method": "team-curated MVP requirements; not O*NET numeric skill ratings",
+    "trend_skill_ids": [
+      "deep_learning",
+      "nlp"
+    ],
+    "sdg_mappings": [
+      {
+        "sdg": 9,
+        "target": "9.5",
+        "rationale_zh": "开发、评估和运维可靠的数据与 AI 技术。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal9",
+        "sdg_id": 9,
+        "target_code": "9.5",
+        "sdg_label": "Industry, Innovation and Infrastructure"
+      }
+    ],
+    "readiness_note": "Skill similarity does not establish education, experience or hiring eligibility.",
+    "emerging_trend": null,
+    "source_checked_at": "2026-10-20T10:01:03.053073+00:00",
+    "title_verification": "15-1221.00 - Computer and Information Research Scientists",
+    "malaysia_reference_codes": [
+      "2426"
+    ],
+    "malaysia_mapping_status": "broad_related_group_only",
+    "malaysia_mappings": [
+      {
+        "masco_code": "2426",
+        "title": "Research and Development Professionals",
+        "classification_source_url": "https://jtksm.mohr.gov.my/sites/default/files/2022-12/MASCO_2020_BI_Edaran.pdf",
+        "classification_edition": "MASCO 2020",
+        "source_pdf_page": 89,
+        "mapping_status": "broad_related_group_only",
+        "mapping_basis": "Team review of occupation title and tasks; no official O*NET–MASCO crosswalk.",
+        "is_mycol_code_critical": true,
+        "mycol_edition": "2024/2025",
+        "mycol_source_url": "https://www.talentcorp.com.my/images/uploads/publication/204/MyMahir-Malaysia-Critical-Occupations-List-MyCOL20242025-1773385490.pdf",
+        "checked_at": "2026-10-20T10:51:59.171483+00:00"
+      }
+    ],
+    "is_mycol_critical": null,
+    "mycol_status": "related_group_listed_exact_role_unverified",
+    "mycol_status_scope": "2024/2025 mapped MASCO group only; not a direct official designation of the O*NET role or AI focus label.",
+    "mycol_reference_period": "2024/2025",
+    "mycol_source_url": "https://www.talentcorp.com.my/images/uploads/publication/204/MyMahir-Malaysia-Critical-Occupations-List-MyCOL20242025-1773385490.pdf",
+    "salary_range_myr": {
+      "min": null,
+      "max": null,
+      "currency": "MYR",
+      "period": "month",
+      "status": "not_verified",
+      "source_url": null,
+      "reference_period": null,
+      "note_zh": "尚无与本岗位、地区、资历和薪资口径一致的已核验区间；不得填入反馈中的示例数字。"
+    },
+    "malaysia_mapping_note_zh": "2426 仅作研发职业组的宽泛相关参考，并非计算机研究科学家的已确认一对一映射。该组在 MyCOL 中，但本岗位的直接紧缺状态仍为 null。反馈中的 2120 不采用；本版官方表中数学统计类为 2121，且不等同于本岗位。",
+    "unmapped_requirements": [
+      {
+        "skill_id": "evaluation",
+        "target_level": 3,
+        "weight": 1
+      }
+    ],
+    "taxonomy_mapping_note": "Partial team crosswalk to Module 1. Unmapped requirements are excluded from this index and require separate assessment."
+  }
+]

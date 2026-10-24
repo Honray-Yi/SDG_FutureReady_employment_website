@@ -1,0 +1,14 @@
+[
+  {
+    "scenario_id": "moderate",
+    "label_zh": "温和采用",
+    "signal_weight": 0.2,
+    "interpretation": "Heuristic sensitivity assumption, not a calibrated forecast or probability."
+  },
+  {
+    "scenario_id": "fast",
+    "label_zh": "快速采用",
+    "signal_weight": 0.4,
+    "interpretation": "Greater weight on observed research momentum, not a prediction of replacement."
+  }
+]

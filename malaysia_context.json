@@ -1,0 +1,475 @@
+{
+  "source_id": "dosm",
+  "source_url": "https://api.data.gov.my/data-catalogue?id=lfs_qtr_sru_age&limit=1000",
+  "catalogue_url": "https://data.gov.my/data-catalogue/lfs_qtr_sru_age",
+  "retrieved_at": "2026-10-20T10:05:36.013670+00:00",
+  "response_sha256": "943d9ce78abb7f460c742a734557ab5f54ebd1dbdff865c541cf3384181027b9",
+  "license": "CC BY 4.0",
+  "attribution": "Department of Statistics Malaysia / data.gov.my",
+  "metric": "Skills-related underemployment among tertiary-educated employed persons",
+  "units": {
+    "rate": "percent",
+    "persons": "thousand persons"
+  },
+  "filter": "age == overall",
+  "records": [
+    {
+      "age": "overall",
+      "sru": 29.9,
+      "date": "2017-01-01",
+      "variable": "rate"
+    },
+    {
+      "age": "overall",
+      "sru": 31.8,
+      "date": "2017-04-01",
+      "variable": "rate"
+    },
+    {
+      "age": "overall",
+      "sru": 31.4,
+      "date": "2017-07-01",
+      "variable": "rate"
+    },
+    {
+      "age": "overall",
+      "sru": 32.7,
+      "date": "2017-10-01",
+      "variable": "rate"
+    },
+    {
+      "age": "overall",
+      "sru": 32.5,
+      "date": "2018-01-01",
+      "variable": "rate"
+    },
+    {
+      "age": "overall",
+      "sru": 33.2,
+      "date": "2018-04-01",
+      "variable": "rate"
+    },
+    {
+      "age": "overall",
+      "sru": 33.4,
+      "date": "2018-07-01",
+      "variable": "rate"
+    },
+    {
+      "age": "overall",
+      "sru": 32.8,
+      "date": "2018-10-01",
+      "variable": "rate"
+    },
+    {
+      "age": "overall",
+      "sru": 32.9,
+      "date": "2019-01-01",
+      "variable": "rate"
+    },
+    {
+      "age": "overall",
+      "sru": 32.8,
+      "date": "2019-04-01",
+      "variable": "rate"
+    },
+    {
+      "age": "overall",
+      "sru": 34.3,
+      "date": "2019-07-01",
+      "variable": "rate"
+    },
+    {
+      "age": "overall",
+      "sru": 34.8,
+      "date": "2019-10-01",
+      "variable": "rate"
+    },
+    {
+      "age": "overall",
+      "sru": 36.2,
+      "date": "2020-01-01",
+      "variable": "rate"
+    },
+    {
+      "age": "overall",
+      "sru": 36.5,
+      "date": "2020-04-01",
+      "variable": "rate"
+    },
+    {
+      "age": "overall",
+      "sru": 36.8,
+      "date": "2020-07-01",
+      "variable": "rate"
+    },
+    {
+      "age": "overall",
+      "sru": 37.4,
+      "date": "2020-10-01",
+      "variable": "rate"
+    },
+    {
+      "age": "overall",
+      "sru": 37.9,
+      "date": "2021-01-01",
+      "variable": "rate"
+    },
+    {
+      "age": "overall",
+      "sru": 37.7,
+      "date": "2021-04-01",
+      "variable": "rate"
+    },
+    {
+      "age": "overall",
+      "sru": 37.7,
+      "date": "2021-07-01",
+      "variable": "rate"
+    },
+    {
+      "age": "overall",
+      "sru": 37.5,
+      "date": "2021-10-01",
+      "variable": "rate"
+    },
+    {
+      "age": "overall",
+      "sru": 36.9,
+      "date": "2022-01-01",
+      "variable": "rate"
+    },
+    {
+      "age": "overall",
+      "sru": 36.7,
+      "date": "2022-04-01",
+      "variable": "rate"
+    },
+    {
+      "age": "overall",
+      "sru": 36.8,
+      "date": "2022-07-01",
+      "variable": "rate"
+    },
+    {
+      "age": "overall",
+      "sru": 37.4,
+      "date": "2022-10-01",
+      "variable": "rate"
+    },
+    {
+      "age": "overall",
+      "sru": 37.4,
+      "date": "2023-01-01",
+      "variable": "rate"
+    },
+    {
+      "age": "overall",
+      "sru": 37.4,
+      "date": "2023-04-01",
+      "variable": "rate"
+    },
+    {
+      "age": "overall",
+      "sru": 37.3,
+      "date": "2023-07-01",
+      "variable": "rate"
+    },
+    {
+      "age": "overall",
+      "sru": 37.4,
+      "date": "2023-10-01",
+      "variable": "rate"
+    },
+    {
+      "age": "overall",
+      "sru": 36.4,
+      "date": "2024-01-01",
+      "variable": "rate"
+    },
+    {
+      "age": "overall",
+      "sru": 36.2,
+      "date": "2024-04-01",
+      "variable": "rate"
+    },
+    {
+      "age": "overall",
+      "sru": 36.0,
+      "date": "2024-07-01",
+      "variable": "rate"
+    },
+    {
+      "age": "overall",
+      "sru": 35.8,
+      "date": "2024-10-01",
+      "variable": "rate"
+    },
+    {
+      "age": "overall",
+      "sru": 35.7,
+      "date": "2025-01-01",
+      "variable": "rate"
+    },
+    {
+      "age": "overall",
+      "sru": 35.7,
+      "date": "2025-04-01",
+      "variable": "rate"
+    },
+    {
+      "age": "overall",
+      "sru": 35.6,
+      "date": "2025-07-01",
+      "variable": "rate"
+    },
+    {
+      "age": "overall",
+      "sru": 35.3,
+      "date": "2025-10-01",
+      "variable": "rate"
+    },
+    {
+      "age": "overall",
+      "sru": 35.2,
+      "date": "2026-01-01",
+      "variable": "rate"
+    },
+    {
+      "age": "overall",
+      "sru": 35.2,
+      "date": "2026-04-01",
+      "variable": "rate"
+    },
+    {
+      "age": "overall",
+      "sru": 1182.9,
+      "date": "2017-01-01",
+      "variable": "persons"
+    },
+    {
+      "age": "overall",
+      "sru": 1280.6,
+      "date": "2017-04-01",
+      "variable": "persons"
+    },
+    {
+      "age": "overall",
+      "sru": 1311.6,
+      "date": "2017-07-01",
+      "variable": "persons"
+    },
+    {
+      "age": "overall",
+      "sru": 1332.8,
+      "date": "2017-10-01",
+      "variable": "persons"
+    },
+    {
+      "age": "overall",
+      "sru": 1306.9,
+      "date": "2018-01-01",
+      "variable": "persons"
+    },
+    {
+      "age": "overall",
+      "sru": 1408.1,
+      "date": "2018-04-01",
+      "variable": "persons"
+    },
+    {
+      "age": "overall",
+      "sru": 1446.3,
+      "date": "2018-07-01",
+      "variable": "persons"
+    },
+    {
+      "age": "overall",
+      "sru": 1404.0,
+      "date": "2018-10-01",
+      "variable": "persons"
+    },
+    {
+      "age": "overall",
+      "sru": 1460.8,
+      "date": "2019-01-01",
+      "variable": "persons"
+    },
+    {
+      "age": "overall",
+      "sru": 1417.2,
+      "date": "2019-04-01",
+      "variable": "persons"
+    },
+    {
+      "age": "overall",
+      "sru": 1554.5,
+      "date": "2019-07-01",
+      "variable": "persons"
+    },
+    {
+      "age": "overall",
+      "sru": 1540.9,
+      "date": "2019-10-01",
+      "variable": "persons"
+    },
+    {
+      "age": "overall",
+      "sru": 1637.3,
+      "date": "2020-01-01",
+      "variable": "persons"
+    },
+    {
+      "age": "overall",
+      "sru": 1674.1,
+      "date": "2020-04-01",
+      "variable": "persons"
+    },
+    {
+      "age": "overall",
+      "sru": 1762.7,
+      "date": "2020-07-01",
+      "variable": "persons"
+    },
+    {
+      "age": "overall",
+      "sru": 1886.8,
+      "date": "2020-10-01",
+      "variable": "persons"
+    },
+    {
+      "age": "overall",
+      "sru": 1899.9,
+      "date": "2021-01-01",
+      "variable": "persons"
+    },
+    {
+      "age": "overall",
+      "sru": 1852.5,
+      "date": "2021-04-01",
+      "variable": "persons"
+    },
+    {
+      "age": "overall",
+      "sru": 1873.8,
+      "date": "2021-07-01",
+      "variable": "persons"
+    },
+    {
+      "age": "overall",
+      "sru": 1838.3,
+      "date": "2021-10-01",
+      "variable": "persons"
+    },
+    {
+      "age": "overall",
+      "sru": 1810.1,
+      "date": "2022-01-01",
+      "variable": "persons"
+    },
+    {
+      "age": "overall",
+      "sru": 1799.6,
+      "date": "2022-04-01",
+      "variable": "persons"
+    },
+    {
+      "age": "overall",
+      "sru": 1839.6,
+      "date": "2022-07-01",
+      "variable": "persons"
+    },
+    {
+      "age": "overall",
+      "sru": 1891.4,
+      "date": "2022-10-01",
+      "variable": "persons"
+    },
+    {
+      "age": "overall",
+      "sru": 1907.2,
+      "date": "2023-01-01",
+      "variable": "persons"
+    },
+    {
+      "age": "overall",
+      "sru": 1914.6,
+      "date": "2023-04-01",
+      "variable": "persons"
+    },
+    {
+      "age": "overall",
+      "sru": 1922.7,
+      "date": "2023-07-01",
+      "variable": "persons"
+    },
+    {
+      "age": "overall",
+      "sru": 1937.1,
+      "date": "2023-10-01",
+      "variable": "persons"
+    },
+    {
+      "age": "overall",
+      "sru": 1928.2,
+      "date": "2024-01-01",
+      "variable": "persons"
+    },
+    {
+      "age": "overall",
+      "sru": 1925.2,
+      "date": "2024-04-01",
+      "variable": "persons"
+    },
+    {
+      "age": "overall",
+      "sru": 1945.1,
+      "date": "2024-07-01",
+      "variable": "persons"
+    },
+    {
+      "age": "overall",
+      "sru": 1951.9,
+      "date": "2024-10-01",
+      "variable": "persons"
+    },
+    {
+      "age": "overall",
+      "sru": 1952.9,
+      "date": "2025-01-01",
+      "variable": "persons"
+    },
+    {
+      "age": "overall",
+      "sru": 1953.7,
+      "date": "2025-04-01",
+      "variable": "persons"
+    },
+    {
+      "age": "overall",
+      "sru": 1932.4,
+      "date": "2025-07-01",
+      "variable": "persons"
+    },
+    {
+      "age": "overall",
+      "sru": 1930.2,
+      "date": "2025-10-01",
+      "variable": "persons"
+    },
+    {
+      "age": "overall",
+      "sru": 1934.7,
+      "date": "2026-01-01",
+      "variable": "persons"
+    },
+    {
+      "age": "overall",
+      "sru": 1948.2,
+      "date": "2026-04-01",
+      "variable": "persons"
+    }
+  ],
+  "latest_period": "2026-04-01",
+  "usage": "Malaysia background/context only; not individual features or skill-demand growth."
+}

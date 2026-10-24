@@ -1,0 +1,78 @@
+[
+  {
+    "source_id": "arxiv",
+    "url": "https://export.arxiv.org/api/query",
+    "docs": "https://info.arxiv.org/help/api/user-manual.html",
+    "kind": "research_signal",
+    "geography": "global research",
+    "use": "Public bibliographic metadata and aggregate counts only; no paper full text or author data in deliverable.",
+    "limitations": "Research attention is not labour demand; indexing delays, keyword bias and overlapping topics."
+  },
+  {
+    "source_id": "arbeitnow",
+    "url": "https://www.arbeitnow.com/api/job-board-api",
+    "docs": "https://www.arbeitnow.com/blog/job-board-api",
+    "kind": "job_snapshot",
+    "geography": "Europe-oriented job board",
+    "use": "Public API; retain source links, attribution and observe current terms.",
+    "limitations": "Convenience sample, not Malaysia or global vacancy census; one snapshot cannot estimate hiring growth."
+  },
+  {
+    "source_id": "onet",
+    "url": "https://www.onetcenter.org/database.html",
+    "docs": "https://www.onetcenter.org/license_db.html",
+    "kind": "occupation_reference",
+    "geography": "United States",
+    "use": "O*NET source-backed occupational titles; derived mappings are team authored; attribute O*NET.",
+    "limitations": "No assertion that AI focus labels are official occupations or locally open vacancies."
+  },
+  {
+    "source_id": "bls",
+    "url": "https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm",
+    "kind": "long_term_projection",
+    "geography": "United States",
+    "use": "Government occupational projections; explicitly separate from observed growth.",
+    "limitations": "Not Malaysian forecasts; not causal effects of AI."
+  },
+  {
+    "source_id": "un_sdg",
+    "url": "https://sdgs.un.org/goals",
+    "kind": "target_reference",
+    "geography": "global",
+    "use": "Goal links support team interpretations, not UN endorsement.",
+    "limitations": "No measured SDG impact is asserted."
+  },
+  {
+    "source_id": "adzuna_optional",
+    "url": "https://developer.adzuna.com/overview",
+    "kind": "optional_keyed_api",
+    "use": "Requires app_id and app_key; not called and no credentials included.",
+    "limitations": "Malaysia availability not verified; never assume the API accepts country code my."
+  },
+  {
+    "source_id": "dosm",
+    "url": "https://api.data.gov.my/data-catalogue?id=lfs_qtr_sru_age&limit=1000",
+    "docs": "https://data.gov.my/data-catalogue/lfs_qtr_sru_age",
+    "kind": "aggregate_labour_context",
+    "geography": "Malaysia",
+    "license": "CC BY 4.0",
+    "limitations": "Skills-related underemployment is not AI-caused unemployment."
+  },
+  {
+    "source_id": "mycol",
+    "url": "https://www.talentcorp.com.my/images/uploads/publication/204/MyMahir-Malaysia-Critical-Occupations-List-MyCOL20242025-1773385490.pdf",
+    "kind": "critical_occupation_reference",
+    "geography": "Malaysia",
+    "reference_period": "2024/2025",
+    "limitations": "Edition 2024/2025, not live demand. Selected title records with a complete code list; crosswalks are approximate.",
+    "verification_method": "Official PDF downloaded; all 66 Table 7 codes visually checked."
+  },
+  {
+    "source_id": "masco_2020",
+    "url": "https://jtksm.mohr.gov.my/sites/default/files/2022-12/MASCO_2020_BI_Edaran.pdf",
+    "kind": "occupation_classification",
+    "geography": "Malaysia",
+    "checked_at": "2026-10-20T10:51:59.171483+00:00",
+    "limitations": "Selected code/title facts; mapping to O*NET is team interpretation. No salary estimates inferred."
+  }
+]

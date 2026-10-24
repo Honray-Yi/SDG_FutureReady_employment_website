@@ -1,0 +1,28 @@
+{
+  "basis": "Module 1 v1.0.0 is authoritative. Crosswalks below are team-curated subset projections, not equivalence of proficiency.",
+  "legacy_to_current": {
+    "python": "programming",
+    "sql": "data_engineering",
+    "analytics": "data_analytics",
+    "ml": "machine_learning",
+    "deep_learning": "deep_learning",
+    "nlp": "nlp",
+    "llm": "generative_ai",
+    "prompting": "generative_ai",
+    "rag": "retrieval",
+    "mlops": "mlops",
+    "responsible_ai": "responsible_ai",
+    "privacy": "security_privacy",
+    "cybersecurity": "security_privacy"
+  },
+  "unmapped_legacy_ids": [
+    "agents",
+    "change",
+    "cloud",
+    "evaluation",
+    "hr",
+    "manual_entry",
+    "training"
+  ],
+  "merge_policy": "Deduplicate role targets using maximum target and maximum weight. Unmapped requirements remain explicitly outside the taxonomy; never infer unrelated skills."
+}

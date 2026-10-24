@@ -1,0 +1,222 @@
+[
+  {
+    "profile_id": "SYN-A",
+    "display_name": "受岗位变化影响的数据分析师（合成）",
+    "is_synthetic": true,
+    "creation_method": "Authored from abstract demo scenarios; no real CV or individual record used.",
+    "current_role": "Data analyst",
+    "skill_levels": {
+      "python": 1,
+      "sql": 2,
+      "analytics": 3,
+      "manual_entry": 3,
+      "change": 2
+    },
+    "target_role_id": "R01",
+    "hours_per_week": 8,
+    "interests": [
+      "MLOps",
+      "data engineering"
+    ],
+    "summary_zh": "月报工作依赖电子表格与人工录入，希望学习数据管道和模型部署；这是转型动机设定，不是个人失业风险预测。",
+    "personal_identifiers_included": false,
+    "geography_context": "Malaysia demo; fictional",
+    "skill_scale": {
+      "0": "not yet evidenced",
+      "1": "foundation",
+      "2": "working practice",
+      "3": "advanced demo assumption"
+    },
+    "persona_category": "Working Adult / Career Switcher",
+    "usage_context": "individual_reskilling",
+    "persona_basis": "fictional_demo_assumptions_not_population_statistics",
+    "display_name_is_personal_name": false,
+    "preferred_language_codes": [
+      "en",
+      "ms",
+      "zh-CN"
+    ],
+    "language_preference_note": "Demo preference only, not a measured ability or ranking feature.",
+    "access_constraints": {
+      "prefer_text_resources": true,
+      "mobile_friendly_desired": true
+    },
+    "ranking_input_note": "Only skill_levels and scenario affect role ranking; persona labels/language preferences do not."
+  },
+  {
+    "profile_id": "SYN-B",
+    "display_name": "规划团队再培训的 HR 专员（合成）",
+    "is_synthetic": true,
+    "creation_method": "Authored from abstract demo scenarios; no real CV or individual record used.",
+    "current_role": "HR administrator",
+    "skill_levels": {
+      "hr": 3,
+      "change": 3,
+      "training": 2,
+      "analytics": 1,
+      "manual_entry": 2
+    },
+    "target_role_id": "R09",
+    "hours_per_week": 5,
+    "interests": [
+      "workforce transformation",
+      "responsible AI"
+    ],
+    "summary_zh": "负责虚构团队的培训协调，先补自身分析和负责任 AI 能力，再为合成团队讨论学习计划；不作自动招聘或裁员判断。",
+    "personal_identifiers_included": false,
+    "geography_context": "Malaysia demo; fictional",
+    "skill_scale": {
+      "0": "not yet evidenced",
+      "1": "foundation",
+      "2": "working practice",
+      "3": "advanced demo assumption"
+    },
+    "persona_category": "HR / Learning and Development Planner",
+    "usage_context": "team_reskilling_planner",
+    "persona_basis": "fictional_demo_assumptions_not_population_statistics",
+    "display_name_is_personal_name": false,
+    "preferred_language_codes": [
+      "en",
+      "ms",
+      "zh-CN"
+    ],
+    "language_preference_note": "Demo preference only, not a measured ability or ranking feature.",
+    "access_constraints": {
+      "prefer_text_resources": true,
+      "mobile_friendly_desired": true
+    },
+    "ranking_input_note": "Only skill_levels and scenario affect role ranking; persona labels/language preferences do not."
+  },
+  {
+    "profile_id": "SYN-C",
+    "display_name": "探索 AI 系统方向的 IT 应届生（合成）",
+    "is_synthetic": true,
+    "creation_method": "Authored from abstract demo scenarios; no real CV or individual record used.",
+    "current_role": "IT graduate",
+    "skill_levels": {
+      "python": 2,
+      "sql": 1,
+      "ml": 1,
+      "cloud": 1,
+      "change": 1
+    },
+    "target_role_id": "R05",
+    "hours_per_week": 10,
+    "interests": [
+      "AI systems",
+      "architecture"
+    ],
+    "summary_zh": "有基础编程课程项目经验，希望先学习系统集成，再长期探索架构方向；不假定已符合高级架构师岗位要求。",
+    "personal_identifiers_included": false,
+    "geography_context": "Malaysia demo; fictional",
+    "skill_scale": {
+      "0": "not yet evidenced",
+      "1": "foundation",
+      "2": "working practice",
+      "3": "advanced demo assumption"
+    },
+    "persona_category": "Fresh Graduate / Career Starter",
+    "usage_context": "individual_reskilling",
+    "persona_basis": "fictional_demo_assumptions_not_population_statistics",
+    "display_name_is_personal_name": false,
+    "preferred_language_codes": [
+      "en",
+      "ms",
+      "zh-CN"
+    ],
+    "language_preference_note": "Demo preference only, not a measured ability or ranking feature.",
+    "access_constraints": {
+      "prefer_text_resources": true,
+      "mobile_friendly_desired": true
+    },
+    "ranking_input_note": "Only skill_levels and scenario affect role ranking; persona labels/language preferences do not."
+  },
+  {
+    "profile_id": "SYN-D",
+    "display_name": "转向安全与数据保护的运维人员（合成）",
+    "is_synthetic": true,
+    "creation_method": "Authored from abstract demo scenarios; no real CV or individual record used.",
+    "current_role": "IT support technician",
+    "skill_levels": {
+      "cloud": 2,
+      "cybersecurity": 1,
+      "python": 1,
+      "change": 2
+    },
+    "target_role_id": "R06",
+    "hours_per_week": 6,
+    "interests": [
+      "security",
+      "privacy"
+    ],
+    "summary_zh": "希望在现有运维基础上学习安全与数据保护；所有技能和经历为演示假设。",
+    "personal_identifiers_included": false,
+    "geography_context": "Malaysia demo; fictional",
+    "skill_scale": {
+      "0": "not yet evidenced",
+      "1": "foundation",
+      "2": "working practice",
+      "3": "advanced demo assumption"
+    },
+    "persona_category": "Working Adult / Career Switcher",
+    "usage_context": "individual_reskilling",
+    "persona_basis": "fictional_demo_assumptions_not_population_statistics",
+    "display_name_is_personal_name": false,
+    "preferred_language_codes": [
+      "en",
+      "ms",
+      "zh-CN"
+    ],
+    "language_preference_note": "Demo preference only, not a measured ability or ranking feature.",
+    "access_constraints": {
+      "prefer_text_resources": true,
+      "mobile_friendly_desired": true
+    },
+    "ranking_input_note": "Only skill_levels and scenario affect role ranking; persona labels/language preferences do not."
+  },
+  {
+    "profile_id": "SYN-E",
+    "display_name": "支持学生转型的 TVET 职业导师（合成）",
+    "is_synthetic": true,
+    "creation_method": "Authored from abstract demo scenarios; no real CV or individual record used.",
+    "current_role": "TVET career adviser",
+    "skill_levels": {
+      "training": 3,
+      "change": 3,
+      "hr": 2,
+      "analytics": 1,
+      "responsible_ai": 1
+    },
+    "target_role_id": "R10",
+    "hours_per_week": 4,
+    "interests": [
+      "career guidance",
+      "AI literacy",
+      "inclusive learning"
+    ],
+    "summary_zh": "希望提升自身 AI 素养和学习设计能力，再指导虚构学生选择路线。当前 CLI 只演示导师自身路径，不冒充已完成班级管理功能。",
+    "personal_identifiers_included": false,
+    "geography_context": "Malaysia demo; fictional",
+    "skill_scale": {
+      "0": "not yet evidenced",
+      "1": "foundation",
+      "2": "working practice",
+      "3": "advanced demo assumption"
+    },
+    "persona_category": "TVET / University Career Adviser",
+    "usage_context": "career_advising",
+    "persona_basis": "fictional_demo_assumptions_not_population_statistics",
+    "display_name_is_personal_name": false,
+    "preferred_language_codes": [
+      "en",
+      "ms",
+      "zh-CN"
+    ],
+    "language_preference_note": "Demo preference only, not a measured ability or ranking feature.",
+    "access_constraints": {
+      "prefer_text_resources": true,
+      "mobile_friendly_desired": true
+    },
+    "ranking_input_note": "Only skill_levels and scenario affect role ranking; persona labels/language preferences do not."
+  }
+]

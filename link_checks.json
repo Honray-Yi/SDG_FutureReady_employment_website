@@ -1,0 +1,377 @@
+[
+  {
+    "id": "C01",
+    "url": "https://cs50.harvard.edu/python/",
+    "checked_at": "2026-10-20T10:00:48.675802+00:00",
+    "status": "retrieved",
+    "page_title": "CS50's Introduction to Programming with Python",
+    "h1": "CS50’s Introduction to Programming with Python | Welcome",
+    "response_sha256": "e6fd5395217c482c542038b87ea3f9536c7866e9e7644a85defe0115248944da",
+    "bytes": 17196
+  },
+  {
+    "id": "C02",
+    "url": "https://cs50.harvard.edu/sql/",
+    "checked_at": "2026-10-20T10:00:48.666856+00:00",
+    "status": "retrieved",
+    "page_title": "CS50's Introduction to Databases with SQL",
+    "h1": "CS50’s Introduction to Databases with SQL | Welcome",
+    "response_sha256": "77fd9ccdbf0d774f761dc2edef9095d4fb5ab60a838603cc85f5cc69b79fa5f5",
+    "bytes": 17969
+  },
+  {
+    "id": "C03",
+    "url": "https://github.com/microsoft/Data-Science-For-Beginners",
+    "checked_at": "2026-10-20T10:00:48.755492+00:00",
+    "status": "retrieved",
+    "page_title": "GitHub - microsoft/Data-Science-For-Beginners: 10 Weeks, 20 Lessons, Data Science for All! · GitHub",
+    "h1": "Data Science for Beginners - A Curriculum | Are you a student? | Getting Started",
+    "response_sha256": "f75496e4a174b6946234cad0de492ea72b504bd58dc3b759bbec911d9ed9f159",
+    "bytes": 500327
+  },
+  {
+    "id": "C04",
+    "url": "https://github.com/microsoft/ML-For-Beginners",
+    "checked_at": "2026-10-20T10:00:48.660209+00:00",
+    "status": "retrieved",
+    "page_title": "GitHub - microsoft/ML-For-Beginners: 12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all · GitHub",
+    "h1": "Machine Learning for Beginners - A Curriculum | Getting Started",
+    "response_sha256": "609d8ed00ba0c64a687ff4f373929433079dde07b414f37573a44c3d7fb1265b",
+    "bytes": 480955
+  },
+  {
+    "id": "C05",
+    "url": "https://course.fast.ai/",
+    "checked_at": "2026-10-20T10:00:49.413682+00:00",
+    "status": "retrieved",
+    "page_title": "Practical Deep Learning for Coders - Practical Deep Learning",
+    "h1": "Practical Deep Learning",
+    "response_sha256": "90ff0312a92eaa9dadf39c936e975b55ec16115bae8a7f0d0782957ac7c03126",
+    "bytes": 57095
+  },
+  {
+    "id": "C06",
+    "url": "https://huggingface.co/learn/llm-course/chapter1/1",
+    "checked_at": "2026-10-20T10:00:49.759323+00:00",
+    "status": "retrieved",
+    "page_title": "Introduction · Hugging Face",
+    "h1": "LLM Course |   | Introduction",
+    "response_sha256": "2c5a4fd3dba5e446f61461dafec0d45026ed048c5db4e9bbebeefa3b739d292f",
+    "bytes": 139206
+  },
+  {
+    "id": "C07",
+    "url": "https://github.com/microsoft/generative-ai-for-beginners",
+    "checked_at": "2026-10-20T10:00:50.428967+00:00",
+    "status": "retrieved",
+    "page_title": "GitHub - microsoft/generative-ai-for-beginners: 21 Lessons, Get Started Building with Generative AI · GitHub",
+    "h1": "Generative AI for Beginners (Version 3) - A Course",
+    "response_sha256": "3f85f7cfff4b6d7896b931c2d3ef660f343e0bc61bc8bee2c9cb5a040f243ee8",
+    "bytes": 519996
+  },
+  {
+    "id": "C08",
+    "url": "https://github.com/microsoft/ai-agents-for-beginners",
+    "checked_at": "2026-10-20T10:00:50.331842+00:00",
+    "status": "retrieved",
+    "page_title": "GitHub - microsoft/ai-agents-for-beginners: 18 Lessons to Get Started Building AI Agents · GitHub",
+    "h1": "AI Agents for Beginners - A Course",
+    "response_sha256": "bde6848b576af0677c2086479355ae972e720cb3ca33be5c29d6f3987cdba067",
+    "bytes": 478660
+  },
+  {
+    "id": "C09",
+    "url": "https://huggingface.co/learn/agents-course/unit0/introduction",
+    "checked_at": "2026-10-20T10:00:50.331842+00:00",
+    "status": "retrieved",
+    "page_title": "Welcome to the 🤗 AI Agents Course · Hugging Face",
+    "h1": "Agents Course |   | Welcome to the 🤗 AI Agents Course",
+    "response_sha256": "9f2ee08433361873c5afd2771181dd3ed7bee11f168fed8af5611a3a4faadfe5",
+    "bytes": 126118
+  },
+  {
+    "id": "C10",
+    "url": "https://github.com/DataTalksClub/mlops-zoomcamp",
+    "checked_at": "2026-10-20T10:00:51.354663+00:00",
+    "status": "retrieved",
+    "page_title": "GitHub - DataTalksClub/mlops-zoomcamp: Free MLOps course from DataTalks.Club. Register here 👇🏼 to get notified about the next cohort · GitHub",
+    "h1": "\n    MLOps Zoomcamp: A Free 9-Week Course on Productionizing ML Services\n",
+    "response_sha256": "d22ae5c462e8583a5066050262d4853ee731c43fa47643437f0c606f458e7f5c",
+    "bytes": 348884
+  },
+  {
+    "id": "C11",
+    "url": "https://github.com/DataTalksClub/data-engineering-zoomcamp",
+    "checked_at": "2026-10-20T10:00:51.468741+00:00",
+    "status": "retrieved",
+    "page_title": "GitHub - DataTalksClub/data-engineering-zoomcamp: Data Engineering Zoomcamp is a free 9-week course on building production-ready data pipelines. Join the course here 👇🏼 · GitHub",
+    "h1": "\n    Data Engineering Zoomcamp: A Free 9-Week Course on Data Engineering Fundamentals\n",
+    "response_sha256": "d5238e6c938d87d3166ed09bffdbaed2b2278c00a40e8587b9c754d291413c4a",
+    "bytes": 377091
+  },
+  {
+    "id": "C12",
+    "url": "https://www.edx.org/learn/kubernetes/the-linux-foundation-introduction-to-kubernetes",
+    "checked_at": "2026-10-20T10:00:50.987844+00:00",
+    "status": "retrieved",
+    "page_title": "LinuxFoundationX: Introduction to Kubernetes | edX",
+    "h1": "",
+    "response_sha256": "56a81fd0828ca796927e9f893b8e2eb7181e8a6a75a8ba98ce7227646c1b4c1f",
+    "bytes": 502193
+  },
+  {
+    "id": "C13",
+    "url": "https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/",
+    "checked_at": "2026-10-20T10:00:51.557790+00:00",
+    "status": "retrieved",
+    "page_title": "ChatGPT Prompt Engineering for Developers - DeepLearning.AI",
+    "h1": "ChatGPT Prompt Engineering for Developers",
+    "response_sha256": "b0ece3b65e05283f4d4116b09fa12f121f33509809373738a536c193ae116415",
+    "bytes": 249708
+  },
+  {
+    "id": "C14",
+    "url": "https://www.deeplearning.ai/short-courses/evaluating-debugging-generative-ai/",
+    "checked_at": "2026-10-20T10:00:51.965348+00:00",
+    "status": "retrieved",
+    "page_title": "Evaluating and Debugging Generative AI - DeepLearning.AI",
+    "h1": "Evaluating and Debugging Generative AI",
+    "response_sha256": "bfe7706d69aaa910b5e7b6e32f50159f91a0eec9276040c1ea09fca805bc7b52",
+    "bytes": 228034
+  },
+  {
+    "id": "C15",
+    "url": "https://www.open.edu/openlearn/money-business/human-resource-management-and-edi/content-section-0",
+    "checked_at": "2026-10-20T10:00:52.538834+00:00",
+    "status": "failed",
+    "error": "Command '['C:\\\\Windows\\\\system32\\\\curl.exe', '--fail', '--silent', '--show-error', '--location', '--max-time', '40', '--user-agent', 'FutureWorkforceResearchDemo/1.0', 'https://www.open.edu/openlearn/money-business/human"
+  },
+  {
+    "id": "C16",
+    "url": "https://www.open.edu/openlearn/money-business/what-strategic-human-resource-management/content-section-0",
+    "checked_at": "2026-10-20T10:00:52.525059+00:00",
+    "status": "failed",
+    "error": "Command '['C:\\\\Windows\\\\system32\\\\curl.exe', '--fail', '--silent', '--show-error', '--location', '--max-time', '40', '--user-agent', 'FutureWorkforceResearchDemo/1.0', 'https://www.open.edu/openlearn/money-business/what-"
+  },
+  {
+    "id": "C17",
+    "url": "https://www.open.edu/openlearn/science-maths-technology/introduction-cyber-security/content-section-overview",
+    "checked_at": "2026-10-20T10:00:52.524050+00:00",
+    "status": "failed",
+    "error": "Command '['C:\\\\Windows\\\\system32\\\\curl.exe', '--fail', '--silent', '--show-error', '--location', '--max-time', '40', '--user-agent', 'FutureWorkforceResearchDemo/1.0', 'https://www.open.edu/openlearn/science-maths-techno"
+  },
+  {
+    "id": "C18",
+    "url": "https://github.com/microsoft/generative-ai-for-beginners/tree/main/03-using-generative-ai-responsibly",
+    "checked_at": "2026-10-20T10:00:52.710384+00:00",
+    "status": "retrieved",
+    "page_title": "generative-ai-for-beginners/03-using-generative-ai-responsibly at main · microsoft/generative-ai-for-beginners · GitHub",
+    "h1": "03-using-generative-ai-responsibly | 03-using-generative-ai-responsibly | Using Generative AI Responsibly",
+    "response_sha256": "ea0133d4ef0956a7adc41c84a58805fd23658d0dc5e1a341dfaff7d78e64fa75",
+    "bytes": 277989
+  },
+  {
+    "id": "C19",
+    "url": "https://www.open.edu/openlearn/education-development/learning-teach-becoming-reflective-practitioner/content-section-0",
+    "checked_at": "2026-10-20T10:00:52.819651+00:00",
+    "status": "failed",
+    "error": "Command '['C:\\\\Windows\\\\system32\\\\curl.exe', '--fail', '--silent', '--show-error', '--location', '--max-time', '40', '--user-agent', 'FutureWorkforceResearchDemo/1.0', 'https://www.open.edu/openlearn/education-developmen"
+  },
+  {
+    "id": "C20",
+    "url": "https://www.coursera.org/learn/ai-for-everyone",
+    "checked_at": "2026-10-20T10:00:54.907851+00:00",
+    "status": "retrieved",
+    "page_title": "AI For Everyone | Coursera",
+    "h1": "AI For Everyone | See how employees at top companies are mastering in-demand skills",
+    "response_sha256": "2ffb59f751518362394c6b6f7338fe188295239e00760d376a673ddbe1f0a445",
+    "bytes": 891676
+  },
+  {
+    "id": "R01",
+    "url": "https://www.onetonline.org/link/summary/15-1252.00",
+    "checked_at": "2026-10-20T10:00:56.837039+00:00",
+    "status": "retrieved",
+    "page_title": "15-1252.00 - Software Developers",
+    "h1": "Software Developers |   | \n   | 15-1252.00 | \n   | \n     |   |  Bright Outlook | \n | \n     |  Updated 2026 | \n | \n   | \n | \n",
+    "response_sha256": "16b7084c934f20d06f157c117b1854e44390df6b5c2e6416f696b86c0457c1fc",
+    "bytes": 261623
+  },
+  {
+    "id": "R02",
+    "url": "https://www.onetonline.org/link/summary/15-2051.00",
+    "checked_at": "2026-10-20T10:00:56.589031+00:00",
+    "status": "retrieved",
+    "page_title": "15-2051.00 - Data Scientists",
+    "h1": "Data Scientists |   | \n   | 15-2051.00 | \n   | \n     |   |  Bright Outlook | \n | \n     |  Updated 2026 | \n | \n   | \n | \n",
+    "response_sha256": "0dae48620abde5b87ec181eba0673cdfdb15a74ea20697221e25e5476d4831a8",
+    "bytes": 206495
+  },
+  {
+    "id": "R03",
+    "url": "https://www.onetonline.org/link/summary/15-1243.00",
+    "checked_at": "2026-10-20T10:00:58.327706+00:00",
+    "status": "retrieved",
+    "page_title": "15-1243.00 - Database Architects",
+    "h1": "Database Architects |   | \n   | 15-1243.00 | \n   | \n     |   |  Bright Outlook | \n | \n     |  Updated 2026 | \n | \n   | \n | \n",
+    "response_sha256": "d1e3d916facad71f1574048eef6ad7beaf6437946ad24a4fd8167e937b7e584a",
+    "bytes": 254342
+  },
+  {
+    "id": "R04",
+    "url": "https://www.onetonline.org/link/summary/15-1241.00",
+    "checked_at": "2026-10-20T10:00:57.735691+00:00",
+    "status": "retrieved",
+    "page_title": "15-1241.00 - Computer Network Architects",
+    "h1": "Computer Network Architects |   | \n   | 15-1241.00 | \n   | \n     |   |  Bright Outlook | \n | \n     |  Updated 2026 | \n | \n   | \n | \n",
+    "response_sha256": "8f2da8196355795de3d88e031e1b6ea83d18dace25704dbe8f7815c9072f4e3d",
+    "bytes": 276919
+  },
+  {
+    "id": "R05",
+    "url": "https://www.onetonline.org/link/summary/15-1211.00",
+    "checked_at": "2026-10-20T10:00:59.011750+00:00",
+    "status": "retrieved",
+    "page_title": "15-1211.00 - Computer Systems Analysts",
+    "h1": "Computer Systems Analysts |   | \n   | 15-1211.00 | \n   | \n     |   |  Bright Outlook | \n | \n     |  Updated 2026 | \n | \n   | \n | \n",
+    "response_sha256": "8fe5e0be587e7786fc43607e7dcd1f8bc2560008e04767db2f80ec717ba5cac6",
+    "bytes": 267774
+  },
+  {
+    "id": "R06",
+    "url": "https://www.onetonline.org/link/summary/15-1212.00",
+    "checked_at": "2026-10-20T10:00:59.434090+00:00",
+    "status": "retrieved",
+    "page_title": "15-1212.00 - Information Security Analysts",
+    "h1": "Information Security Analysts |   | \n   | 15-1212.00 | \n   | \n     |   |  Bright Outlook | \n | \n     |  Updated 2026 | \n | \n   | \n | \n",
+    "response_sha256": "1f5221b0bf852d054eb6b7db8db1f5c90aea5dcc9c63b72c208530a84a75bc39",
+    "bytes": 234971
+  },
+  {
+    "id": "R07",
+    "url": "https://www.onetonline.org/link/summary/15-1253.00",
+    "checked_at": "2026-10-20T10:01:01.250402+00:00",
+    "status": "retrieved",
+    "page_title": "15-1253.00 - Software Quality Assurance Analysts and Testers",
+    "h1": "Software Quality Assurance Analysts and Testers |   | \n   | 15-1253.00 | \n   | \n     |   |  Bright Outlook | \n | \n     |  Updated 2026 | \n | \n   | \n | \n",
+    "response_sha256": "104ccbdee66b2003124667c1c4364690ec9dc96513a16776c09f28cbb81a8337",
+    "bytes": 270377
+  },
+  {
+    "id": "R08",
+    "url": "https://www.onetonline.org/link/summary/11-3021.00",
+    "checked_at": "2026-10-20T10:01:02.539033+00:00",
+    "status": "retrieved",
+    "page_title": "11-3021.00 - Computer and Information Systems Managers",
+    "h1": "Computer and Information Systems Managers |   | \n   | 11-3021.00 | \n   | \n     |   |  Bright Outlook | \n | \n     |  Updated 2026 | \n | \n   | \n | \n",
+    "response_sha256": "b97df7dbd2ad9cdf76a8f1fa9c3ae807c66257624110665d5210a8be3281fba7",
+    "bytes": 256060
+  },
+  {
+    "id": "R09",
+    "url": "https://www.onetonline.org/link/summary/13-1071.00",
+    "checked_at": "2026-10-20T10:01:01.966121+00:00",
+    "status": "retrieved",
+    "page_title": "13-1071.00 - Human Resources Specialists",
+    "h1": "Human Resources Specialists |   | \n   | 13-1071.00 | \n   | \n     |   |  Bright Outlook | \n | \n     |  Updated 2026 | \n | \n   | \n | \n",
+    "response_sha256": "02fcfae22770abeac7ed364e5068c94ce9902d837cc265e0430853c3894e80e7",
+    "bytes": 234061
+  },
+  {
+    "id": "R10",
+    "url": "https://www.onetonline.org/link/summary/13-1151.00",
+    "checked_at": "2026-10-20T10:01:01.412527+00:00",
+    "status": "retrieved",
+    "page_title": "13-1151.00 - Training and Development Specialists",
+    "h1": "Training and Development Specialists |   | \n   | 13-1151.00 | \n   | \n     |   |  Bright Outlook | \n | \n     |  Updated 2026 | \n | \n   | \n | \n",
+    "response_sha256": "717add6748ca06da8ae82f1e82e5ffe1ca964480e8a9ceb2a4c726590dd31a95",
+    "bytes": 219162
+  },
+  {
+    "id": "R11",
+    "url": "https://www.onetonline.org/link/summary/13-1111.00",
+    "checked_at": "2026-10-20T10:01:03.052023+00:00",
+    "status": "retrieved",
+    "page_title": "13-1111.00 - Management Analysts",
+    "h1": "Management Analysts |   | \n   | 13-1111.00 | \n   | \n     |   |  Bright Outlook | \n | \n     |  Updated 2026 | \n | \n   | \n | \n",
+    "response_sha256": "10e01340db92bbfb26df74d2ac20ae7c87fbee274b939cbe0b075806cb549efd",
+    "bytes": 255006
+  },
+  {
+    "id": "R12",
+    "url": "https://www.onetonline.org/link/summary/15-1221.00",
+    "checked_at": "2026-10-20T10:01:03.053073+00:00",
+    "status": "retrieved",
+    "page_title": "15-1221.00 - Computer and Information Research Scientists",
+    "h1": "Computer and Information Research Scientists |   | \n   | 15-1221.00 | \n   | \n     |   |  Bright Outlook | \n | \n     |  Updated 2026 | \n | \n   | \n | \n",
+    "response_sha256": "4583b6fd7d86efc9bf5d881b5857430ed60feed7505517006b73ff435e29248b",
+    "bytes": 226881
+  },
+  {
+    "id": "bls",
+    "url": "https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm",
+    "checked_at": "2026-10-20T10:01:03.066230+00:00",
+    "status": "failed",
+    "error": "Command '['C:\\\\Windows\\\\system32\\\\curl.exe', '--fail', '--silent', '--show-error', '--location', '--max-time', '40', '--user-agent', 'FutureWorkforceResearchDemo/1.0', 'https://www.bls.gov/emp/tables/occupational-project"
+  },
+  {
+    "id": "elatih",
+    "url": "https://elatih.hrdcorp.gov.my/",
+    "checked_at": "2026-10-20T10:01:06.076101+00:00",
+    "status": "retrieved",
+    "page_title": "e-LATiH | Malaysia's Premier Learning Hub | Home ",
+    "h1": "",
+    "response_sha256": "2fbf9493b80532704ca1da356d909253bb685d1d7c25278f149ae0e4e315fa50",
+    "bytes": 551866
+  },
+  {
+    "id": "sdg4",
+    "url": "https://sdgs.un.org/goals/goal4",
+    "checked_at": "2026-10-20T10:01:03.586585+00:00",
+    "status": "retrieved",
+    "page_title": "Goal 4 | Department of Economic and Social Affairs",
+    "h1": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\tEnsure inclusive and equitable quality education and promote lifelong learning opportunities for all\n\t\t\t\t",
+    "response_sha256": "72dd4f3f42bfa700156df34518d3d6937168abfe4acd26271b6d49954e009c60",
+    "bytes": 117136
+  },
+  {
+    "id": "sdg8",
+    "url": "https://sdgs.un.org/goals/goal8",
+    "checked_at": "2026-10-20T10:01:03.678921+00:00",
+    "status": "retrieved",
+    "page_title": "Goal 8 | Department of Economic and Social Affairs",
+    "h1": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\tPromote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all\n\t\t\t\t",
+    "response_sha256": "737ccf7eb18f885fda8466cf83ce32b0df0d0a1917b3235ef24b3cd6d8697917",
+    "bytes": 132094
+  },
+  {
+    "id": "sdg9",
+    "url": "https://sdgs.un.org/goals/goal9",
+    "checked_at": "2026-10-20T10:01:03.678921+00:00",
+    "status": "retrieved",
+    "page_title": "Goal 9 | Department of Economic and Social Affairs",
+    "h1": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\tBuild resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation\n\t\t\t\t",
+    "response_sha256": "2f4a08788d534333c5d4b0217954540db7bb397eaf419d212db8a4e64c9110ef",
+    "bytes": 118828
+  },
+  {
+    "id": "sdg10",
+    "url": "https://sdgs.un.org/goals/goal10",
+    "checked_at": "2026-10-20T10:01:03.826554+00:00",
+    "status": "retrieved",
+    "page_title": "Goal 10 | Department of Economic and Social Affairs",
+    "h1": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\tReduce inequality within and among countries\n\t\t\t\t",
+    "response_sha256": "02f922408e3391be3c8690095ee17950d28cab52ddf23e1d87e6a3b76e37e846",
+    "bytes": 114808
+  },
+  {
+    "id": "sdg16",
+    "url": "https://sdgs.un.org/goals/goal16",
+    "checked_at": "2026-10-20T10:01:05.075683+00:00",
+    "status": "retrieved",
+    "page_title": "Goal 16 | Department of Economic and Social Affairs",
+    "h1": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\tPromote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels\n\t\t\t\t",
+    "response_sha256": "c74dbbff5fcded1c132a4a4ed2ac73deea6a5e963053099cd773bb39cf67fd76",
+    "bytes": 146042
+  }
+]

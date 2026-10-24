@@ -1,0 +1,929 @@
+[
+  {
+    "skill_id": "programming",
+    "feature_code": "F01",
+    "name_zh": "编程与软件工程",
+    "name_en": "Programming & Software Engineering",
+    "group": "基础",
+    "definition": "编写、调试和维护程序；工具提及只产生候选，不推断学科能力。",
+    "aliases": [
+      "Python",
+      "JavaScript",
+      "TypeScript",
+      "Java",
+      "C++",
+      "C#",
+      "software engineering",
+      "软件工程",
+      "编程"
+    ],
+    "label": "Programming & Software Engineering",
+    "skill_category": "基础",
+    "job_terms": [
+      "Python",
+      "JavaScript",
+      "TypeScript",
+      "Java",
+      "C++",
+      "C#",
+      "software engineering",
+      "软件工程",
+      "编程"
+    ],
+    "arxiv_query": null,
+    "research_proxy_legacy_id": null,
+    "measurement_scope": "Research not measured.",
+    "legacy_skill_ids": [
+      "python"
+    ],
+    "sdg_mappings": [
+      {
+        "sdg": 4,
+        "target": "4.4",
+        "rationale_zh": "用于就业与再培训的技能培养；不表示完成课程必然获得工作。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal4",
+        "sdg_id": 4,
+        "target_code": "4.4",
+        "sdg_label": "Quality Education"
+      },
+      {
+        "sdg": 8,
+        "target": "8.2",
+        "rationale_zh": "在人工监督下改进流程和生产率。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal8",
+        "sdg_id": 8,
+        "target_code": "8.2",
+        "sdg_label": "Decent Work and Economic Growth"
+      }
+    ]
+  },
+  {
+    "skill_id": "math_stats",
+    "feature_code": "F02",
+    "name_zh": "数学与统计",
+    "name_en": "Mathematics & Statistics",
+    "group": "基础",
+    "definition": "概率、统计推断与数学方法。",
+    "aliases": [
+      "statistics",
+      "statistical analysis",
+      "linear algebra",
+      "probability",
+      "统计学",
+      "统计分析",
+      "线性代数",
+      "概率论"
+    ],
+    "label": "Mathematics & Statistics",
+    "skill_category": "基础",
+    "job_terms": [
+      "statistics",
+      "statistical analysis",
+      "linear algebra",
+      "probability",
+      "统计学",
+      "统计分析",
+      "线性代数",
+      "概率论"
+    ],
+    "arxiv_query": null,
+    "research_proxy_legacy_id": null,
+    "measurement_scope": "Research not measured.",
+    "legacy_skill_ids": [],
+    "sdg_mappings": []
+  },
+  {
+    "skill_id": "data_engineering",
+    "feature_code": "F03",
+    "name_zh": "数据工程",
+    "name_en": "Data Engineering",
+    "group": "基础",
+    "definition": "数据集成、数据管道与数据库处理。",
+    "aliases": [
+      "data engineering",
+      "ETL",
+      "data pipeline",
+      "SQL",
+      "数据工程",
+      "数据管道",
+      "数据库"
+    ],
+    "label": "Data Engineering",
+    "skill_category": "基础",
+    "job_terms": [
+      "data engineering",
+      "ETL",
+      "data pipeline",
+      "SQL",
+      "数据工程",
+      "数据管道",
+      "数据库"
+    ],
+    "arxiv_query": null,
+    "research_proxy_legacy_id": null,
+    "measurement_scope": "Research not measured.",
+    "legacy_skill_ids": [
+      "sql"
+    ],
+    "sdg_mappings": [
+      {
+        "sdg": 4,
+        "target": "4.4",
+        "rationale_zh": "用于就业与再培训的技能培养；不表示完成课程必然获得工作。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal4",
+        "sdg_id": 4,
+        "target_code": "4.4",
+        "sdg_label": "Quality Education"
+      },
+      {
+        "sdg": 9,
+        "target": "9.5",
+        "rationale_zh": "开发、评估和运维可靠的数据与 AI 技术。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal9",
+        "sdg_id": 9,
+        "target_code": "9.5",
+        "sdg_label": "Industry, Innovation and Infrastructure"
+      }
+    ]
+  },
+  {
+    "skill_id": "data_analytics",
+    "feature_code": "F04",
+    "name_zh": "数据分析与可视化",
+    "name_en": "Data Analytics & Visualization",
+    "group": "基础",
+    "definition": "分析数据并用图表表达结论。",
+    "aliases": [
+      "data analysis",
+      "data analytics",
+      "data visualization",
+      "Power BI",
+      "Tableau",
+      "数据分析",
+      "数据可视化"
+    ],
+    "label": "Data Analytics & Visualization",
+    "skill_category": "基础",
+    "job_terms": [
+      "data analysis",
+      "data analytics",
+      "data visualization",
+      "Power BI",
+      "Tableau",
+      "数据分析",
+      "数据可视化"
+    ],
+    "arxiv_query": null,
+    "research_proxy_legacy_id": null,
+    "measurement_scope": "Research not measured.",
+    "legacy_skill_ids": [
+      "analytics"
+    ],
+    "sdg_mappings": [
+      {
+        "sdg": 4,
+        "target": "4.4",
+        "rationale_zh": "用于就业与再培训的技能培养；不表示完成课程必然获得工作。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal4",
+        "sdg_id": 4,
+        "target_code": "4.4",
+        "sdg_label": "Quality Education"
+      },
+      {
+        "sdg": 8,
+        "target": "8.2",
+        "rationale_zh": "在人工监督下改进流程和生产率。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal8",
+        "sdg_id": 8,
+        "target_code": "8.2",
+        "sdg_label": "Decent Work and Economic Growth"
+      }
+    ]
+  },
+  {
+    "skill_id": "machine_learning",
+    "feature_code": "F05",
+    "name_zh": "机器学习",
+    "name_en": "Machine Learning",
+    "group": "模型",
+    "definition": "使用数据构建与评估预测模型。",
+    "aliases": [
+      "machine learning",
+      "ML",
+      "机器学习"
+    ],
+    "label": "Machine Learning",
+    "skill_category": "模型",
+    "job_terms": [
+      "machine learning",
+      "ML",
+      "机器学习"
+    ],
+    "arxiv_query": "abs:\"machine learning\"",
+    "research_proxy_legacy_id": "ml",
+    "measurement_scope": "Inherited narrow topic proxy; not full taxonomy coverage.",
+    "legacy_skill_ids": [
+      "ml"
+    ],
+    "sdg_mappings": [
+      {
+        "sdg": 4,
+        "target": "4.4",
+        "rationale_zh": "用于就业与再培训的技能培养；不表示完成课程必然获得工作。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal4",
+        "sdg_id": 4,
+        "target_code": "4.4",
+        "sdg_label": "Quality Education"
+      },
+      {
+        "sdg": 9,
+        "target": "9.5",
+        "rationale_zh": "开发、评估和运维可靠的数据与 AI 技术。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal9",
+        "sdg_id": 9,
+        "target_code": "9.5",
+        "sdg_label": "Industry, Innovation and Infrastructure"
+      }
+    ]
+  },
+  {
+    "skill_id": "deep_learning",
+    "feature_code": "F06",
+    "name_zh": "深度学习",
+    "name_en": "Deep Learning",
+    "group": "模型",
+    "definition": "神经网络建模与训练。",
+    "aliases": [
+      "deep learning",
+      "neural network",
+      "深度学习",
+      "神经网络"
+    ],
+    "label": "Deep Learning",
+    "skill_category": "模型",
+    "job_terms": [
+      "deep learning",
+      "neural network",
+      "深度学习",
+      "神经网络"
+    ],
+    "arxiv_query": "abs:\"deep learning\"",
+    "research_proxy_legacy_id": "deep_learning",
+    "measurement_scope": "Inherited narrow topic proxy; not full taxonomy coverage.",
+    "legacy_skill_ids": [
+      "deep_learning"
+    ],
+    "sdg_mappings": [
+      {
+        "sdg": 4,
+        "target": "4.4",
+        "rationale_zh": "用于就业与再培训的技能培养；不表示完成课程必然获得工作。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal4",
+        "sdg_id": 4,
+        "target_code": "4.4",
+        "sdg_label": "Quality Education"
+      },
+      {
+        "sdg": 9,
+        "target": "9.5",
+        "rationale_zh": "开发、评估和运维可靠的数据与 AI 技术。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal9",
+        "sdg_id": 9,
+        "target_code": "9.5",
+        "sdg_label": "Industry, Innovation and Infrastructure"
+      }
+    ]
+  },
+  {
+    "skill_id": "nlp",
+    "feature_code": "F07",
+    "name_zh": "自然语言处理",
+    "name_en": "Natural Language Processing",
+    "group": "模型",
+    "definition": "处理和分析人类语言。",
+    "aliases": [
+      "natural language processing",
+      "NLP",
+      "自然语言处理"
+    ],
+    "label": "Natural Language Processing",
+    "skill_category": "模型",
+    "job_terms": [
+      "natural language processing",
+      "NLP",
+      "自然语言处理"
+    ],
+    "arxiv_query": "abs:\"natural language processing\"",
+    "research_proxy_legacy_id": "nlp",
+    "measurement_scope": "Inherited narrow topic proxy; not full taxonomy coverage.",
+    "legacy_skill_ids": [
+      "nlp"
+    ],
+    "sdg_mappings": [
+      {
+        "sdg": 4,
+        "target": "4.4",
+        "rationale_zh": "用于就业与再培训的技能培养；不表示完成课程必然获得工作。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal4",
+        "sdg_id": 4,
+        "target_code": "4.4",
+        "sdg_label": "Quality Education"
+      },
+      {
+        "sdg": 10,
+        "target": "10.2",
+        "rationale_zh": "通过可访问的语言工具促进参与；效果需按应用评估。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal10",
+        "sdg_id": 10,
+        "target_code": "10.2",
+        "sdg_label": "Reduced Inequalities"
+      }
+    ]
+  },
+  {
+    "skill_id": "computer_vision",
+    "feature_code": "F08",
+    "name_zh": "计算机视觉",
+    "name_en": "Computer Vision",
+    "group": "模型",
+    "definition": "图像或视频的识别与理解。",
+    "aliases": [
+      "computer vision",
+      "image recognition",
+      "object detection",
+      "计算机视觉",
+      "图像识别",
+      "目标检测"
+    ],
+    "label": "Computer Vision",
+    "skill_category": "模型",
+    "job_terms": [
+      "computer vision",
+      "image recognition",
+      "object detection",
+      "计算机视觉",
+      "图像识别",
+      "目标检测"
+    ],
+    "arxiv_query": null,
+    "research_proxy_legacy_id": null,
+    "measurement_scope": "Research not measured.",
+    "legacy_skill_ids": [],
+    "sdg_mappings": []
+  },
+  {
+    "skill_id": "speech_audio",
+    "feature_code": "F09",
+    "name_zh": "语音与音频处理",
+    "name_en": "Speech & Audio Processing",
+    "group": "模型",
+    "definition": "语音识别、语音合成及音频分析。",
+    "aliases": [
+      "speech recognition",
+      "speech synthesis",
+      "audio processing",
+      "ASR",
+      "TTS",
+      "语音识别",
+      "语音合成",
+      "音频处理"
+    ],
+    "label": "Speech & Audio Processing",
+    "skill_category": "模型",
+    "job_terms": [
+      "speech recognition",
+      "speech synthesis",
+      "audio processing",
+      "ASR",
+      "TTS",
+      "语音识别",
+      "语音合成",
+      "音频处理"
+    ],
+    "arxiv_query": null,
+    "research_proxy_legacy_id": null,
+    "measurement_scope": "Research not measured.",
+    "legacy_skill_ids": [],
+    "sdg_mappings": []
+  },
+  {
+    "skill_id": "generative_ai",
+    "feature_code": "F10",
+    "name_zh": "生成式AI应用",
+    "name_en": "Generative AI",
+    "group": "应用",
+    "definition": "使用或构建生成式模型应用；包括内容生成。",
+    "aliases": [
+      "generative AI",
+      "GenAI",
+      "large language model",
+      "LLM",
+      "ChatGPT",
+      "生成式AI",
+      "生成式人工智能",
+      "大语言模型",
+      "提示词"
+    ],
+    "label": "Generative AI",
+    "skill_category": "应用",
+    "job_terms": [
+      "generative AI",
+      "GenAI",
+      "large language model",
+      "LLM",
+      "ChatGPT",
+      "生成式AI",
+      "生成式人工智能",
+      "大语言模型",
+      "提示词"
+    ],
+    "arxiv_query": "abs:\"large language model\"",
+    "research_proxy_legacy_id": "llm",
+    "measurement_scope": "Inherited narrow topic proxy; not full taxonomy coverage.",
+    "legacy_skill_ids": [
+      "llm",
+      "prompting"
+    ],
+    "sdg_mappings": [
+      {
+        "sdg": 4,
+        "target": "4.4",
+        "rationale_zh": "用于就业与再培训的技能培养；不表示完成课程必然获得工作。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal4",
+        "sdg_id": 4,
+        "target_code": "4.4",
+        "sdg_label": "Quality Education"
+      },
+      {
+        "sdg": 9,
+        "target": "9.5",
+        "rationale_zh": "开发、评估和运维可靠的数据与 AI 技术。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal9",
+        "sdg_id": 9,
+        "target_code": "9.5",
+        "sdg_label": "Industry, Innovation and Infrastructure"
+      },
+      {
+        "sdg": 8,
+        "target": "8.2",
+        "rationale_zh": "在人工监督下改进流程和生产率。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal8",
+        "sdg_id": 8,
+        "target_code": "8.2",
+        "sdg_label": "Decent Work and Economic Growth"
+      }
+    ]
+  },
+  {
+    "skill_id": "retrieval",
+    "feature_code": "F11",
+    "name_zh": "信息检索与知识组织",
+    "name_en": "Information Retrieval & Knowledge Organization",
+    "group": "模型",
+    "definition": "检索信息、组织知识及为问答提供证据。",
+    "aliases": [
+      "information retrieval",
+      "RAG",
+      "retrieval augmented generation",
+      "knowledge graph",
+      "信息检索",
+      "知识图谱",
+      "检索增强"
+    ],
+    "label": "Information Retrieval & Knowledge Organization",
+    "skill_category": "模型",
+    "job_terms": [
+      "information retrieval",
+      "RAG",
+      "retrieval augmented generation",
+      "knowledge graph",
+      "信息检索",
+      "知识图谱",
+      "检索增强"
+    ],
+    "arxiv_query": "(abs:\"retrieval augmented generation\" OR abs:\"retrieval-augmented generation\")",
+    "research_proxy_legacy_id": "rag",
+    "measurement_scope": "Inherited narrow topic proxy; not full taxonomy coverage.",
+    "legacy_skill_ids": [
+      "rag"
+    ],
+    "sdg_mappings": [
+      {
+        "sdg": 4,
+        "target": "4.4",
+        "rationale_zh": "用于就业与再培训的技能培养；不表示完成课程必然获得工作。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal4",
+        "sdg_id": 4,
+        "target_code": "4.4",
+        "sdg_label": "Quality Education"
+      },
+      {
+        "sdg": 9,
+        "target": "9.5",
+        "rationale_zh": "开发、评估和运维可靠的数据与 AI 技术。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal9",
+        "sdg_id": 9,
+        "target_code": "9.5",
+        "sdg_label": "Industry, Innovation and Infrastructure"
+      }
+    ]
+  },
+  {
+    "skill_id": "recommender",
+    "feature_code": "F12",
+    "name_zh": "推荐系统",
+    "name_en": "Recommender Systems",
+    "group": "模型",
+    "definition": "根据对象与用户信息推荐内容或资源。",
+    "aliases": [
+      "recommender system",
+      "recommendation system",
+      "collaborative filtering",
+      "推荐系统",
+      "协同过滤"
+    ],
+    "label": "Recommender Systems",
+    "skill_category": "模型",
+    "job_terms": [
+      "recommender system",
+      "recommendation system",
+      "collaborative filtering",
+      "推荐系统",
+      "协同过滤"
+    ],
+    "arxiv_query": null,
+    "research_proxy_legacy_id": null,
+    "measurement_scope": "Research not measured.",
+    "legacy_skill_ids": [],
+    "sdg_mappings": []
+  },
+  {
+    "skill_id": "forecasting",
+    "feature_code": "F13",
+    "name_zh": "时间序列与预测",
+    "name_en": "Time-Series Analysis & Forecasting",
+    "group": "模型",
+    "definition": "分析时间依赖并进行预测。",
+    "aliases": [
+      "time series",
+      "time-series",
+      "forecasting",
+      "时间序列",
+      "需求预测"
+    ],
+    "label": "Time-Series Analysis & Forecasting",
+    "skill_category": "模型",
+    "job_terms": [
+      "time series",
+      "time-series",
+      "forecasting",
+      "时间序列",
+      "需求预测"
+    ],
+    "arxiv_query": null,
+    "research_proxy_legacy_id": null,
+    "measurement_scope": "Research not measured.",
+    "legacy_skill_ids": [],
+    "sdg_mappings": []
+  },
+  {
+    "skill_id": "optimization",
+    "feature_code": "F14",
+    "name_zh": "优化与决策科学",
+    "name_en": "Optimization & Decision Science",
+    "group": "模型",
+    "definition": "在约束条件下优化决策。",
+    "aliases": [
+      "operations research",
+      "linear programming",
+      "decision science",
+      "运筹学",
+      "线性规划",
+      "决策科学",
+      "优化算法"
+    ],
+    "label": "Optimization & Decision Science",
+    "skill_category": "模型",
+    "job_terms": [
+      "operations research",
+      "linear programming",
+      "decision science",
+      "运筹学",
+      "线性规划",
+      "决策科学",
+      "优化算法"
+    ],
+    "arxiv_query": null,
+    "research_proxy_legacy_id": null,
+    "measurement_scope": "Research not measured.",
+    "legacy_skill_ids": [],
+    "sdg_mappings": []
+  },
+  {
+    "skill_id": "robotics",
+    "feature_code": "F15",
+    "name_zh": "机器人与自主系统",
+    "name_en": "Robotics & Autonomous Systems",
+    "group": "工程",
+    "definition": "机器人感知、控制与自主行为。",
+    "aliases": [
+      "robotics",
+      "autonomous systems",
+      "ROS2",
+      "ROS 2",
+      "机器人",
+      "自主系统"
+    ],
+    "label": "Robotics & Autonomous Systems",
+    "skill_category": "工程",
+    "job_terms": [
+      "robotics",
+      "autonomous systems",
+      "ROS2",
+      "ROS 2",
+      "机器人",
+      "自主系统"
+    ],
+    "arxiv_query": null,
+    "research_proxy_legacy_id": null,
+    "measurement_scope": "Research not measured.",
+    "legacy_skill_ids": [],
+    "sdg_mappings": []
+  },
+  {
+    "skill_id": "human_ai",
+    "feature_code": "F16",
+    "name_zh": "人机交互与协作",
+    "name_en": "Human–AI Interaction",
+    "group": "应用",
+    "definition": "AI界面、交互与人类协作流程。",
+    "aliases": [
+      "human computer interaction",
+      "human-computer interaction",
+      "human AI interaction",
+      "HCI",
+      "UX research",
+      "人机交互",
+      "人机协作",
+      "用户体验研究"
+    ],
+    "label": "Human–AI Interaction",
+    "skill_category": "应用",
+    "job_terms": [
+      "human computer interaction",
+      "human-computer interaction",
+      "human AI interaction",
+      "HCI",
+      "UX research",
+      "人机交互",
+      "人机协作",
+      "用户体验研究"
+    ],
+    "arxiv_query": null,
+    "research_proxy_legacy_id": null,
+    "measurement_scope": "Research not measured.",
+    "legacy_skill_ids": [],
+    "sdg_mappings": []
+  },
+  {
+    "skill_id": "mlops",
+    "feature_code": "F17",
+    "name_zh": "AI部署与运维",
+    "name_en": "AI Deployment & MLOps",
+    "group": "工程",
+    "definition": "模型服务、部署、监控与维护。",
+    "aliases": [
+      "MLOps",
+      "model deployment",
+      "model serving",
+      "模型部署",
+      "模型监控"
+    ],
+    "label": "AI Deployment & MLOps",
+    "skill_category": "工程",
+    "job_terms": [
+      "MLOps",
+      "model deployment",
+      "model serving",
+      "模型部署",
+      "模型监控"
+    ],
+    "arxiv_query": "(abs:\"MLOps\" OR abs:\"model deployment\")",
+    "research_proxy_legacy_id": "mlops",
+    "measurement_scope": "Inherited narrow topic proxy; not full taxonomy coverage.",
+    "legacy_skill_ids": [
+      "mlops"
+    ],
+    "sdg_mappings": [
+      {
+        "sdg": 4,
+        "target": "4.4",
+        "rationale_zh": "用于就业与再培训的技能培养；不表示完成课程必然获得工作。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal4",
+        "sdg_id": 4,
+        "target_code": "4.4",
+        "sdg_label": "Quality Education"
+      },
+      {
+        "sdg": 9,
+        "target": "9.5",
+        "rationale_zh": "开发、评估和运维可靠的数据与 AI 技术。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal9",
+        "sdg_id": 9,
+        "target_code": "9.5",
+        "sdg_label": "Industry, Innovation and Infrastructure"
+      }
+    ]
+  },
+  {
+    "skill_id": "security_privacy",
+    "feature_code": "F18",
+    "name_zh": "AI安全与数据隐私",
+    "name_en": "AI Security & Data Privacy",
+    "group": "治理",
+    "definition": "识别AI及数据处理的安全、隐私风险。",
+    "aliases": [
+      "AI security",
+      "data privacy",
+      "data protection",
+      "cybersecurity",
+      "AI安全",
+      "数据隐私",
+      "数据保护",
+      "网络安全"
+    ],
+    "label": "AI Security & Data Privacy",
+    "skill_category": "治理",
+    "job_terms": [
+      "AI security",
+      "data privacy",
+      "data protection",
+      "cybersecurity",
+      "AI安全",
+      "数据隐私",
+      "数据保护",
+      "网络安全"
+    ],
+    "arxiv_query": "(abs:\"differential privacy\" OR abs:\"privacy preserving\")",
+    "research_proxy_legacy_id": "privacy",
+    "measurement_scope": "Inherited narrow topic proxy; not full taxonomy coverage.",
+    "legacy_skill_ids": [
+      "privacy",
+      "cybersecurity"
+    ],
+    "sdg_mappings": [
+      {
+        "sdg": 4,
+        "target": "4.4",
+        "rationale_zh": "用于就业与再培训的技能培养；不表示完成课程必然获得工作。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal4",
+        "sdg_id": 4,
+        "target_code": "4.4",
+        "sdg_label": "Quality Education"
+      },
+      {
+        "sdg": 16,
+        "target": "16.6",
+        "rationale_zh": "通过记录、问责和数据保护增强透明度。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal16",
+        "sdg_id": 16,
+        "target_code": "16.6",
+        "sdg_label": "Peace, Justice and Strong Institutions"
+      },
+      {
+        "sdg": 9,
+        "target": "9.1",
+        "rationale_zh": "保护数字基础设施的可靠性。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal9",
+        "sdg_id": 9,
+        "target_code": "9.1",
+        "sdg_label": "Industry, Innovation and Infrastructure"
+      }
+    ]
+  },
+  {
+    "skill_id": "responsible_ai",
+    "feature_code": "F19",
+    "name_zh": "负责任AI与治理",
+    "name_en": "Responsible AI & Governance",
+    "group": "治理",
+    "definition": "AI公平、透明、伦理和治理。",
+    "aliases": [
+      "responsible AI",
+      "AI governance",
+      "AI ethics",
+      "algorithmic fairness",
+      "负责任AI",
+      "AI治理",
+      "AI伦理",
+      "算法公平"
+    ],
+    "label": "Responsible AI & Governance",
+    "skill_category": "治理",
+    "job_terms": [
+      "responsible AI",
+      "AI governance",
+      "AI ethics",
+      "algorithmic fairness",
+      "负责任AI",
+      "AI治理",
+      "AI伦理",
+      "算法公平"
+    ],
+    "arxiv_query": "(abs:\"responsible AI\" OR abs:\"algorithmic fairness\" OR abs:\"AI governance\")",
+    "research_proxy_legacy_id": "responsible_ai",
+    "measurement_scope": "Inherited narrow topic proxy; not full taxonomy coverage.",
+    "legacy_skill_ids": [
+      "responsible_ai"
+    ],
+    "sdg_mappings": [
+      {
+        "sdg": 4,
+        "target": "4.4",
+        "rationale_zh": "用于就业与再培训的技能培养；不表示完成课程必然获得工作。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal4",
+        "sdg_id": 4,
+        "target_code": "4.4",
+        "sdg_label": "Quality Education"
+      },
+      {
+        "sdg": 10,
+        "target": "10.3",
+        "rationale_zh": "识别并减少模型或人事流程中的不公平结果。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal10",
+        "sdg_id": 10,
+        "target_code": "10.3",
+        "sdg_label": "Reduced Inequalities"
+      },
+      {
+        "sdg": 16,
+        "target": "16.6",
+        "rationale_zh": "通过记录、问责和数据保护增强透明度。",
+        "mapping_type": "team_interpretation",
+        "source_url": "https://sdgs.un.org/goals/goal16",
+        "sdg_id": 16,
+        "target_code": "16.6",
+        "sdg_label": "Peace, Justice and Strong Institutions"
+      }
+    ]
+  },
+  {
+    "skill_id": "workflow_adoption",
+    "feature_code": "F20",
+    "name_zh": "AI流程自动化与落地",
+    "name_en": "AI Workflow Automation & Adoption",
+    "group": "应用",
+    "definition": "将AI用于业务流程、人员培训与组织采用。",
+    "aliases": [
+      "workflow automation",
+      "AI adoption",
+      "AI literacy training",
+      "RPA",
+      "流程自动化",
+      "AI落地",
+      "AI素养培训",
+      "机器人流程自动化"
+    ],
+    "label": "AI Workflow Automation & Adoption",
+    "skill_category": "应用",
+    "job_terms": [
+      "workflow automation",
+      "AI adoption",
+      "AI literacy training",
+      "RPA",
+      "流程自动化",
+      "AI落地",
+      "AI素养培训",
+      "机器人流程自动化"
+    ],
+    "arxiv_query": null,
+    "research_proxy_legacy_id": null,
+    "measurement_scope": "Research not measured.",
+    "legacy_skill_ids": [],
+    "sdg_mappings": []
+  }
+]

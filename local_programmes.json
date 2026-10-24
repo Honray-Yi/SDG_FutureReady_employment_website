@@ -1,0 +1,22 @@
+[
+  {
+    "programme_id": "MY01",
+    "name": "HRD Corp e-LATiH",
+    "url": "https://elatih.hrdcorp.gov.my/",
+    "type": "official_course_directory",
+    "source_url": "https://supportcentre.hrdcorp.gov.my/portal/en/kb/articles/faqs-hrd-corp-e-latih",
+    "access": "Contains free and premium courses; filter and verify individual course.",
+    "claimable_status": "Free access and HRD claimability are separate attributes.",
+    "included_in_course_count": false
+  },
+  {
+    "programme_id": "MY02",
+    "name": "HRD Corp BizMatch",
+    "url": "https://bizmatch.hrdcorp.gov.my/bizmatch/public/index.php/courses",
+    "type": "official_programme_directory",
+    "source_url": "https://hrdcorp.gov.my/programmes",
+    "access": "Verify registered programme, employer eligibility, grant approval and current fees.",
+    "claimable_status": "No individual course claimability asserted by this package.",
+    "included_in_course_count": false
+  }
+]

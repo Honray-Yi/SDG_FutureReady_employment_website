@@ -1,0 +1,344 @@
+{
+  "version": "1.0.0",
+  "status": "provisional_team_taxonomy",
+  "note": "项目自定义20维v1，可人工修订，不是官方职业标准。英文和中文词典基线；其他语言识别尚未验证。",
+  "levels": {
+    "0": "尚未掌握：本人明确确认",
+    "1": "初级：在指导下完成基础任务",
+    "2": "中级：独立完成常见任务并解释结果",
+    "3": "高级：独立处理复杂任务并评估结果"
+  },
+  "skills": [
+    {
+      "skill_id": "programming",
+      "feature_code": "F01",
+      "name_zh": "编程与软件工程",
+      "name_en": "Programming & Software Engineering",
+      "group": "基础",
+      "definition": "编写、调试和维护程序；工具提及只产生候选，不推断学科能力。",
+      "aliases": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Java",
+        "C++",
+        "C#",
+        "software engineering",
+        "软件工程",
+        "编程"
+      ]
+    },
+    {
+      "skill_id": "math_stats",
+      "feature_code": "F02",
+      "name_zh": "数学与统计",
+      "name_en": "Mathematics & Statistics",
+      "group": "基础",
+      "definition": "概率、统计推断与数学方法。",
+      "aliases": [
+        "statistics",
+        "statistical analysis",
+        "linear algebra",
+        "probability",
+        "统计学",
+        "统计分析",
+        "线性代数",
+        "概率论"
+      ]
+    },
+    {
+      "skill_id": "data_engineering",
+      "feature_code": "F03",
+      "name_zh": "数据工程",
+      "name_en": "Data Engineering",
+      "group": "基础",
+      "definition": "数据集成、数据管道与数据库处理。",
+      "aliases": [
+        "data engineering",
+        "ETL",
+        "data pipeline",
+        "SQL",
+        "数据工程",
+        "数据管道",
+        "数据库"
+      ]
+    },
+    {
+      "skill_id": "data_analytics",
+      "feature_code": "F04",
+      "name_zh": "数据分析与可视化",
+      "name_en": "Data Analytics & Visualization",
+      "group": "基础",
+      "definition": "分析数据并用图表表达结论。",
+      "aliases": [
+        "data analysis",
+        "data analytics",
+        "data visualization",
+        "Power BI",
+        "Tableau",
+        "数据分析",
+        "数据可视化"
+      ]
+    },
+    {
+      "skill_id": "machine_learning",
+      "feature_code": "F05",
+      "name_zh": "机器学习",
+      "name_en": "Machine Learning",
+      "group": "模型",
+      "definition": "使用数据构建与评估预测模型。",
+      "aliases": [
+        "machine learning",
+        "ML",
+        "机器学习"
+      ]
+    },
+    {
+      "skill_id": "deep_learning",
+      "feature_code": "F06",
+      "name_zh": "深度学习",
+      "name_en": "Deep Learning",
+      "group": "模型",
+      "definition": "神经网络建模与训练。",
+      "aliases": [
+        "deep learning",
+        "neural network",
+        "深度学习",
+        "神经网络"
+      ]
+    },
+    {
+      "skill_id": "nlp",
+      "feature_code": "F07",
+      "name_zh": "自然语言处理",
+      "name_en": "Natural Language Processing",
+      "group": "模型",
+      "definition": "处理和分析人类语言。",
+      "aliases": [
+        "natural language processing",
+        "NLP",
+        "自然语言处理"
+      ]
+    },
+    {
+      "skill_id": "computer_vision",
+      "feature_code": "F08",
+      "name_zh": "计算机视觉",
+      "name_en": "Computer Vision",
+      "group": "模型",
+      "definition": "图像或视频的识别与理解。",
+      "aliases": [
+        "computer vision",
+        "image recognition",
+        "object detection",
+        "计算机视觉",
+        "图像识别",
+        "目标检测"
+      ]
+    },
+    {
+      "skill_id": "speech_audio",
+      "feature_code": "F09",
+      "name_zh": "语音与音频处理",
+      "name_en": "Speech & Audio Processing",
+      "group": "模型",
+      "definition": "语音识别、语音合成及音频分析。",
+      "aliases": [
+        "speech recognition",
+        "speech synthesis",
+        "audio processing",
+        "ASR",
+        "TTS",
+        "语音识别",
+        "语音合成",
+        "音频处理"
+      ]
+    },
+    {
+      "skill_id": "generative_ai",
+      "feature_code": "F10",
+      "name_zh": "生成式AI应用",
+      "name_en": "Generative AI",
+      "group": "应用",
+      "definition": "使用或构建生成式模型应用；包括内容生成。",
+      "aliases": [
+        "generative AI",
+        "GenAI",
+        "large language model",
+        "LLM",
+        "ChatGPT",
+        "生成式AI",
+        "生成式人工智能",
+        "大语言模型",
+        "提示词"
+      ]
+    },
+    {
+      "skill_id": "retrieval",
+      "feature_code": "F11",
+      "name_zh": "信息检索与知识组织",
+      "name_en": "Information Retrieval & Knowledge Organization",
+      "group": "模型",
+      "definition": "检索信息、组织知识及为问答提供证据。",
+      "aliases": [
+        "information retrieval",
+        "RAG",
+        "retrieval augmented generation",
+        "knowledge graph",
+        "信息检索",
+        "知识图谱",
+        "检索增强"
+      ]
+    },
+    {
+      "skill_id": "recommender",
+      "feature_code": "F12",
+      "name_zh": "推荐系统",
+      "name_en": "Recommender Systems",
+      "group": "模型",
+      "definition": "根据对象与用户信息推荐内容或资源。",
+      "aliases": [
+        "recommender system",
+        "recommendation system",
+        "collaborative filtering",
+        "推荐系统",
+        "协同过滤"
+      ]
+    },
+    {
+      "skill_id": "forecasting",
+      "feature_code": "F13",
+      "name_zh": "时间序列与预测",
+      "name_en": "Time-Series Analysis & Forecasting",
+      "group": "模型",
+      "definition": "分析时间依赖并进行预测。",
+      "aliases": [
+        "time series",
+        "time-series",
+        "forecasting",
+        "时间序列",
+        "需求预测"
+      ]
+    },
+    {
+      "skill_id": "optimization",
+      "feature_code": "F14",
+      "name_zh": "优化与决策科学",
+      "name_en": "Optimization & Decision Science",
+      "group": "模型",
+      "definition": "在约束条件下优化决策。",
+      "aliases": [
+        "operations research",
+        "linear programming",
+        "decision science",
+        "运筹学",
+        "线性规划",
+        "决策科学",
+        "优化算法"
+      ]
+    },
+    {
+      "skill_id": "robotics",
+      "feature_code": "F15",
+      "name_zh": "机器人与自主系统",
+      "name_en": "Robotics & Autonomous Systems",
+      "group": "工程",
+      "definition": "机器人感知、控制与自主行为。",
+      "aliases": [
+        "robotics",
+        "autonomous systems",
+        "ROS2",
+        "ROS 2",
+        "机器人",
+        "自主系统"
+      ]
+    },
+    {
+      "skill_id": "human_ai",
+      "feature_code": "F16",
+      "name_zh": "人机交互与协作",
+      "name_en": "Human–AI Interaction",
+      "group": "应用",
+      "definition": "AI界面、交互与人类协作流程。",
+      "aliases": [
+        "human computer interaction",
+        "human-computer interaction",
+        "human AI interaction",
+        "HCI",
+        "UX research",
+        "人机交互",
+        "人机协作",
+        "用户体验研究"
+      ]
+    },
+    {
+      "skill_id": "mlops",
+      "feature_code": "F17",
+      "name_zh": "AI部署与运维",
+      "name_en": "AI Deployment & MLOps",
+      "group": "工程",
+      "definition": "模型服务、部署、监控与维护。",
+      "aliases": [
+        "MLOps",
+        "model deployment",
+        "model serving",
+        "模型部署",
+        "模型监控"
+      ]
+    },
+    {
+      "skill_id": "security_privacy",
+      "feature_code": "F18",
+      "name_zh": "AI安全与数据隐私",
+      "name_en": "AI Security & Data Privacy",
+      "group": "治理",
+      "definition": "识别AI及数据处理的安全、隐私风险。",
+      "aliases": [
+        "AI security",
+        "data privacy",
+        "data protection",
+        "cybersecurity",
+        "AI安全",
+        "数据隐私",
+        "数据保护",
+        "网络安全"
+      ]
+    },
+    {
+      "skill_id": "responsible_ai",
+      "feature_code": "F19",
+      "name_zh": "负责任AI与治理",
+      "name_en": "Responsible AI & Governance",
+      "group": "治理",
+      "definition": "AI公平、透明、伦理和治理。",
+      "aliases": [
+        "responsible AI",
+        "AI governance",
+        "AI ethics",
+        "algorithmic fairness",
+        "负责任AI",
+        "AI治理",
+        "AI伦理",
+        "算法公平"
+      ]
+    },
+    {
+      "skill_id": "workflow_adoption",
+      "feature_code": "F20",
+      "name_zh": "AI流程自动化与落地",
+      "name_en": "AI Workflow Automation & Adoption",
+      "group": "应用",
+      "definition": "将AI用于业务流程、人员培训与组织采用。",
+      "aliases": [
+        "workflow automation",
+        "AI adoption",
+        "AI literacy training",
+        "RPA",
+        "流程自动化",
+        "AI落地",
+        "AI素养培训",
+        "机器人流程自动化"
+      ]
+    }
+  ]
+}
