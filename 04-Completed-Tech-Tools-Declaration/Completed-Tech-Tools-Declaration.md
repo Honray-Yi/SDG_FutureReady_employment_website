@@ -22,10 +22,10 @@ This declaration records the tools and services evident in the current source re
 | Product inference service | None | The application does not call OpenAI or another external generative AI API for profile analysis or matching. The hosted free demo is configured for synthetic profiles; the local E5 workflow requires model assets and at least 4 GB memory. |
 | Frontend | React, TypeScript, Vite, CSS, and WebGL/Canvas | User interface, visualizations, and browser interactions. Dependencies are declared in the workspace manifests and `pnpm-lock.yaml`. |
 | Backend | Python, FastAPI, Uvicorn, NumPy, ONNX Runtime, and Tokenizers | API, document text extraction, matching and course-pathway logic. Python dependencies are locked in `uv.lock` and `requirements.lock`. |
-| Prototype environment | Replit | Used during project prototyping/development. Proof is to be uploaded by the team in `submission/evidence/replit/`. No Replit secret or credential is included in this repository. |
+| Prototype environment | Replit | Used during project prototyping/development. Proof is to be uploaded by the team in `01-Replit-Utilization-Proof/`. No Replit secret or credential is included in this repository. |
 | Source control | GitHub | Public project repository and source history. The repository contains the complete application source, data package, documentation, and setup files. |
 | Public hosting | Render Free | Hosts the synthetic-profile demonstration at the link above. It is not provisioned for full E5 resume inference. |
-| RunPod | Not used in the current codebase or Render deployment record | This is marked not applicable based on available project records. If the team separately used RunPod for development or model work, update this row and place non-sensitive proof in `submission/evidence/runpod/`. |
+| RunPod | Not used in the current codebase or Render deployment record | This is marked not applicable based on available project records. If the team separately used RunPod for development or model work, update this row and place non-sensitive proof in `02-RunPod-Utilization-Proof/`. |
 
 ## Data, model, and privacy disclosures
 
@@ -45,6 +45,6 @@ We disclose the development assistance, runtime model, software stack, data boun
 
 ## Evidence locations
 
-- Replit utilization evidence: `submission/evidence/replit/`
-- RunPod utilization evidence, if applicable: `submission/evidence/runpod/`
-- Public demo URL: `submission/demo/youtube-demo-link.txt` (paste the YouTube URL after uploading the video)
+- Replit utilization evidence: `01-Replit-Utilization-Proof/`
+- RunPod utilization evidence, if applicable: `02-RunPod-Utilization-Proof/`
+- Public demo URL: `06-YouTube-Product-Demo/youtube-demo-link.txt` (paste the YouTube URL after uploading the video)

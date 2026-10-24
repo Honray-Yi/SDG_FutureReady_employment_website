@@ -14,9 +14,9 @@ A completed project submission for the Aiversecity Future-Ready Workforce Domain
 | Product stage | Working web prototype; public hosted demo uses synthetic profiles |
 | GitHub repository | https://github.com/Honray-Yi/SDG_FutureReady_employment_website |
 | Live prototype | https://future-ready-demo.onrender.com/ |
-| Product demo video | To be added by the team in `submission/demo/youtube-demo-link.txt` |
-| Replit utilization proof | To be uploaded in `submission/evidence/replit/` |
-| RunPod utilization proof | Team to confirm. No RunPod configuration appears in the current source or Render deployment. If the team used RunPod separately, upload proof to `submission/evidence/runpod/` and update the declaration; otherwise mark this item not applicable. |
+| Product demo video | To be added by the team in `06-YouTube-Product-Demo/youtube-demo-link.txt` |
+| Replit utilization proof | To be uploaded in `01-Replit-Utilization-Proof/` |
+| RunPod utilization proof | Team to confirm. No RunPod configuration appears in the current source or Render deployment. If the team used RunPod separately, upload proof to `02-RunPod-Utilization-Proof/` and update the declaration; otherwise mark this item not applicable. |
 
 ## Problem
 
@@ -65,10 +65,10 @@ The prototype is intended to give a person a transparent starting point for care
 - Source: https://github.com/Honray-Yi/SDG_FutureReady_employment_website
 - Product requirements: `docs/deliverables/FutureReady-Product-Requirements-Document.docx`
 - Pitch deck: `docs/deliverables/FutureReady-Project-Presentation.pptx`
-- AI and technical tools declaration: `submission/tech-tools-declaration.docx`
-- Replit evidence folder: `submission/evidence/replit/`
-- Optional RunPod evidence folder: `submission/evidence/runpod/`
-- YouTube link file: `submission/demo/youtube-demo-link.txt`
+- AI and technical tools declaration: `04-Completed-Tech-Tools-Declaration/Completed-Tech-Tools-Declaration.docx`
+- Replit evidence folder: `01-Replit-Utilization-Proof/`
+- Optional RunPod evidence folder: `02-RunPod-Utilization-Proof/`
+- YouTube link file: `06-YouTube-Product-Demo/youtube-demo-link.txt`
 
 ## Final team completion items
 
