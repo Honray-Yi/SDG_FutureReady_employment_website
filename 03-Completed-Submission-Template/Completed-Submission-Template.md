@@ -73,3 +73,44 @@ The prototype is intended to give a person a transparent starting point for care
 ## Final team completion items
 
 Before submitting, enter the official team name, member names, and contact email; upload Replit proof; add the YouTube demo URL; and confirm whether RunPod was used. If RunPod was not used, leave its evidence item marked not applicable. Do not upload API keys, passwords, real resumes, or private account data as evidence.
+
+
+---
+
+## Copy-ready answers for the SDC form
+
+# 2. Executive Summary & Problem Statement
+
+## 2.1 The Problem Context
+
+AI is changing the tasks and skills required across many occupations, while career guidance, job-market information, and affordable learning options are often spread across different sources. Working adults whose roles are changing, recent graduates, and career switchers can struggle to see how their existing experience transfers to emerging roles or which skills to build next. This can lead to costly or poorly targeted training decisions and make career transitions harder, especially for people with limited access to personalized guidance. Employers, educators, and career services also need clearer ways to discuss changing skill needs without treating uncertain forecasts as guarantees. FutureReady addresses this information and navigation gap. It is a career-exploration aid: it helps people compare skills, roles, evidence, and learning options, while leaving decisions about training and employment to the person and their advisers.
+
+## 2.2 The Proposed AI Solution
+
+FutureReady is a bilingual web application that takes a user from a skills profile to explainable future-role suggestions and an ordered reskilling pathway. Users can explore with synthetic profiles in the public demo. In a properly provisioned local deployment, they can provide resume text or a text-based PDF/DOCX, review the extracted text, and confirm the skills used. The local matching workflow uses a pinned, quantized multilingual E5 model in ONNX format to compare profile text with a catalogue of 65 occupations; it reports similarity scores and skill gaps, not hiring probabilities. Dated job-market and research snapshots provide trend context, with visible sources and dates. The app also links roles and skills to SDGs, recommends learning resources, and compares moderate and faster-disruption scenarios. The prototype uses React, TypeScript, Vite, Python, FastAPI, OpenAPI, structured JSON/CSV data, GitHub version control and Actions, Docker, and Render hosting. The matching model is not a generative AI service. The current project does not use an official SDC sponsor-provided GenAI API or cloud platform.
+
+# 3. Technical Architecture & Implementation Plan
+
+## 3.1 Conceptual Tech Stack
+
+## 3.2 Design-Thinking & Deployment Strategy
+
+We shaped the prototype around the user journey in the project brief: describe current skills, understand changing opportunities, compare suitable roles, and choose a practical learning path. The interface explains match evidence, data sources and dates, skill gaps, SDG links, and scenario assumptions so users can question recommendations rather than treat them as decisions. Synthetic profiles support a privacy-conscious public demonstration; the local resume workflow includes text review and user confirmation before matching. Technical feasibility is supported by the working web/API architecture, repository automation, and a hosted synthetic demo. Before deploying resume analysis for real users, Phase 2 should test usability and accessibility with intended users, review privacy and data-retention controls, validate data rights and source freshness, and evaluate recommendation quality and potential bias. No formal user study, fairness assessment, or employment-impact measurement has yet been completed.
+
+### 3.1 Stack details and architecture
+
+**Frontend:** React, TypeScript, and Vite provide the bilingual browser interface and profile review flow.
+
+**API and application logic:** Python with FastAPI, Uvicorn, and OpenAPI provides the API, intake, role matching, pathway, SDG, and scenario features.
+
+**AI / matching:** The full local resume-text workflow uses intfloat/multilingual-e5-small in quantized ONNX format for CPU embeddings and cosine-similarity matching. The hosted free demo uses synthetic profiles and does not provide the full resume model workflow.
+
+**Data and storage:** Versioned JSON/CSV snapshots hold role, skill, trend, source, course, scenario, and SDG mapping data. The current prototype has no SQL database and does not retain uploaded resumes as user history.
+
+**Build and deployment:** Docker packages the app; GitHub Actions runs repository checks; Render Free hosts the synthetic-profile demonstration.
+
+**System flow:** User → React/Vite interface (profile entry and review) → FastAPI application → profile and catalogue data (JSON/CSV) → matching and pathway logic → ranked roles, skill gaps, source evidence, learning options, SDG links, and scenarios. In a full local setup, reviewed resume text is embedded by the local E5 ONNX model before role matching.
+
+**SDC sponsor-provided services:** No official SDC sponsor-provided GenAI API or cloud platform is used in the current prototype. Render is a third-party hosting provider. ChatGPT/Codex assisted development and documentation only; neither is called by the deployed application for runtime matching.
+
+
