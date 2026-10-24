@@ -1,5 +1,7 @@
 # FutureReady
 
+> **Live Prototype:** [Open the FutureReady demo](https://future-ready-demo.onrender.com/) — the hosted free instance is for synthetic profiles and career matching. Do not upload a real résumé. The full local résumé-embedding workflow needs the model download and at least 4 GB of memory; see [local setup](#本地启动).
+
 [English PRD](docs/Product-Requirements-Document.en.md) · [Approved slide copy](docs/Presentation-Outline.md) · [算法与接口说明](docs/semantic-matching.md)
 
 **面向职业探索的交互式 Web 项目：用本地多语言文本向量，将简历经历与 65 个职业进行语义匹配，再查看对应的基础学习课程。**
